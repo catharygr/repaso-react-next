@@ -5,22 +5,30 @@ export default function Formulario() {
     <form className={styles.containerForm}>
       <label htmlFor="nombre">Nombre:</label>
       <input
+        className={styles.input}
         type="text"
         id="nombre"
         name="nombre"
       />
       <label htmlFor="email">Email:</label>
       <input
+        className={styles.input}
         type="email"
         id="email"
         name="email"
       />
       <label htmlFor="mensaje">Mensaje:</label>
       <textarea
+        className={styles.textarea}
         id="mensaje"
         name="mensaje"
       ></textarea>
-      <button type="submit">Enviar</button>
+      <button
+        className={styles.btnFormulario}
+        type="submit"
+      >
+        Enviar
+      </button>
     </form>
   );
 }
