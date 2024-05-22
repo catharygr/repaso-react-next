@@ -1,4 +1,6 @@
+"use client";
 import styles from "./Formulario.module.css";
+import { useState } from "react";
 
 export default function Formulario() {
   const [form, setForm] = useState({
@@ -26,7 +28,7 @@ export default function Formulario() {
         id="nombre"
         name="nombre"
         value={form.nombre}
-        onChange={(e) => setForm({ ...form, nombre: e.target })}
+        onChange={(e) => setForm({ ...form, nombre: e.target.value })}
       />
       <label htmlFor="email">Email:</label>
       <input
@@ -35,7 +37,7 @@ export default function Formulario() {
         id="email"
         name="email"
         value={form.email}
-        onChange={(e) => setForm({ ...form, email: e.target })}
+        onChange={(e) => setForm({ ...form, email: e.target.value })}
       />
       <label htmlFor="mensaje">Mensaje:</label>
       <textarea
@@ -43,7 +45,7 @@ export default function Formulario() {
         id="mensaje"
         name="mensaje"
         value={form.mensaje}
-        onChange={(e) => setForm({ ...form, mensaje: e.target })}
+        onChange={(e) => setForm({ ...form, mensaje: e.target.value })}
       ></textarea>
       <button
         className={styles.btnFormulario}
