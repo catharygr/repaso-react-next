@@ -8,6 +8,7 @@ export default function Formulario() {
     email: "",
     mensaje: "",
   });
+  console.log(form);
 
   const handleSubmit = (e) => {
     const { name, value } = e.target;
