@@ -1,6 +1,8 @@
+import styles from "./Formulario.module.css";
+
 export default function Formulario() {
   return (
-    <form>
+    <form className={styles.containerForm}>
       <label htmlFor="nombre">Nombre:</label>
       <input
         type="text"
