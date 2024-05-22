@@ -4,9 +4,8 @@ import { Home } from "react-feather";
 export default function Header() {
   return (
     <header>
-      <div className={styles.logo}>
-        <Home />
-        <h1>My Blog</h1>
+      <div className={styles.containerHeader}>
+        <Home className={styles.logo} />
       </div>
     </header>
   );
