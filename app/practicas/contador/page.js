@@ -8,7 +8,12 @@ export default function Contador() {
   return (
     <div className={styles.containerContador}>
       <p className={styles.p}>{contador}</p>
-      <button onClick={() => setContador(contador + 1)}>Incrementar</button>
+      <button
+        className={styles.btnContador}
+        onClick={() => setContador(contador + 1)}
+      >
+        Incrementar
+      </button>
     </div>
   );
 }
