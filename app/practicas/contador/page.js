@@ -1,10 +1,11 @@
 "use client";
 
 export default function Contador() {
+  const [contador, setContador] = useState(0);
   return (
     <>
       <p>Contador</p>
-      <button>Incrementar</button>
+      <button on>Incrementar</button>
     </>
   );
 }

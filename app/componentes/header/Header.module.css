@@ -4,6 +4,12 @@
   align-items: center;
   background-color: #282c34;
   color: white;
+}
+
+.nav {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
   gap: 1rem;
 }
 

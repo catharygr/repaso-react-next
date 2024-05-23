@@ -12,7 +12,7 @@ export default function Header() {
         >
           <Home className={styles.logo} />
         </Link>
-        <nav>
+        <nav className={styles.nav}>
           <Link
             className={styles.link}
             href="/practicas/formulario"
