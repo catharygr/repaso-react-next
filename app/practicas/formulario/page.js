@@ -1,5 +1,5 @@
 "use client";
-import styles from "./Formulario.module.css";
+import styles from "./formulario.module.css";
 import { useState } from "react";
 
 export default function Formulario() {
