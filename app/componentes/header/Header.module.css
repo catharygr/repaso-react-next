@@ -4,6 +4,7 @@
   align-items: center;
   background-color: #282c34;
   color: white;
+  gap: 1rem;
 }
 
 .logo {

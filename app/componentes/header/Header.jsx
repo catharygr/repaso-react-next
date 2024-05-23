@@ -19,6 +19,12 @@ export default function Header() {
           >
             Formulario
           </Link>
+          <Link
+            className={styles.link}
+            href="/practicas/contador"
+          >
+            Contador
+          </Link>
         </nav>
       </div>
     </header>
