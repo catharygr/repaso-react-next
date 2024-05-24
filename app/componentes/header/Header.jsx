@@ -20,7 +20,17 @@ export default function Header() {
           role="navigation"
           aria-label="Menu principal"
         >
-          <Link
+          <button
+            aria-expanded={menuLink}
+            onClick={() => setMenuLink(!menuLink)}
+            className={styles.btnMenu}
+          >
+            <Menu
+              aria-hidden="true"
+              className={styles.iconMenu}
+            />
+          </button>
+          {/* <Link
             className={styles.link}
             href="/practicas/formulario"
           >
@@ -31,7 +41,7 @@ export default function Header() {
             href="/practicas/contador"
           >
             Contador
-          </Link>
+          </Link> */}
         </nav>
       </div>
     </header>
