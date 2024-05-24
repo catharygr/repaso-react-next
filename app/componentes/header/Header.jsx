@@ -5,6 +5,7 @@ import { Home, Menu } from "react-feather";
 import Link from "next/link";
 
 export default function Header() {
+  const [menuLink, setMenuLink] = useState(false);
   return (
     <header>
       <div className={styles.containerHeader}>
@@ -14,7 +15,11 @@ export default function Header() {
         >
           <Home className={styles.logo} />
         </Link>
-        <nav className={styles.nav}>
+        <nav
+          className={styles.nav}
+          role="navigation"
+          aria-label="Menu principal"
+        >
           <Link
             className={styles.link}
             href="/practicas/formulario"

@@ -1,10 +1,12 @@
 export const menu_link = [
   {
-    href: "/practicas/formulario",
+    slug: "formulario",
     text: "Formulario",
+    href: "/",
   },
   {
-    href: "/practicas/contador",
+    slug: "contador",
     text: "Contador",
+    href: "/",
   },
 ];
