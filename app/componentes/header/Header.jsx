@@ -1,5 +1,7 @@
+"use client";
+
 import styles from "./Header.module.css";
-import { Home } from "react-feather";
+import { Home, Menu } from "react-feather";
 import Link from "next/link";
 
 export default function Header() {
