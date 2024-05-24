@@ -1,8 +1,8 @@
 "use client";
-
 import styles from "./Header.module.css";
 import { Home, Menu } from "react-feather";
 import Link from "next/link";
+import VisualHidden from "@/app/utilidades/VisualHidden";
 
 export default function Header() {
   const [menuLink, setMenuLink] = useState(false);
@@ -29,6 +29,7 @@ export default function Header() {
               aria-hidden="true"
               className={styles.iconMenu}
             />
+            <VisualHidden>Abrir el menú</VisualHidden>
           </button>
           {/* <Link
             className={styles.link}
