@@ -39,20 +39,20 @@ export default function NavMenu({ setMenuLink }) {
         <div className={styles.navContainer}>
           <motion.div
             className={styles.navMenu}
+            onClick={() => setMenuLink()}
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
-            exit={{ opacity: 0 }}
             transition={{ duration: 0.5 }}
-            onClick={() => setMenuLink()}
+            exit={{ opacity: 0 }}
           />
           <motion.div
             className={styles.navMenuContent}
             animate={{ x: "-100%" }}
             transition={{
-              duration: 0.5,
               type: "spring",
               stiffness: 300,
               damping: 25,
+              duration: 0.5,
             }}
             exit={{ x: "0%" }}
           >
