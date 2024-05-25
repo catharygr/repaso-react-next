@@ -12,7 +12,7 @@
   backdrop-filter: blur(3px);
 }
 
-.menuEnlace {
+.menuHamburguer {
   position: absolute;
   inset: 0;
   background: blueviolet;
@@ -35,4 +35,17 @@
   padding: 1rem;
   gap: 1rem;
   translate: 100%;
+}
+
+.menuEnlace .hamburguerActive {
+  text-decoration: underline;
+  text-underline-offset: 8px;
+  text-decoration-thickness: 1px;
+}
+
+.menuEnlace a {
+  color: white;
+  text-decoration: none;
+  text-align: right;
+  gap: 0.2rem;
 }
