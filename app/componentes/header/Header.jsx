@@ -3,6 +3,7 @@ import styles from "./Header.module.css";
 import { Home, Menu } from "react-feather";
 import Link from "next/link";
 import VisualHidden from "@/app/utilidades/VisualHidden";
+import { AnimatePresence } from "framer-motion";
 
 export default function Header() {
   const [menuLink, setMenuLink] = useState(false);
@@ -31,18 +32,9 @@ export default function Header() {
             />
             <VisualHidden>Abrir el menú</VisualHidden>
           </button>
-          {/* <Link
-            className={styles.link}
-            href="/practicas/formulario"
-          >
-            Formulario
-          </Link>
-          <Link
-            className={styles.link}
-            href="/practicas/contador"
-          >
-            Contador
-          </Link> */}
+          <AnimatePresence>
+            {menuLink && <NavMenu setMenuLink={setMenuLink} />}
+          </AnimatePresence>
         </nav>
       </div>
     </header>
