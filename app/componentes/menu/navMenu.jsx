@@ -1,9 +1,12 @@
 "use client";
 import { usePathname } from "next/navigation";
 import styles from "./NavMenu.module.css";
-import { useId, useState } from "react";
+import { useId, useState, useEffect } from "react";
 import ReactFocusLock from "react-focus-lock";
 import { RemoveScroll } from "react-remove-scroll";
+import { motion } from "framer-motion";
+import { menu_link } from "@/app/utilidades/data";
+import Link from "next/link";
 
 export default function NavMenu({ setMenuLink }) {
   const [menuHamburguer, setMenuHamburguer] = useState(null);
@@ -54,6 +57,25 @@ export default function NavMenu({ setMenuLink }) {
           >
             <div className={styles.menuEnlace}>
               <ul onMouseLeave={() => setMenuHamburguer(null)}>
+                {menu_link.map((slug, text, href) => (
+                  <li key={slug}>
+                    {menuHamburguer === slug && (
+                      <motion.div
+                        layoutId={id}
+                        className={styles.menuHamburguer}
+                        initial={false}
+                        animate={{ borderRadius: 7 }}
+                      />
+                    )}
+                    <Link
+                      onMouseEnter={() => setMenuHamburguer(slug)}
+                      className={
+                        pathname === href ? styles.hamburguerActive : ""
+                      }
+                      href={href}
+                    ></Link>
+                  </li>
+                ))}
                 <li></li>
               </ul>
             </div>
