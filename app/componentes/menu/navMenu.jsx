@@ -2,6 +2,8 @@
 import { usePathname } from "next/navigation";
 import styles from "./NavMenu.module.css";
 import { useId, useState } from "react";
+import ReactFocusLock from "react-focus-lock";
+import { RemoveScroll } from "react-remove-scroll";
 
 export default function NavMenu({ setMenuLink }) {
   const [menuHamburguer, setMenuHamburguer] = useState(null);
@@ -28,15 +30,19 @@ export default function NavMenu({ setMenuLink }) {
   }, [setMenuLink]);
 
   return (
-    <nav>
-      <ul>
-        <li>
-          <a href="/">Formulario</a>
-        </li>
-        <li>
-          <a href="/">Contador</a>
-        </li>
-      </ul>
-    </nav>
+    <ReactFocusLock>
+      <RemoveScroll>
+        <div className={styles.navContainer}>
+          <MotionConfig.div
+            className={styles.navMenu}
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            transition={{ duration: 0.5 }}
+            onClick={() => setMenuLink()}
+          />
+        </div>
+      </RemoveScroll>
+    </ReactFocusLock>
   );
 }

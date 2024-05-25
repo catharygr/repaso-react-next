@@ -4,6 +4,7 @@ import { Home, Menu } from "react-feather";
 import Link from "next/link";
 import VisualHidden from "@/app/utilidades/VisualHidden";
 import { AnimatePresence } from "framer-motion";
+import { useState } from "react";
 
 export default function Header() {
   const [menuLink, setMenuLink] = useState(false);
