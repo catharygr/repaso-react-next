@@ -51,7 +51,13 @@ export default function NavMenu({ setMenuLink }) {
               damping: 25,
             }}
             exit={{ x: "0%" }}
-          ></motion.div>
+          >
+            <div className={styles.menuEnlace}>
+              <ul onMouseLeave={() => setMenuHamburguer(null)}>
+                <li></li>
+              </ul>
+            </div>
+          </motion.div>
         </div>
       </RemoveScroll>
     </ReactFocusLock>
