@@ -33,7 +33,7 @@ export default function NavMenu({ setMenuLink }) {
     <ReactFocusLock>
       <RemoveScroll>
         <div className={styles.navContainer}>
-          <MotionConfig.div
+          <motion.div
             className={styles.navMenu}
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
@@ -41,6 +41,17 @@ export default function NavMenu({ setMenuLink }) {
             transition={{ duration: 0.5 }}
             onClick={() => setMenuLink()}
           />
+          <motion.div
+            className={styles.navMenuContent}
+            animate={{ x: "-100%" }}
+            transition={{
+              duration: 0.5,
+              type: "spring",
+              stiffness: 300,
+              damping: 25,
+            }}
+            exit={{ x: "0%" }}
+          ></motion.div>
         </div>
       </RemoveScroll>
     </ReactFocusLock>
