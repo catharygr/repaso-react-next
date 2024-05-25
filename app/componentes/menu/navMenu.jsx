@@ -79,7 +79,6 @@ export default function NavMenu({ setMenuLink }) {
                     </Link>
                   </li>
                 ))}
-                <li></li>
               </ul>{" "}
             </div>
             <button
