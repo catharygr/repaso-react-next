@@ -58,7 +58,7 @@ export default function NavMenu({ setMenuLink }) {
           >
             <div className={styles.menuEnlace}>
               <ul onMouseLeave={() => setMenuHamburguer(null)}>
-                {menu_link.map((slug, text, href) => (
+                {menu_link.map(({ slug, text, href }) => (
                   <li key={slug}>
                     {menuHamburguer === slug && (
                       <motion.div

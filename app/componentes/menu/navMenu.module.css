@@ -11,3 +11,11 @@
   background-color: beige;
   backdrop-filter: blur(3px);
 }
+
+.navMenuContent {
+  position: absolute;
+  inset: 0;
+  background: blueviolet;
+  border-radius: 7px;
+  z-index: -1;
+}
