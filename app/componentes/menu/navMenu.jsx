@@ -7,6 +7,7 @@ import { RemoveScroll } from "react-remove-scroll";
 import { motion } from "framer-motion";
 import { menu_link } from "@/app/utilidades/data";
 import Link from "next/link";
+import { X as Cerrar } from "react-feather";
 
 export default function NavMenu({ setMenuLink }) {
   const [menuHamburguer, setMenuHamburguer] = useState(null);
@@ -73,12 +74,25 @@ export default function NavMenu({ setMenuLink }) {
                         pathname === href ? styles.hamburguerActive : ""
                       }
                       href={href}
-                    ></Link>
+                    >
+                      {text}
+                    </Link>
                   </li>
                 ))}
                 <li></li>
-              </ul>
+              </ul>{" "}
             </div>
+            <button
+              onClick={setMenuHamburguer}
+              className={styles.cerrarBtn}
+            >
+              <Cerrar
+                aria-hidden="true"
+                focusable="false"
+                className={styles.cerrarIcon}
+              />
+              Cerrar menú
+            </button>
           </motion.div>
         </div>
       </RemoveScroll>
