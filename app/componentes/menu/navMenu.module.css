@@ -8,7 +8,7 @@
 .navMenu {
   position: absolute;
   inset: 0;
-  background-color: beige;
+  background-color: transparent;
   backdrop-filter: blur(3px);
 }
 
