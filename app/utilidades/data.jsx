@@ -1,4 +1,4 @@
-export const menu_link = [
+export const hamburguer_link = [
   {
     slug: "formulario",
     text: "Formulario",

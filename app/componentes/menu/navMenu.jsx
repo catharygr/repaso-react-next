@@ -5,7 +5,7 @@ import { useId, useState, useEffect } from "react";
 import ReactFocusLock from "react-focus-lock";
 import { RemoveScroll } from "react-remove-scroll";
 import { motion } from "framer-motion";
-import { menu_link } from "@/app/utilidades/data";
+import { hamburguer_link } from "@/app/utilidades/data";
 import Link from "next/link";
 import { X as Cerrar } from "react-feather";
 
@@ -58,7 +58,7 @@ export default function NavMenu({ setMenuLink }) {
           >
             <div className={styles.menuEnlace}>
               <ul onMouseLeave={() => setMenuHamburguer(null)}>
-                {menu_link.map(({ slug, text, href }) => (
+                {hamburguer_link.map(({ slug, text, href }) => (
                   <li key={slug}>
                     {menuHamburguer === slug && (
                       <motion.div

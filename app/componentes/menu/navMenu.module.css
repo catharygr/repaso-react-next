@@ -49,10 +49,11 @@
   text-align: right;
   gap: 0.2rem;
 }
+
 .menuEnlace ul {
   display: flex;
   flex-direction: column;
-  text-align: center;
+  /* text-align: center; */
   gap: 0.2rem;
 }
 
