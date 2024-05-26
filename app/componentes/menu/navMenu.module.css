@@ -16,7 +16,8 @@
   position: absolute;
   inset: 0;
   background: blueviolet;
-  border-radius: 7px;
+  padding: 0.8rem;
+  border-radius: 5px;
   z-index: -1;
 }
 
@@ -53,12 +54,13 @@
 .menuEnlace ul {
   display: flex;
   flex-direction: column;
-  /* text-align: center; */
-  gap: 0.2rem;
+  text-align: right;
+  gap: 0.5rem;
 }
 
 .menuEnlace li {
   position: relative;
+  list-style: none;
 }
 
 .cerrarBtn {
