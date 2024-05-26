@@ -1,9 +1,7 @@
 .containerHeader {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  background-color: #282c34;
-  color: white;
+  background-color: palevioletred;
+  border-bottom: 1px solid tomato;
+  position: sticky;
 }
 
 .nav {
