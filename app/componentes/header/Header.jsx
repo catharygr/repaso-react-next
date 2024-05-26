@@ -12,32 +12,34 @@ export default function Header() {
   return (
     <header>
       <div className={styles.containerHeader}>
-        <Link
-          aria-label="Ir a la página principal"
-          href="/"
-        >
-          <Home className={styles.logo} />
-        </Link>
-        <nav
-          className={styles.nav}
-          role="navigation"
-          aria-label="Menu principal"
-        >
-          <button
-            aria-expanded={menuLink}
-            onClick={() => setMenuLink(!menuLink)}
-            className={styles.btnMenu}
+        <div className={styles.header}>
+          <Link
+            aria-label="Ir a la página principal"
+            href="/"
           >
-            <Menu
-              aria-hidden="true"
-              className={styles.iconMenu}
-            />
-            <VisualHidden>Abrir el menú</VisualHidden>
-          </button>
-          <AnimatePresence>
-            {menuLink && <NavMenu setMenuLink={setMenuLink} />}
-          </AnimatePresence>
-        </nav>
+            <Home className={styles.logo} />
+          </Link>
+          <nav
+            className={styles.nav}
+            role="navigation"
+            aria-label="Menu principal"
+          >
+            <button
+              aria-expanded={menuLink}
+              onClick={() => setMenuLink(!menuLink)}
+              className={styles.btnMenu}
+            >
+              <Menu
+                aria-hidden="true"
+                className={styles.iconMenu}
+              />
+              <VisualHidden>Abrir el menú</VisualHidden>
+            </button>
+            <AnimatePresence>
+              {menuLink && <NavMenu setMenuLink={setMenuLink} />}
+            </AnimatePresence>
+          </nav>
+        </div>
       </div>
     </header>
   );
