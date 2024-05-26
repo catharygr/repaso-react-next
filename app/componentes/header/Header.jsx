@@ -19,26 +19,27 @@ export default function Header() {
           >
             <Home className={styles.logo} />
           </Link>
-          <nav
-            className={styles.nav}
-            role="navigation"
-            aria-label="Menu principal"
-          >
-            <button
-              aria-expanded={menuLink}
-              onClick={() => setMenuLink(!menuLink)}
-              className={styles.btnMenu}
+          <div className={styles.nav}>
+            <nav
+              role="navigation"
+              aria-label="Menu principal"
             >
-              <Menu
-                aria-hidden="true"
-                className={styles.iconMenu}
-              />
-              <VisualHidden>Abrir el menú</VisualHidden>
-            </button>
-            <AnimatePresence>
-              {menuLink && <NavMenu setMenuLink={setMenuLink} />}
-            </AnimatePresence>
-          </nav>
+              <button
+                aria-expanded={menuLink}
+                onClick={() => setMenuLink(!menuLink)}
+                className={styles.btnMenu}
+              >
+                <Menu
+                  aria-hidden="true"
+                  className={styles.iconMenu}
+                />
+                <VisualHidden>Abrir el menú</VisualHidden>
+              </button>
+              <AnimatePresence>
+                {menuLink && <NavMenu setMenuLink={setMenuLink} />}
+              </AnimatePresence>
+            </nav>
+          </div>
         </div>
       </div>
     </header>
