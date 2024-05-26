@@ -1,5 +1,5 @@
 .containerHeader {
-  background-color: palevioletred;
+  background-color: #282c34;
   border-bottom: 1px solid tomato;
   position: sticky;
   top: 0;
@@ -26,4 +26,15 @@
   height: 50px;
   margin: 20px;
   color: tomato;
+}
+
+.btnMenu {
+  display: grid;
+  place-items: center;
+}
+
+.iconMenu {
+  stroke-width: 4px;
+  width: 35px;
+  height: 35px;
 }
