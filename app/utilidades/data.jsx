@@ -2,11 +2,11 @@ export const hamburguer_link = [
   {
     slug: "formulario",
     text: "Formulario",
-    href: "/",
+    href: "/practicas/formulario",
   },
   {
     slug: "contador",
     text: "Contador",
-    href: "/",
+    href: "/practicas/contador",
   },
 ];
