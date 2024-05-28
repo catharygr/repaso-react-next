@@ -47,8 +47,8 @@
 .menuEnlace a {
   color: white;
   text-decoration: none;
-  text-align: right;
-  gap: 0.2rem;
+  display: block;
+  padding: 0.3rem 0.5rem;
 }
 
 .menuEnlace ul {
