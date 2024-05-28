@@ -4,11 +4,11 @@ import { Home, Menu } from "react-feather";
 import Link from "next/link";
 import VisualHidden from "@/app/utilidades/VisualHidden";
 import { AnimatePresence } from "framer-motion";
-import { useState } from "react";
+import useToggle from "@/app/utilidades/useToggle";
 import NavMenu from "@/app/componentes/menu/NavMenu";
 
 export default function Header() {
-  const [menuLink, setMenuLink] = useState(false);
+  const [menuLink, setMenuLink] = useToggle(false);
   return (
     <header>
       <div className={styles.containerHeader}>
@@ -26,7 +26,7 @@ export default function Header() {
             >
               <button
                 aria-expanded={menuLink}
-                onClick={() => setMenuLink(!menuLink)}
+                onClick={setMenuLink}
                 className={styles.btnMenu}
               >
                 <Menu

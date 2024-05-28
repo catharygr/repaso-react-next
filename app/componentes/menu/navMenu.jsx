@@ -82,7 +82,7 @@ export default function NavMenu({ setMenuLink }) {
               </ul>{" "}
             </div>
             <button
-              onClick={setMenuHamburguer}
+              onClick={setMenuLink}
               className={styles.cerrarBtn}
             >
               <Cerrar
