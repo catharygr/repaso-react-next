@@ -68,14 +68,15 @@ export default function NavMenu({ setMenuLink }) {
                         animate={{ borderRadius: 7 }}
                       />
                     )}
-                    <Link
-                      onMouseEnter={() => setMenuHamburguer(slug)}
-                      className={
-                        pathname === href ? styles.hamburguerActive : ""
-                      }
-                      href={href}
-                    >
-                      {text}
+                    <Link href={href}>
+                      <a
+                        onMouseEnter={() => setMenuHamburguer(slug)}
+                        className={
+                          pathname === href ? styles.hamburguerActive : ""
+                        }
+                      >
+                        {text}
+                      </a>
                     </Link>
                   </li>
                 ))}
