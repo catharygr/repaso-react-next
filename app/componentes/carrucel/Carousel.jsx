@@ -1,6 +1,7 @@
 import styles from "./Carousel.module.css";
 import Image from "next/image";
 import girafa from "../carrucel/assets/imagen/girafa.svg";
+import { Codepen } from "react-feather";
 
 export default function Carousel() {
   return (
@@ -28,12 +29,24 @@ export default function Carousel() {
       <p>Cualquier pregunta aquí</p>
       <div className={styles.contenidoIconos}>
         <ul className={styles.contenidoUl}>
-          <li>Icono</li>
-          <li>Icono</li>
-          <li>Icono</li>
-          <li>Icono</li>
-          <li>Icono</li>
-          <li>Icono</li>
+          <li className={styles.contenidoLi}>
+            <Codepen />
+          </li>
+          <li className={styles.contenidoLi}>
+            <Codepen />
+          </li>
+          <li className={styles.contenidoLi}>
+            <Codepen />
+          </li>
+          <li className={styles.contenidoLi}>
+            <Codepen />
+          </li>
+          <li className={styles.contenidoLi}>
+            <Codepen />
+          </li>
+          <li className={styles.contenidoLi}>
+            <Codepen />
+          </li>
         </ul>
       </div>
     </section>

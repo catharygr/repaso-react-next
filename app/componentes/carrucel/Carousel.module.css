@@ -4,6 +4,8 @@
   display: grid;
   grid-template-columns: 35% auto;
   grid-template-rows: repeat(4, auto);
+  padding: 0.6rem;
+  border-radius: 5px;
 }
 
 .contenidoSuperiorColor {
@@ -11,11 +13,20 @@
   grid-column: 1 / -1;
   grid-row: 1 / 3;
   padding: 5rem;
+  border-radius: 5px;
 }
 
 .contenidoSuperior {
   grid-column: 2 / -1;
   grid-row: 1 / 2;
+  text-align: right;
+}
+
+.contenidoSuperior h2 {
+  margin: 1rem 1.4rem;
+  padding: 1.5rem;
+  font-size: 1.6rem;
+  text-transform: uppercase;
 }
 
 .contenidoBotonesControl {
@@ -41,4 +52,10 @@
 .contenidoUl {
   display: flex;
   justify-content: space-around;
+}
+
+.contenidoLi {
+  list-style: none;
+  display: flex;
+  align-items: center;
 }
