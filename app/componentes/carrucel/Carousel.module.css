@@ -32,3 +32,13 @@
   width: 18rem;
   height: 18rem;
 }
+
+.contenidoIconos {
+  grid-column: 1 / -1;
+  grid-row: 4 / -1;
+}
+
+.contenidoUl {
+  display: flex;
+  justify-content: space-around;
+}
