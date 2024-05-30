@@ -1,7 +1,7 @@
 import styles from "./Carousel.module.css";
 import Image from "next/image";
-// import girafa from "../carrucel/assets/imagen/girafa.svg";
-import dragon from "../carrucel/assets/imagen/dragon.jpg";
+import girafa from "../carrucel/assets/imagen/girafa.svg";
+// import dragon from "../carrucel/assets/imagen/dragon.jpg";
 
 export default function Carousel() {
   return (
@@ -23,12 +23,10 @@ export default function Carousel() {
       </div>
       <Image
         className={styles.imgCarousel}
-        src={dragon}
+        src={girafa}
         alt="Imagen de una girafa"
       />
-      <div>
-        <p>Cualquier pregunta aquí</p>
-      </div>
+      <p>Cualquier pregunta aquí</p>
       <div>
         <ul>
           <li>Icono</li>
