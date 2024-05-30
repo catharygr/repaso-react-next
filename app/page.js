@@ -1,4 +1,4 @@
-import Caroucel from "./componentes/carrucel/Caroucel";
+import Caroucel from "./componentes/carrucel/Carousel";
 import styles from "./page.module.css";
 
 export default function Home() {
