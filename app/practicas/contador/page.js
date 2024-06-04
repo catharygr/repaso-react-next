@@ -3,8 +3,6 @@ import { useState } from "react";
 import styles from "./contador.module.css";
 
 export default function Contador() {
-  const [contador, setContador] = useState(0);
-
   const handleIncrementar = () => {
     setContador(contador + 1);
   };
