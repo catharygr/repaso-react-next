@@ -27,28 +27,7 @@ export default function Carousel() {
         alt="Imagen de una girafa"
       />
       <p>Cualquier pregunta aquí</p>
-      <div className={styles.contenidoIconos}>
-        <ul className={styles.contenidoUl}>
-          <li className={styles.contenidoLi}>
-            <Codepen />
-          </li>
-          <li className={styles.contenidoLi}>
-            <Codepen />
-          </li>
-          <li className={styles.contenidoLi}>
-            <Codepen />
-          </li>
-          <li className={styles.contenidoLi}>
-            <Codepen />
-          </li>
-          <li className={styles.contenidoLi}>
-            <Codepen />
-          </li>
-          <li className={styles.contenidoLi}>
-            <Codepen />
-          </li>
-        </ul>
-      </div>
+      <div className={styles.contenidoIconos}></div>
     </section>
   );
 }
