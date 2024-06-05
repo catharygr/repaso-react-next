@@ -60,9 +60,3 @@
   display: flex;
   justify-content: space-around;
 }
-
-.contenidoLi {
-  list-style: none;
-  display: flex;
-  align-items: center;
-}
