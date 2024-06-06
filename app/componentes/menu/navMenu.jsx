@@ -21,18 +21,6 @@ export default function NavMenu({ setMenuLink }) {
     };
   }, []);
 
-  useEffect(() => {
-    function handleEscape(e) {
-      if (e.key === "Escape") {
-        setMenuLink();
-      }
-    }
-    window.addEventListener("keydown", handleEscape);
-    return () => {
-      window.removeEventListener("keydown", handleEscape);
-    };
-  }, [setMenuLink]);
-
   return (
     <ReactFocusLock>
       <RemoveScroll>
