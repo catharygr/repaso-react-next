@@ -6,15 +6,6 @@
   z-index: 10000;
 }
 
-.header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
-  width: min(100% - 6vw, 65rem);
-  margin: 0 auto;
-  padding: 1rem 0;
-}
 .nav {
   display: flex;
   justify-content: flex-end;
