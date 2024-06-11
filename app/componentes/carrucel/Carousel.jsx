@@ -21,11 +21,7 @@ export default function Carousel() {
       <div className={styles.contenidoBotonesControl}>
         <button>Más</button>•<button>Más</button>
       </div>
-      <Image
-        className={styles.imgCarousel}
-        src={girafa}
-        alt="Imagen de una girafa"
-      />
+
       <p>Cualquier pregunta aquí</p>
       <div className={styles.contenidoIconos}>
         <ul className={styles.contenidoUl}>
