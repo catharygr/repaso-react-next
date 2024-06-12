@@ -28,7 +28,14 @@ export default function Header() {
               aria-expanded={menuLink}
               onClick={setMenuLink}
               className={styles.btnMenu}
-            ></button>
+            >
+              <Menu
+                aria-hidden="true"
+                focusable="false"
+                className={styles.iconMenu}
+              />
+              <VisualHidden>Abrir el menú</VisualHidden>
+            </button>
             <AnimatePresence>
               {menuLink && <NavMenu setMenuLink={setMenuLink} />}
             </AnimatePresence>

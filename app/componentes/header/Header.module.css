@@ -19,14 +19,3 @@
   height: 50px;
   color: tomato;
 }
-
-.btnMenu {
-  display: grid;
-  place-items: center;
-}
-
-.iconMenu {
-  stroke-width: 4px;
-  width: 35px;
-  height: 35px;
-}
