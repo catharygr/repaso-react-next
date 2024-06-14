@@ -45,17 +45,7 @@ export default function NavMenu({ setMenuLink }) {
             transition={{ duration: 0.5 }}
             exit={{ opacity: 0 }}
           />
-          <motion.div
-            className={styles.navMenuContent}
-            animate={{ x: "-100%" }}
-            transition={{
-              type: "spring",
-              stiffness: 300,
-              damping: 25,
-              duration: 0.5,
-            }}
-            exit={{ x: "0%" }}
-          >
+        
             <div className={styles.menuEnlace}>
               <ul onMouseLeave={() => setMenuHamburguer(null)}>
                 {hamburguer_link.map(({ slug, text, href }) => (
