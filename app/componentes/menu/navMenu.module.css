@@ -53,10 +53,3 @@
   cursor: pointer;
   gap: 0.5rem;
 }
-
-.cerrarIcon {
-  color: white;
-  width: 1.5rem;
-  height: 1.5rem;
-  stroke-width: 3px;
-}
