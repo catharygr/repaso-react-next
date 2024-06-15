@@ -1,6 +1,9 @@
 import React from "react";
 
-
+function useToggle(initialValue = false) {
+  if (typeof initialValue !== "boolean") {
+    console.log("Invalid type for useToggle");
+  }
 
   const [value, setValue] = React.useState(initialValue);
 
