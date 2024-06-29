@@ -39,17 +39,3 @@
   position: relative;
   list-style: none;
 }
-
-.cerrarBtn {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  align-self: stretch;
-  font-size: 1rem;
-  padding: 0.5rem;
-  border-radius: 0.2rem;
-  background-color: rgba(0, 0, 0, 0.2);
-  color: white;
-  cursor: pointer;
-  gap: 0.5rem;
-}
