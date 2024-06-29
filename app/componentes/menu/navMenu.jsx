@@ -81,6 +81,17 @@ export default function NavMenu({ setMenuLink }) {
                 ))}
               </ul>{" "}
             </div>
+            <button
+              onClick={setMenuLink}
+              className={styles.cerrarBtn}
+            >
+              <Cerrar
+                aria-hidden="true"
+                focusable="false"
+                className={styles.cerrarIcon}
+              />
+              Cerrar menú
+            </button>
           </motion.div>
         </div>
       </RemoveScroll>
