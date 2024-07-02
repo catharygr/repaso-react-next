@@ -18,6 +18,14 @@
   right: 0;
   bottom: 0;
   width: 20rem;
+  background-color: red;
+  width: min(90%, 300px);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1rem;
+  gap: 1rem;
+  translate: 100%;
 }
 
 .menuHamburguer {
