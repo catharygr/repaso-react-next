@@ -26,7 +26,7 @@
   right: 0;
   bottom: 0;
   width: 20rem;
-  background-color: red;
+  background-color: orangered;
   width: min(90%, 300px);
   display: flex;
   flex-direction: column;
@@ -34,6 +34,12 @@
   padding: 1rem;
   gap: 1rem;
   translate: 100%;
+}
+
+.menuEnlace .hamburguerActive {
+  text-decoration: underline;
+  text-underline-offset: 8px;
+  text-decoration-thickness: 1px;
 }
 
 .menuEnlace a {
@@ -67,4 +73,10 @@
   color: white;
   cursor: pointer;
   gap: 0.5rem;
+}
+
+.cerrarIcon {
+  width: 16px;
+  height: 16px;
+  stroke-width: 3px;
 }
