@@ -10,9 +10,8 @@ import NavMenu from "@/app/componentes/menu/NavMenu";
 export default function Header() {
   const [menuLink, setMenuLink] = useToggle(false);
   return (
-    <header className={styles.containerHeader}>
-      <div className={styles.header}>
-        {/* <div className={styles.header}> */}
+    <header className={styles.header}>
+      <div className={styles.container}>
         <Link
           aria-label="Ir a la página principal"
           href="/"
@@ -42,7 +41,6 @@ export default function Header() {
           </nav>
         </div>
       </div>
-      {/* </div> */}
     </header>
   );
 }
