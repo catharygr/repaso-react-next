@@ -63,7 +63,7 @@ export default function NavMenu({ setMenuLink }) {
                     {menuHamburguer === slug && (
                       <motion.div
                         layoutId={id}
-                        className={styles.menuHamburguer}
+                        className={styles.hoverFondo}
                         initial={false}
                         animate={{ borderRadius: 7 }}
                       />
