@@ -28,3 +28,8 @@
   height: 50px;
   color: tomato;
 }
+
+.btnMenu {
+  display: grid;
+  place-items: center;
+}
