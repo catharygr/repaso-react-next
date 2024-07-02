@@ -25,8 +25,8 @@ export default function Header() {
           >
             <button
               aria-expanded={menuLink}
-              onClick={setMenuLink}
               className={styles.btnMenu}
+              onClick={setMenuLink}
             >
               <Menu
                 aria-hidden="true"

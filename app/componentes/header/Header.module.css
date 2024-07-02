@@ -1,9 +1,18 @@
-.containerHeader {
+.header {
   background-color: #282c34;
   border-bottom: 1px solid tomato;
   position: sticky;
   top: 0;
   z-index: 10000;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  width: min(100% - 6vw, 65rem);
+  margin-inline: auto;
 }
 
 .nav {
