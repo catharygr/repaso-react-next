@@ -15,13 +15,13 @@
   margin-inline: auto;
 }
 
-.nav {
+/* .nav {
   display: flex;
   justify-content: flex-end;
   align-items: center;
   gap: 1rem;
   font-weight: 600;
-}
+} */
 
 .logo {
   width: 50px;
@@ -29,7 +29,15 @@
   color: tomato;
 }
 
-.btnMenu {
-  display: grid;
-  place-items: center;
+@media (max-width: 43rem) {
+  .btnMenu {
+    display: grid;
+    place-items: center;
+  }
+
+  .iconMenu {
+    stroke-width: 4px;
+    width: 35px;
+    height: 35px;
+  }
 }
