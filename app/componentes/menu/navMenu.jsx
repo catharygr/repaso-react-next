@@ -38,7 +38,7 @@ export default function NavMenu({ setMenuLink }) {
       <RemoveScroll>
         <div className={styles.navContainer}>
           <motion.div
-            className={styles.navMenu}
+            className={styles.navFondo}
             onClick={setMenuLink}
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
@@ -46,7 +46,7 @@ export default function NavMenu({ setMenuLink }) {
             exit={{ opacity: 0 }}
           />
           <motion.div
-            className={styles.navMenuContent}
+            className={styles.navMenuCajon}
             animate={{ x: "-100%" }}
             transition={{
               type: "spring",

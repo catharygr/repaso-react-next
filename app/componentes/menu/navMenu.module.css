@@ -5,11 +5,19 @@
   padding: 1rem;
 }
 
-.navMenu {
+.navFondo {
   position: absolute;
   inset: 0;
   background-color: transparent;
   backdrop-filter: blur(3px);
+}
+
+.navMenuCajon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 20rem;
 }
 
 .menuHamburguer {
