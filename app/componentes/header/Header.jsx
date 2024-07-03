@@ -31,6 +31,7 @@ export default function Header() {
               aria-hidden="true"
               focusable="false"
               className={styles.iconMenu}
+              size={30}
             />
             <VisualHidden>Abrir el menú</VisualHidden>
           </button>
