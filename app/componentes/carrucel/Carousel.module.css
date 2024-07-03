@@ -49,6 +49,7 @@
   grid-row: 1 / 4;
   width: 18rem;
   height: 18rem;
+  align-self: end;
 }
 
 .contenidoIconos {

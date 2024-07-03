@@ -16,7 +16,10 @@ export default function Header() {
           aria-label="Ir a la página principal"
           href="/"
         >
-          <Home className={styles.logo} />
+          <Home
+            size={40}
+            color="tomato"
+          />
         </Link>
         <nav
           role="navigation"
@@ -31,7 +34,9 @@ export default function Header() {
               aria-hidden="true"
               focusable="false"
               className={styles.iconMenu}
-              size={30}
+              size={40}
+              color="tomato"
+              strokeWidth={4}
             />
             <VisualHidden>Abrir el menú</VisualHidden>
           </button>
