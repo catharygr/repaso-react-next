@@ -32,14 +32,7 @@ export default function Carousel() {
         <ul className={styles.contenidoUl}>
           <li className={styles.contenidoLi}>
             <Codepen />
-            <p>
-              <Link
-                target="_blank"
-                href={"https://www.bubulazi.com"}
-              >
-                Bubulazi.com
-              </Link>
-            </p>
+            <p></p>
           </li>
           <li className={styles.contenidoLi}>
             <Codepen />
