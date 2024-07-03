@@ -1,6 +1,6 @@
 import styles from "./Carousel.module.css";
 import Image from "next/image";
-import girafa from "../carrucel/assets/imagen/girafa.svg";
+import girafa from "../../assets/imagen/girafa.svg";
 import { Codepen } from "react-feather";
 import Link from "next/link";
 import ProyectoIndividual from "../../componentes/proyectoIndividual/ProyectoIndividual.jsx";

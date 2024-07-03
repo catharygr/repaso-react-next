@@ -8,13 +8,17 @@ export default function ProyectoIndividual({
 }) {
   return (
     <div>
-      <h2>{titulo}</h2>
-      <p>{descripcion}</p>
-      <img
-        src={imagenUrl}
-        alt="Imagen de un proyecto"
-      />
-      <a href={url}>Ver más</a>
+      {proyectos.map((proyecto) => (
+        <div key={proyecto.id}>
+          <h2>{proyecto.titulo}</h2>
+          <p>{proyecto.descripcion}</p>
+          <a href={proyecto.url}>Ver proyecto</a>
+          <img
+            src={proyecto.imageUrl}
+            alt="Imagen de proyecto"
+          />
+        </div>
+      ))}
     </div>
   );
 }
