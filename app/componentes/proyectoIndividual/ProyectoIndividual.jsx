@@ -1,18 +1,20 @@
+import { proyectos } from "@/app/utilidades/proyectos";
+
 export default function ProyectoIndividual({
   titulo,
   descripcion,
-  imagen,
-  link,
+  imagenUrl,
+  url,
 }) {
   return (
     <div>
       <h2>{titulo}</h2>
       <p>{descripcion}</p>
       <img
-        src={imagen}
+        src={imagenUrl}
         alt="Imagen de un proyecto"
       />
-      <a href={link}>Ver más</a>
+      <a href={url}>Ver más</a>
     </div>
   );
 }
