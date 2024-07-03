@@ -2,6 +2,7 @@ import styles from "./Carousel.module.css";
 import Image from "next/image";
 import girafa from "../carrucel/assets/imagen/girafa.svg";
 import { Codepen } from "react-feather";
+import Link from "next/link";
 
 export default function Carousel() {
   return (
@@ -31,21 +32,42 @@ export default function Carousel() {
         <ul className={styles.contenidoUl}>
           <li className={styles.contenidoLi}>
             <Codepen />
+            <p>
+              <Link
+                target="_blank"
+                href={"https://www.bubulazi.com"}
+              >
+                Bubulazi.com
+              </Link>
+            </p>
           </li>
           <li className={styles.contenidoLi}>
             <Codepen />
+            <p>
+              {" "}
+              <Link
+                target="_blank"
+                href={"https://qualentum-ecommerce-catary.netlify.app"}
+              >
+                E-commerce
+              </Link>
+            </p>
           </li>
           <li className={styles.contenidoLi}>
             <Codepen />
+            <p></p>
           </li>
           <li className={styles.contenidoLi}>
             <Codepen />
+            <p></p>
           </li>
           <li className={styles.contenidoLi}>
             <Codepen />
+            <p></p>
           </li>
           <li className={styles.contenidoLi}>
             <Codepen />
+            <p></p>
           </li>
         </ul>
       </div>
