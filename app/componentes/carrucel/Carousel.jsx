@@ -4,8 +4,10 @@ import girafa from "../../assets/imagen/girafa.svg";
 import { Codepen } from "react-feather";
 import Link from "next/link";
 import ProyectoIndividual from "../../componentes/proyectoIndividual/ProyectoIndividual.jsx";
+import { useState } from "react";
 
 export default function Carousel() {
+  const [esMostradoContenido, setEsMostradoContenido] = useState(false);
   return (
     <section className={styles.containerCarousel}>
       <div className={styles.contenidoSuperiorColor}></div>
