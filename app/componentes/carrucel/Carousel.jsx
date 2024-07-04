@@ -2,13 +2,13 @@
 import styles from "./Carousel.module.css";
 import Image from "next/image";
 import girafa from "../../assets/imagen/girafa.svg";
-import { Codepen } from "react-feather";
+import { ChevronsUp } from "react-feather";
 import { useState } from "react";
-import { carouselData } from "../../utilidades/proyectos";
+import { carouselData } from "../../utilidades/tarjetas";
 import Link from "next/link";
 
 export default function Carousel() {
-  const [tarjetaActual, setTarjetaActual] = useState(0);
+  const [tarjetaActual, setTarjetaActual] = useState(2);
 
   const filtrado = carouselData.filter((card) => card.id === tarjetaActual);
   const { id, titulo, subTitulo, descripcion, url, imageUrl } = filtrado[0];
@@ -33,27 +33,30 @@ export default function Carousel() {
       <p>Cualquier pregunta aquí</p>
       <div className={styles.contenidoIconos}>
         <ul className={styles.contenidoUl}>
-          <li className={styles.contenidoLi}>
-            <Codepen />
+          <li
+            onClick={() => setTarjetaActual(1)}
+            className={styles.contenidoLi}
+          >
+            <ChevronsUp size={30} />
             <p>Portafolio</p>
           </li>
           <li className={styles.contenidoLi}>
-            <Codepen />
+            <ChevronsUp size={30} />
           </li>
           <li className={styles.contenidoLi}>
-            <Codepen />
+            <ChevronsUp size={30} />
             <p></p>
           </li>
           <li className={styles.contenidoLi}>
-            <Codepen />
+            <ChevronsUp size={30} />
             <p></p>
           </li>
           <li className={styles.contenidoLi}>
-            <Codepen />
+            <ChevronsUp size={30} />
             <p></p>
           </li>
           <li className={styles.contenidoLi}>
-            <Codepen />
+            <ChevronsUp size={30} />
             <p></p>
           </li>
         </ul>
