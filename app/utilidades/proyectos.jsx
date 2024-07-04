@@ -1,4 +1,13 @@
-export const proyectos = [
+export const carouselData = [
+  {
+    id: 0,
+    titulo: "Todos los conocimientos",
+    subTitulo: "Herramientas",
+    descripcion:
+      "¡Hola! Iniciada en el mundo de la programación como junior, con muchas ganas de llevar a cabo todo lo aprendido en diferentes bootcamps, como en las plataformas interactivas: Qualentum, Josh W Comeau's, Practical Accessibility con Sara Soueidan, Platzi, Scrimba, FreeCodeCamp.",
+    url: "https://www.google.com",
+    imageUrl: "../../assets/imagen/bubulazi-tarjeta.jpg",
+  },
   {
     id: 1,
     titulo: "Portafolio personal",

@@ -1,26 +1,26 @@
+"use client";
 import styles from "./Carousel.module.css";
 import Image from "next/image";
 import girafa from "../../assets/imagen/girafa.svg";
 import { Codepen } from "react-feather";
-import Link from "next/link";
-import ProyectoIndividual from "../../componentes/proyectoIndividual/ProyectoIndividual.jsx";
 import { useState } from "react";
+import { carouselData } from "../../utilidades/proyectos";
+import Link from "next/link";
 
 export default function Carousel() {
-  const [esMostradoContenido, setEsMostradoContenido] = useState(false);
+  const [tarjetaActual, setTarjetaActual] = useState(0);
+
+  const filtrado = carouselData.filter((card) => card.id === tarjetaActual);
+  const { id, titulo, subTitulo, descripcion, url, imageUrl } = filtrado[0];
+
   return (
     <section className={styles.containerCarousel}>
       <div className={styles.contenidoSuperiorColor}></div>
       <div className={styles.contenidoSuperior}>
-        <h2>Todos los conocimientos</h2>
-        <h3>Herramientas</h3>
-        <p>
-          ¡Hola! Iniciada en el mundo de la programación como junior, con muchas
-          ganas de llevar a cabo todo lo aprendido en diferentes bootcamps, como
-          en las plataformas interactivas: Qualentum, Josh W Comeau's, Practical
-          Accessibility con Sara Soueidan, Platzi, Scrimba, FreeCodeCamp.
-        </p>
-        <button>Más información</button>
+        <h2>{titulo}</h2>
+        <h3>{subTitulo}</h3>
+        <p>{descripcion}</p>
+        <Link href="#">Más información</Link>
       </div>
       <div className={styles.contenidoBotonesControl}>
         <button>Más</button>•<button>Más</button>
@@ -35,21 +35,14 @@ export default function Carousel() {
         <ul className={styles.contenidoUl}>
           <li className={styles.contenidoLi}>
             <Codepen />
-            <ProyectoIndividual esMostradoContenido={esMostradoContenido} />
+            <p>Portafolio</p>
           </li>
           <li className={styles.contenidoLi}>
             <Codepen />
           </li>
           <li className={styles.contenidoLi}>
             <Codepen />
-            <p>
-              <Link
-                target="_blank"
-                href={"https://multipage-form-caty.netlify.app"}
-              >
-                Formulario multi-página
-              </Link>
-            </p>
+            <p></p>
           </li>
           <li className={styles.contenidoLi}>
             <Codepen />
