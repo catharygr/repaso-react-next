@@ -14,7 +14,7 @@ export const carouselData = [
     descripcion:
       "Desarrollado y diseñado por mi, utilizando React.js, Next.js, Vanilla CSS, frame-motion, y próximamente next-mdx-remote. El objetivo principal de este proyecto es mostrar mis habilidades de desarrollo web y diseño de interfaces de usuario.",
     url: "https://www.google.com",
-    // imageUrl: "../../assets/imagen/bubulazi-tarjeta.jpg",
+    imageUrl: "/imagen/bubulazi-tarjeta.jpg",
   },
   {
     id: 3,
