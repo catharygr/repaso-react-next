@@ -35,7 +35,7 @@ export default function Carousel() {
         <ul className={styles.contenidoUl}>
           <li className={styles.contenidoLi}>
             <Codepen />
-            <ProyectoIndividual />
+            <ProyectoIndividual esMostradoContenido={esMostradoContenido} />
           </li>
           <li className={styles.contenidoLi}>
             <Codepen />
