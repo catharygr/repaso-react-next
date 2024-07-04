@@ -7,7 +7,7 @@ import { carouselData } from "../../utilidades/tarjetas";
 import Link from "next/link";
 
 export default function Carousel() {
-  const [tarjetaActual, setTarjetaActual] = useState(2);
+  const [tarjetaActual, setTarjetaActual] = useState(1);
 
   const filtrado = carouselData.filter((card) => card.id === tarjetaActual);
   const { id, titulo, subTitulo, descripcion, url, imageUrl } = filtrado[0];
@@ -32,7 +32,7 @@ export default function Carousel() {
         height={200}
         alt="Imagen de una jirafa"
       />
-      <p>Cualquier pregunta aquí</p>
+      <p className={styles.p}>Cualquier pregunta aquí</p>
       <div className={styles.contenidoIconos}>
         <CarouselItem
           tarjetaActual={tarjetaActual}
@@ -47,21 +47,16 @@ export default function Carousel() {
 function CarouselItem({ tarjetaActual, data, setTarjetaActual }) {
   return (
     <ul className={styles.contenidoUl}>
-      {data.map((item) => {
-        if (item.id === tarjetaActual) {
-          return (
-            <li
-              key={item.id}
-              className={styles.contenidoLi}
-              onClick={() => setTarjetaActual(item.id)}
-            >
-              <ChevronsUp size={30} />
-              <p>{item.titulo}</p>
-            </li>
-          );
-        }
-        return null;
-      })}
+      {data.map((item) => (
+        <li
+          key={item.id}
+          className={styles.contenidoLi}
+          onClick={() => setTarjetaActual(item.id)}
+        >
+          <ChevronsUp size={30} />
+          <p>{item.titulo}</p>
+        </li>
+      ))}
     </ul>
   );
 }

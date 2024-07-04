@@ -68,10 +68,59 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    max-width: 100px;
+    text-align: center;
+    flex-wrap: wrap;
 
     & p {
       font-size: 0.8rem;
       margin: 0;
     }
+  }
+}
+
+@media (max-width: 48rem) {
+  .containerCarousel {
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    max-width: 30rem;
+  }
+
+  .contenidoSuperiorColor {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .contenidoSuperior {
+    grid-column: 1;
+    grid-row: 2;
+  }
+
+  .imgCarousel {
+    grid-column: 1;
+    grid-row: 3;
+    width: 100%;
+    height: auto;
+    max-width: 350px;
+    max-height: 250px;
+    justify-self: center;
+  }
+
+  .contenidoBotonesControl {
+    grid-column: 1;
+    grid-row: 4;
+  }
+
+  .contenidoIconos {
+    grid-column: 1;
+    grid-row: 5;
+  }
+
+  .contenidoUl {
+    flex-direction: column;
+    align-items: center;
+  }
+  .p {
+    text-align: center;
   }
 }

@@ -1,7 +1,7 @@
 export const carouselData = [
   {
     id: 1,
-    titulo: "Todos los conocimientos",
+    titulo: "Conocimientos",
     subTitulo: "Herramientas",
     descripcion:
       "¡Hola! Iniciada en el mundo de la programación como junior, con muchas ganas de llevar a cabo todo lo aprendido en diferentes bootcamps, como en las plataformas interactivas: Qualentum, Josh W Comeau's, Practical Accessibility con Sara Soueidan, Platzi, Scrimba, FreeCodeCamp.",
@@ -10,7 +10,7 @@ export const carouselData = [
   },
   {
     id: 2,
-    titulo: "Portafolio personal",
+    titulo: "Portafolio",
     subTitulo: "Desarrollo Web",
     descripcion:
       "Desarrollado y diseñado por mi, utilizando React.js, Next.js, Vanilla CSS, frame-motion, y próximamente next-mdx-remote. El objetivo principal de este proyecto es mostrar mis habilidades de desarrollo web y diseño de interfaces de usuario.",
@@ -28,7 +28,7 @@ export const carouselData = [
   },
   {
     id: 4,
-    titulo: " Formularios Multi-página ",
+    titulo: " Formularios",
     subTitulo: "Desarrollo Web",
     descripcion:
       "Página web con diseño resposive desarrodada con React, Hooks más usados, firebase Auth, Storage y RealTime Database como Back-end",
@@ -46,7 +46,7 @@ export const carouselData = [
   },
   {
     id: 6,
-    titulo: "Clinica Dental Blancodent",
+    titulo: "Blancodent",
     subTitulo: "Desarrollo Web",
     descripcion:
       "La página web de una clínica dental (cliente comercial) desarrollada con CSS, HTML y un poco de JS. La web original estaba en Squarespace y la he transferido a Netlify respectando el diseño original.",
