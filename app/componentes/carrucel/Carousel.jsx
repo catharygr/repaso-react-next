@@ -12,6 +12,18 @@ export default function Carousel() {
   const filtrado = carouselData.filter((card) => card.id === tarjetaActual);
   const { id, titulo, subTitulo, descripcion, url, imageUrl } = filtrado[0];
 
+  const handlePrimerBtn = () => {
+    tarjetaActual === 1
+      ? setTarjetaActual(carouselData.length)
+      : setTarjetaActual(tarjetaActual - 1);
+  };
+
+  const handleSegundoBtn = () => {
+    tarjetaActual === carouselData.length
+      ? setTarjetaActual(1)
+      : setTarjetaActual(tarjetaActual + 1);
+  };
+
   return (
     <section className={styles.containerCarousel}>
       <div className={styles.contenidoSuperiorColor}></div>
@@ -22,7 +34,8 @@ export default function Carousel() {
         <Link href="#">Más información</Link>
       </div>
       <div className={styles.contenidoBotonesControl}>
-        <button>Más</button>•<button>Más</button>
+        <button onClick={handlePrimerBtn}>Más</button>•
+        <button onClick={handleSegundoBtn}>Más</button>
       </div>
       <Image
         className={styles.imgCarousel}

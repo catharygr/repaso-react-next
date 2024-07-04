@@ -90,7 +90,7 @@
 
   .contenidoSuperiorColor {
     grid-column: 1 / 1;
-    grid-row: 1 / 5;
+    grid-row: 1 / 4;
   }
 
   .contenidoSuperior {
@@ -103,20 +103,20 @@
     grid-row: 1 / 2;
     width: 100%;
     height: auto;
-    max-width: 150px;
-    max-height: 120px;
+    max-width: 180px;
+    max-height: 130px;
     justify-self: start;
     align-self: flex-start;
   }
 
   .contenidoBotonesControl {
-    grid-column: 1;
-    grid-row: 4;
+    grid-column: 1 / -1;
+    grid-row: 3 / 4;
   }
 
   .contenidoIconos {
-    grid-column: 1;
-    grid-row: 5;
+    grid-column: 1 /2;
+    grid-row: 4 / 5;
   }
 
   .contenidoUl {
