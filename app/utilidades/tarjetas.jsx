@@ -6,7 +6,7 @@ export const carouselData = [
     descripcion:
       "¡Hola! Iniciada en el mundo de la programación como junior, con muchas ganas de llevar a cabo todo lo aprendido en diferentes bootcamps, como en las plataformas interactivas: Qualentum, Josh W Comeau's, Practical Accessibility con Sara Soueidan, Platzi, Scrimba, FreeCodeCamp.",
     url: "https://www.google.com",
-    imageUrl: "/girafa.svg",
+    imageUrl: "/imagen/girafa.svg",
   },
   {
     id: 2,

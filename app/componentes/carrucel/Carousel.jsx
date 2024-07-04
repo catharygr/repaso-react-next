@@ -12,6 +12,7 @@ export default function Carousel() {
 
   const filtrado = carouselData.filter((card) => card.id === tarjetaActual);
   const { id, titulo, subTitulo, descripcion, url, imageUrl } = filtrado[0];
+  console.log(imageUrl);
 
   return (
     <section className={styles.containerCarousel}>
