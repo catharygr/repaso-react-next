@@ -1,6 +1,7 @@
 "use client";
 import styles from "./Carousel.module.css";
 import Image from "next/image";
+// import girafa from "../../assets/imagen/girafa.svg";
 import { ChevronsUp } from "react-feather";
 import { useState } from "react";
 import { carouselData } from "../../utilidades/tarjetas";
@@ -34,33 +35,36 @@ export default function Carousel() {
       />
       <p>Cualquier pregunta aquí</p>
       <div className={styles.contenidoIconos}>
-        <CarouselItem
-          tarjetaActual={tarjetaActual}
-          data={carouselData}
-        />
+        <ul className={styles.contenidoUl}>
+          <li
+            onClick={() => setTarjetaActual(1)}
+            className={styles.contenidoLi}
+          >
+            <ChevronsUp size={30} />
+            <p>Portafolio</p>
+          </li>
+          <li className={styles.contenidoLi}>
+            onClick={() => setTarjetaActual(2)}
+            <ChevronsUp size={30} />
+            <p>E-commerse</p>
+          </li>
+          <li className={styles.contenidoLi}>
+            onClick={() => setTarjetaActual(3)}
+            <ChevronsUp size={30} />
+            <p>Formulario</p>
+          </li>
+          <li className={styles.contenidoLi}>
+            onClick={() => setTarjetaActual(4)}
+            <ChevronsUp size={30} />
+            <p>Tour Sarajevo</p>
+          </li>
+          <li className={styles.contenidoLi}>
+            onClick={() => setTarjetaActual(5)}
+            <ChevronsUp size={30} />
+            <p>BlancoDent</p>
+          </li>
+        </ul>
       </div>
     </section>
-  );
-}
-
-function CarouselItem({ tarjetaActual, data }) {
-  return (
-    <ul className={styles.contenidoUl}>
-      {data.map((item) => {
-        if (item.id === tarjetaActual) {
-          return (
-            <li
-              key={item.id}
-              className={styles.contenidoLi}
-              onClick={() => setTarjetaActual(item.id)}
-            >
-              <ChevronsUp size={30} />
-              <p>{item.titulo}</p>
-            </li>
-          );
-        }
-        return null;
-      })}
-    </ul>
   );
 }
