@@ -1,7 +1,7 @@
 "use client";
 import styles from "./Carousel.module.css";
 import Image from "next/image";
-import girafa from "../../assets/imagen/girafa.svg";
+// import girafa from "../../assets/imagen/girafa.svg";
 import { ChevronsUp } from "react-feather";
 import { useState } from "react";
 import { carouselData } from "../../utilidades/tarjetas";
@@ -27,7 +27,9 @@ export default function Carousel() {
       </div>
       <Image
         className={styles.imgCarousel}
-        src={girafa}
+        src={imageUrl}
+        width={200}
+        height={200}
         alt="Imagen de una girafa"
       />
       <p>Cualquier pregunta aquí</p>
@@ -42,22 +44,19 @@ export default function Carousel() {
           </li>
           <li className={styles.contenidoLi}>
             <ChevronsUp size={30} />
+            <p>E-commerse</p>
           </li>
           <li className={styles.contenidoLi}>
             <ChevronsUp size={30} />
-            <p></p>
+            <p>Formulario</p>
           </li>
           <li className={styles.contenidoLi}>
             <ChevronsUp size={30} />
-            <p></p>
+            <p>Tour Sarajevo</p>
           </li>
           <li className={styles.contenidoLi}>
             <ChevronsUp size={30} />
-            <p></p>
-          </li>
-          <li className={styles.contenidoLi}>
-            <ChevronsUp size={30} />
-            <p></p>
+            <p>BlancoDent</p>
           </li>
         </ul>
       </div>
