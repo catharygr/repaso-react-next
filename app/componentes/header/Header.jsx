@@ -38,6 +38,7 @@ export default function Header() {
               color="tomato"
               strokeWidth={4}
             />
+            <VisualHidden>Abrir el menú</VisualHidden>
           </button>
           <AnimatePresence>
             {menuLink && <NavMenu setMenuLink={setMenuLink} />}
