@@ -37,7 +37,7 @@ export default function Carousel() {
         <FileMinus
           size={40}
           color="blue"
-          onClick={{ handlePrimerBtn }}
+          onClick={handlePrimerBtn}
         />
 
         <FilePlus
@@ -74,7 +74,10 @@ function CarouselItem({ tarjetaActual, data, setTarjetaActual }) {
           className={styles.contenidoLi}
           onClick={() => setTarjetaActual(item.id)}
         >
-          <ChevronsUp size={30} />
+          <ChevronsUp
+            size={30}
+            color="red"
+          />
           <p>{item.titulo}</p>
         </li>
       ))}
