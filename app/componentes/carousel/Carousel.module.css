@@ -81,6 +81,15 @@
   }
 }
 
+.btnMenos,
+.btnMas {
+  background-color: #f3fbfe;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
 @media (max-width: 43rem) {
   .containerCarousel {
     grid-template-columns: 1fr;

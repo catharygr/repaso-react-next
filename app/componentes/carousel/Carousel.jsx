@@ -1,7 +1,7 @@
 "use client";
 import styles from "./Carousel.module.css";
 import Image from "next/image";
-import { ChevronsUp } from "react-feather";
+import { ChevronsUp, FilePlus, FileMinus } from "react-feather";
 import { useState } from "react";
 import { carouselData } from "../../utilidades/tarjetas";
 import Link from "next/link";
@@ -34,8 +34,17 @@ export default function Carousel() {
         <Link href="#">Más información</Link>
       </div>
       <div className={styles.contenidoBotonesControl}>
-        <button onClick={handlePrimerBtn}>Más</button>•
-        <button onClick={handleSegundoBtn}>Más</button>
+        <FileMinus
+          size={40}
+          color="blue"
+          onClick={{ handlePrimerBtn }}
+        />
+
+        <FilePlus
+          size={40}
+          color="blue"
+          onClick={handleSegundoBtn}
+        />
       </div>
       <Image
         className={styles.imgCarousel}
