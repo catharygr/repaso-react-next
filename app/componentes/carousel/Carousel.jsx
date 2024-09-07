@@ -35,18 +35,18 @@ export default function Carousel() {
       </div>
       <div className={styles.contenidoBotonesControl}>
         <ArrowLeft
-          color="blue"
+          color="black"
           onClick={handlePrimerBtn}
         />
         <div className={styles.circleIcon}>
           <Circle
-            size={20}
+            size={18}
             color="#888"
           />
         </div>
 
         <ArrowRight
-          color="blue"
+          color="black"
           onClick={handleSegundoBtn}
         />
       </div>
