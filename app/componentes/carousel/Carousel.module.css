@@ -81,13 +81,11 @@
   }
 }
 
-.btnMenos,
-.btnMas {
-  background-color: #f3fbfe;
+.circleIcon {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  cursor: pointer;
+  align-self: center;
+  background-color: #888;
+  border-radius: 50%;
 }
 
 @media (max-width: 43rem) {
@@ -138,5 +136,10 @@
     text-align: center;
     grid-column: 1 / -1;
     grid-row: 5 / 6;
+  }
+  .circleIcon {
+    width: 1rem;
+    height: 1rem;
+    size: 10px;
   }
 }

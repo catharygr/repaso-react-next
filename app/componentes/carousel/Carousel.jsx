@@ -40,7 +40,10 @@ export default function Carousel() {
           onClick={handlePrimerBtn}
         />
         <div className={styles.circleIcon}>
-          <Circle size={20} />
+          <Circle
+            size={20}
+            color="#888"
+          />
         </div>
 
         <ArrowRight
