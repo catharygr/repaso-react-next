@@ -35,7 +35,7 @@ export default function Carousel() {
       </div>
       <div className={styles.contenidoBotonesControl}>
         <ArrowLeft
-          size={30}
+          size={25}
           color="blue"
           onClick={handlePrimerBtn}
         />
@@ -47,7 +47,7 @@ export default function Carousel() {
         </div>
 
         <ArrowRight
-          size={30}
+          size={25}
           color="blue"
           onClick={handleSegundoBtn}
         />
