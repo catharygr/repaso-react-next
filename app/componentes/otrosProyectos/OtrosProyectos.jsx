@@ -7,21 +7,24 @@ export function OtrosProyectos() {
   return (
     <div className={styles.containerExterior}>
       <aside className={styles.container}>
-        <div>
+        <div className={styles.contenido}>
           <h2>Sarajevo Tour</h2>
           <p>
             Sarajevo Tour es una aplicación web que te permite conocer los
-            lugares más emblemáticos de Sarajevo.
+            lugares más emblemáticos de Sarajevo. Sarajevo Tour es una
+            aplicación web que te permite conocer los lugares más emblemáticos
+            de Sarajevo.
           </p>
           <Link href="https://sarajevo-turismo.netlify.app">Ver proyecto</Link>
         </div>
         <Image
+          className={styles.imagenChicaDos}
           src={ChicaDos}
           alt="imagen"
           width={300}
           height={300}
         />
-        <div>
+        <div className={styles.contenido}>
           <h2>E-commerce: Mi Tienda</h2>
           <p>
             E-commerce es una aplicación web online que permite hacer compras
