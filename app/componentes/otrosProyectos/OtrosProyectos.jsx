@@ -25,7 +25,7 @@ export function OtrosProyectos() {
           <h2>E-commerce: Mi Tienda</h2>
           <p>
             E-commerce es una aplicación web online que permite hacer compras
-            sin tener que visitar una tienda física
+            sin tener que visitar una tienda física.
           </p>
           <Link href="https://opencells-ecommerce-lit-caty.netlify.app">
             Ver proyecto
