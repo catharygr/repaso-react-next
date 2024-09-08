@@ -15,7 +15,12 @@ export function OtrosProyectos() {
             aplicación web que te permite conocer los lugares más emblemáticos
             de Sarajevo.
           </p>
-          <Link href="https://sarajevo-turismo.netlify.app">Ver proyecto</Link>
+          <Link
+            className={styles.contenidoLink}
+            href="https://sarajevo-turismo.netlify.app"
+          >
+            Ver proyecto
+          </Link>
         </div>
         <Image
           className={styles.imagenChicaDos}
@@ -30,7 +35,10 @@ export function OtrosProyectos() {
             E-commerce es una aplicación web online que permite hacer compras
             sin tener que visitar una tienda física.
           </p>
-          <Link href="https://opencells-ecommerce-lit-caty.netlify.app">
+          <Link
+            className={styles.contenidoLink}
+            href="https://opencells-ecommerce-lit-caty.netlify.app"
+          >
             Ver proyecto
           </Link>
         </div>
