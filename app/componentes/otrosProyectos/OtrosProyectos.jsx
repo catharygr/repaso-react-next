@@ -5,23 +5,25 @@ import styles from "./OtrosProyectos.module.css";
 
 export function OtrosProyectos() {
   return (
-    <aside className={styles.container}>
-      <div>
-        <h2>Proyectos</h2>
-        <p>Descripción</p>
-        <Link href="#">Ver proyecto</Link>
-      </div>
-      <Image
-        src={ChicaDos}
-        alt="imagen"
-        width={300}
-        height={300}
-      />
-      <div>
-        <h2>Proyectos</h2>
-        <p>Descripción</p>
-        <Link href="#">Ver proyecto</Link>
-      </div>
-    </aside>
+    <div className={styles.containerExterior}>
+      <aside className={styles.container}>
+        <div>
+          <h2>Proyectos</h2>
+          <p>Descripción</p>
+          <Link href="#">Ver proyecto</Link>
+        </div>
+        <Image
+          src={ChicaDos}
+          alt="imagen"
+          width={300}
+          height={300}
+        />
+        <div>
+          <h2>Proyectos</h2>
+          <p>Descripción</p>
+          <Link href="#">Ver proyecto</Link>
+        </div>
+      </aside>
+    </div>
   );
 }
