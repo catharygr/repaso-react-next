@@ -31,7 +31,13 @@ export default function Carousel() {
         <h2>{titulo}</h2>
         <h3>{subTitulo}</h3>
         <p>{descripcion}</p>
-        <Link href="#">Más información</Link>
+        <Link
+          href="#"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Más información
+        </Link>
       </div>
       <div className={styles.contenidoBotonesControl}>
         <ArrowLeft
