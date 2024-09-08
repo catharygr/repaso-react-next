@@ -11,9 +11,7 @@ export function OtrosProyectos() {
           <h2>Sarajevo Tour</h2>
           <p>
             Sarajevo Tour es una aplicación web que te permite conocer los
-            lugares más emblemáticos de Sarajevo. Sarajevo Tour es una
-            aplicación web que te permite conocer los lugares más emblemáticos
-            de Sarajevo.
+            lugares más emblemáticos de Sarajevo.
           </p>
           <Link href="https://sarajevo-turismo.netlify.app">Ver proyecto</Link>
         </div>

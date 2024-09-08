@@ -41,6 +41,11 @@
   padding: 0.5rem 0.8rem;
   border-radius: 10px;
   text-decoration: none;
+  cursor: pointer;
+}
+
+.contenidoSuperior a:hover {
+  background-color: #ff7b9c;
 }
 
 .contenidoBotonesControl {
