@@ -18,7 +18,7 @@ export function OtrosProyectos() {
         <Image
           className={styles.imagenChicaDos}
           src={ChicaDos}
-          alt="imagen"
+          alt="imagen de una chica"
         />
         <div className={styles.contenido}>
           <h2>E-commerce: Mi Tienda</h2>

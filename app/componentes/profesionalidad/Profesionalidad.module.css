@@ -1,0 +1,22 @@
+.containerExterior {
+  width: 100%;
+  margin-top: 5rem;
+}
+
+.container {
+  width: min(100% - 6vw, 65rem);
+  margin-inline: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (min-width: 43rem) {
+  .container {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 2rem;
+  }
+}
