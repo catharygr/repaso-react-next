@@ -61,7 +61,7 @@ export default function Carousel() {
         src={imageUrl}
         width={200}
         height={200}
-        alt="Imagen de una jirafa"
+        alt="Imagenes ilustrativas"
       />
       <p className={styles.p}>Cualquier pregunta aquí</p>
       <div className={styles.contenidoIconos}>
