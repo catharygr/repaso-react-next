@@ -1,10 +1,11 @@
-import { Link } from "react-feather";
+import Link from "next/link";
 import Image from "next/image";
-import ChicaDos from "../../public/imagen/chica-2.svg";
+import ChicaDos from "../../../public/imagen/chica-2.svg";
+import styles from "./OtrosProyectos.module.css";
 
 export function OtrosProyectos() {
   return (
-    <aside>
+    <aside className={styles.container}>
       <div>
         <h2>Proyectos</h2>
         <p>Descripción</p>
