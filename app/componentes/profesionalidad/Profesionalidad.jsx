@@ -13,14 +13,13 @@ export function Profesionalidad() {
           correcta y eficiente, cumpliendo con las expectativas y necesidades
           del cliente.
         </p>
+        <div className={styles.PlantaUno}>
+          <Image
+            src={PlantaUno}
+            alt="Planta Uno"
+          />
+        </div>
       </div>
-      <div>
-        <Image
-          src={PlantaUno}
-          alt="Planta Uno"
-        />
-      </div>
-      ;
     </div>
   );
 }
