@@ -21,8 +21,6 @@ export function OtrosProyectos() {
           className={styles.imagenChicaDos}
           src={ChicaDos}
           alt="imagen"
-          width={300}
-          height={300}
         />
         <div className={styles.contenido}>
           <h2>E-commerce: Mi Tienda</h2>

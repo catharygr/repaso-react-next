@@ -22,10 +22,13 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: stretch;
+    gap: 1rem;
   }
   .imagenChicaDos {
-    transform: scale(1.4) translateY(-0.4rem);
+    transform: scale(1.4) translateY(-0.7rem);
     flex-grow: 0;
+    width: 5rem;
+    height: auto;
   }
 
   .contenido {
