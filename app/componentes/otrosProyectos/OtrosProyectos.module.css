@@ -17,6 +17,11 @@
   justify-content: center;
 }
 
+.imagenChicaDos {
+  width: 4rem;
+  height: auto;
+}
+
 @media (min-width: 43rem) {
   .container {
     flex-direction: row;
