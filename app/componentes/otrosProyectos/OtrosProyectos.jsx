@@ -8,9 +8,12 @@ export function OtrosProyectos() {
     <div className={styles.containerExterior}>
       <aside className={styles.container}>
         <div>
-          <h2>Proyectos</h2>
-          <p>Descripción</p>
-          <Link href="#">Ver proyecto</Link>
+          <h2>Sarajevo Tour</h2>
+          <p>
+            Sarajevo Tour es una aplicación web que te permite conocer los
+            lugares más emblemáticos de Sarajevo.
+          </p>
+          <Link href="https://sarajevo-turismo.netlify.app">Ver proyecto</Link>
         </div>
         <Image
           src={ChicaDos}
@@ -19,9 +22,14 @@ export function OtrosProyectos() {
           height={300}
         />
         <div>
-          <h2>Proyectos</h2>
-          <p>Descripción</p>
-          <Link href="#">Ver proyecto</Link>
+          <h2>E-commerce: Mi Tienda</h2>
+          <p>
+            E-commerce es una aplicación web online que permite hacer compras
+            sin tener que visitar una tienda física
+          </p>
+          <Link href="https://opencells-ecommerce-lit-caty.netlify.app">
+            Ver proyecto
+          </Link>
         </div>
       </aside>
     </div>
