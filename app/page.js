@@ -1,7 +1,7 @@
 import Carousel from "./componentes/carousel/Carousel";
 import { OtrosProyectos } from "./componentes/otrosProyectos/OtrosProyectos";
 import { Profesionalidad } from "./componentes/profesionalidad/Profesionalidad";
-import Image from "next/image";
+import { ProyectosSeleccionados } from "./componentes/otrosProyectos/ProyectosSeleccionados";
 import Regadera from "../public/imagen/regadera.svg";
 import styles from "./page.module.css";
 
@@ -17,6 +17,7 @@ export default function Home() {
       <Carousel />
       <OtrosProyectos />
       <Profesionalidad />
+      <ProyectosSeleccionados />
     </main>
   );
 }
