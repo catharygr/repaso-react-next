@@ -1,10 +1,9 @@
-.container {
+/* .container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #f3fbfe;
   border-radius: 10px;
-}
+  } */
 
 .h2 {
   font-size: 1.5rem;
@@ -13,6 +12,7 @@
 }
 
 .card {
+  background-color: #f3fbfe;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -33,10 +33,10 @@
 }
 
 @media (min-width: 43rem) {
-  .container {
+  /* .container {
     flex-direction: row;
     gap: 1rem;
-  }
+  } */
 
   .card {
     width: 15rem;
