@@ -1,0 +1,30 @@
+/*.container {
+  border-radius: 0.5rem;
+  container-type: inline-size;
+flex-basis: 18rem;
+  flex-grow: 1;
+  flex-shrink: 1;
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.1);
+  background-color: #fff; */
+
+/* 
+.card {
+  display: flex;
+  flex-direction: column;
+}
+
+.cardImg {
+  object-fit: cover;
+  object-position: top left;
+  aspect-ratio: 3 / 2;
+}
+
+@container (min-width: 30rem) {
+  .card {
+    flex-direction: row;
+  }
+  .cardImg {
+    max-width: 33%;
+    aspect-ratio: 3 / 4;
+  }
+} */

@@ -12,7 +12,7 @@ export default function CardProyecto({ contenido }) {
           alt="Imagen del proyecto"
           className={styles.cardImg}
         />
-        <div>
+        <div className={styles.cardContainer}>
           <h2>{titulo}</h2>
           <p>{descripcion}</p>
         </div>
