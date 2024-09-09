@@ -1,7 +1,7 @@
 import Carousel from "./componentes/carousel/Carousel";
 import { OtrosProyectos } from "./componentes/otrosProyectos/OtrosProyectos";
 import { Profesionalidad } from "./componentes/profesionalidad/Profesionalidad";
-import { ProyectosSeleccionados } from "./componentes/otrosProyectos/ProyectosSeleccionados";
+import { ProyectosSeleccionados } from "./componentes/proyectosSeleccionados/ProyectosSeleccionados";
 import Regadera from "../public/imagen/regadera.svg";
 import styles from "./page.module.css";
 
