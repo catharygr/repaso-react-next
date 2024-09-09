@@ -1,3 +1,10 @@
+import conocImg from "./imagenes/pac-man-tarjeta.png";
+import portaImg from "./imagenes/chat-tarjeta.png";
+import ecoImg from "./imagenes/mi-tienda.png";
+import formImg from "./imagenes/recordatorio-tarjeta.jpeg";
+import saraImg from "./imagenes/sarajevo-tours-tarjeta.png";
+import blancImg from "./imagenes/blancodent-tarjeta.jpg";
+
 export const carouselData = [
   {
     id: 1,
@@ -7,7 +14,7 @@ export const carouselData = [
       "¡Hola! Iniciada en el mundo de la programación como junior, con muchas ganas de llevar a cabo todo lo aprendido en diferentes bootcamps, como en las plataformas interactivas: Qualentum, Josh W Comeau's, Practical Accessibility con Sara Soueidan, Platzi, Scrimba, FreeCodeCamp.",
     url: "https://www.google.com",
     imageUrl: "/imagen/jirafa.svg",
-    img: ConocImg,
+    img: conocImg,
   },
   {
     id: 2,
@@ -17,7 +24,7 @@ export const carouselData = [
       "Desarrollado y diseñado por mi, utilizando React.js, Next.js, Vanilla CSS, frame-motion, y próximamente next-mdx-remote. El objetivo principal de este proyecto es mostrar mis habilidades de desarrollo web y diseño de interfaces de usuario.",
     url: "https://www.google.com",
     imageUrl: "/imagen/chica-1.svg",
-    img: PortaImg,
+    img: portaImg,
   },
   {
     id: 3,
@@ -27,7 +34,7 @@ export const carouselData = [
       "Desarrollada por mí, inspirada y orientada por el profesor 'Alejandro Castro' y todo lo aprendido en el bootcamp de Qualentum. Utilizando tecnologías como React, React Router y Redux.",
     url: "https://qualentum-ecommerce-catary.netlify.app",
     imageUrl: "/imagen/chica-1.svg",
-    img: EcoImg,
+    img: ecoImg,
   },
   {
     id: 4,
@@ -37,7 +44,7 @@ export const carouselData = [
       "Página web con diseño resposive desarrodada con React, Hooks más usados, firebase Auth, Storage y RealTime Database como Back-end",
     url: "https://multipage-form-caty.netlify.app",
     imageUrl: "/imagen/chica-1.svg",
-    img: FormImg,
+    img: formImg,
   },
   {
     id: 5,
@@ -47,7 +54,7 @@ export const carouselData = [
       "Mi primer proyecto desarrollado con JavaScript, práctica React-18, React-Router 6, Firebase Auth, irestore como Back-end y los Hook más usados.",
     url: "https://sarajevo-turismo.netlify.app",
     imageUrl: "/imagen/chica-1.svg",
-    img: SaraImg,
+    img: saraImg,
   },
   {
     id: 6,
@@ -57,6 +64,6 @@ export const carouselData = [
       "La página web de una clínica dental (cliente comercial) desarrollada con CSS, HTML y un poco de JS. La web original estaba en Squarespace y la he transferido a Netlify respectando el diseño original.",
     url: "https://blancodent.com",
     imageUrl: "/imagen/chica-1.svg",
-    img: BlancImg,
+    img: blancImg,
   },
 ];
