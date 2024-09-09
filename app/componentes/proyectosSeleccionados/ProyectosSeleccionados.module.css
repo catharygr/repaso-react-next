@@ -1,4 +1,4 @@
-.containerExterior {
+.proyectoWrapper {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -8,8 +8,8 @@
     #d6eef4 19.5%,
     #9bb5bd 100%
   );
-  width: 100%;
-  margin-top: 5rem;
+  gap: 1rem;
+  padding-block: (1rem, 4vw, 1.5rem);
 }
 
 .h1 {
@@ -18,6 +18,14 @@
   margin-top: 2rem;
   margin-bottom: 2rem;
   text-align: center;
+}
+
+.cardsContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding-bottom: calc(1em+ 0.5rem);
 }
 
 .boton {

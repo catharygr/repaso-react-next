@@ -1,13 +1,13 @@
-/*.container {
+/* .container {
   border-radius: 0.5rem;
   container-type: inline-size;
-flex-basis: 18rem;
+  flex-basis: 18rem;
   flex-grow: 1;
   flex-shrink: 1;
   box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.1);
-  background-color: #fff; */
+  background-color: #fff;
+}
 
-/* 
 .card {
   display: flex;
   flex-direction: column;
