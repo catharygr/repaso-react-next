@@ -36,11 +36,10 @@
   .container {
     flex-direction: row;
     gap: 1rem;
-    /* padding: 1rem; */
   }
 
   .card {
-    width: 20rem;
+    width: 15rem;
   }
 
   .cardImg {
