@@ -1,7 +1,7 @@
 import Image from "next/image";
 import styles from "./CardProyecto.module.css";
 
-export function CardProyecto({ contenido }) {
+export default function CardProyecto({ contenido }) {
   const { titulo, descripcion, img } = contenido;
   console.log(contenido);
   return (
