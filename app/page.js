@@ -4,6 +4,7 @@ import { Profesionalidad } from "./componentes/profesionalidad/Profesionalidad";
 import { ProyectosSeleccionados } from "./componentes/proyectosSeleccionados/ProyectosSeleccionados";
 import Regadera from "../public/imagen/regadera.svg";
 import styles from "./page.module.css";
+import { carouselData } from "./utilidades/tarjetas.jsx";
 
 export default function Home() {
   return (
@@ -17,7 +18,7 @@ export default function Home() {
       <Carousel />
       <OtrosProyectos />
       <Profesionalidad />
-      <ProyectosSeleccionados />
+      <ProyectosSeleccionados contenido={carouselData} />
     </main>
   );
 }

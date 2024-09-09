@@ -2,11 +2,19 @@ import styles from "./ProyectosSeleccionados.module.css";
 import CardProyecto from "../card/CardProyecto";
 
 export function ProyectosSeleccionados({ contenido }) {
+  console.log(contenido);
   return (
     <section className={styles.containerExterior}>
       <h1 className={styles.h1}>Proyectos Seleccionados</h1>
       <div className={styles.containerInterior}>
-        <div className="proyecto"></div>
+        <div className="proyecto">
+          {/* {contenido.map((proyecto) => (
+            <CardProyecto
+              key={proyecto.id}
+              contenido={proyecto}
+            />
+          ))} */}
+        </div>
       </div>
       <button className={styles.boton}>Todos los proyectos </button>
     </section>
