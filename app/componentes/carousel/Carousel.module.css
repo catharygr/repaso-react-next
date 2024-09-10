@@ -6,6 +6,7 @@
   grid-template-rows: repeat(4, auto);
   padding: 0.6rem;
   border-radius: 28px;
+  box-shadow: 0 5px 10px 0 #777;
 }
 
 .contenidoSuperiorColor {
@@ -43,7 +44,6 @@
   box-shadow: 0 5px 10px 0 #777;
   text-decoration: none;
   cursor: pointer;
-  font-size: 0.8rem;
 }
 
 .contenidoSuperior a:hover {
@@ -145,6 +145,10 @@
   .contenidoUl {
     grid-template-columns: repeat(3, 1fr);
     margin-top: 2rem;
+  }
+
+  .contenidoSuperior a {
+    font-size: 0.8rem;
   }
   .p {
     text-align: center;
