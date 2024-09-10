@@ -6,6 +6,7 @@ import { SobreMi } from "./componentes/sobreMi/SobreMi";
 import Regadera from "../public/imagen/regadera.svg";
 import styles from "./page.module.css";
 import { carouselData } from "./utilidades/tarjetas.jsx";
+import { contenidoData } from "./utilidades/tarjetas.jsx";
 
 export default function Home() {
   return (
@@ -20,7 +21,7 @@ export default function Home() {
       <OtrosProyectos />
       <Profesionalidad />
       <ProyectosSeleccionados contenido={carouselData} />
-      <SobreMi />
+      <SobreMi contenido={contenidoData} />
     </main>
   );
 }
