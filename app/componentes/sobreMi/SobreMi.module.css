@@ -13,6 +13,12 @@
 }
 
 .h1 {
-  font-size: 3rem;
+  font-size: 2rem;
   margin: 0;
+}
+
+@media (min-width: 43rem) {
+  .h1 {
+    font-size: 3rem;
+  }
 }
