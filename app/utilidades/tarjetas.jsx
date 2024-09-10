@@ -67,3 +67,36 @@ export const carouselData = [
     img: blancImg,
   },
 ];
+
+export const contenidoData = [
+  {
+    titulo: "Conocimientos",
+    descripcion:
+      "¡Hola! Iniciada en el mundo de la programación como junior, con muchas ganas de llevar a cabo todo lo aprendido en diferentes bootcamps, como en las plataformas interactivas: Qualentum, Josh W Comeau's, Practical Accessibility con Sara Soueidan, Platzi, Scrimba, FreeCodeCamp.",
+  },
+  {
+    titulo: "Habilidades",
+    descripcion:
+      "Desarrollado y diseñado por mi, utilizando React.js, Next.js, Vanilla CSS, frame-motion, y próximamente next-mdx-remote. El objetivo principal de este proyecto es mostrar mis habilidades de desarrollo web y diseño de interfaces de usuario.",
+  },
+  {
+    titulo: "Experiencia",
+    descripcion:
+      "Desarrolladora Web Front-End junior con conocimientos de React, Nextjs, React Router, JavaScript, CSS, HTML, Firebase y Accesibilidad web. A lo largo de mi trayectoria personal y profesional, he demostrado una firme determinación para alcanzar mis objetivos, como el de cambiar de profesión de economía a desarrollo web. Aprendo con rapidez y estoy comprometida a seguir evolucionando en este campo, buscando oportunidades como desarrolladora Front-End en una empresa que comparta mis valores y donde pueda continuar aprendiendo y aportando.",
+  },
+  {
+    titulo: "Educación",
+    descripcion:
+      "Graduada en Economía por la Universidad de las Palmas de Gran Canaria, España. Bootcamps en React.js, Next.js, JavaScript, CSS, HTML, Firebase, Accesibilidad web, entre otros. Cursos en plataformas interactivas como Qualentum, Josh W Comeau's, Practical Accessibility con Sara Soueidan, Platzi, Scrimba, FreeCodeCamp.",
+  },
+  {
+    titulo: "Intereses",
+    descripcion:
+      "Me apasiona la programación y el desarrollo web, el diseño de interfaces de usuario y la accesibilidad web. Me gusta aprender cosas nuevas, la música, el cine, la lectura, la fotografía, la naturaleza, el deporte y viajar.",
+  },
+  {
+    titulo: "Contacto",
+    descripcion:
+      "Si deseas contactar conmigo, puedes hacerlo a través de mi correo electrónico: trabajo@bubulazi.com o a través de mis redes sociales: LinkedIn, Twitter.",
+  },
+];
