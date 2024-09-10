@@ -40,8 +40,10 @@
   color: white;
   padding: 0.5rem 0.8rem;
   border-radius: 10px;
+  box-shadow: 0 5px 10px 0 #777;
   text-decoration: none;
   cursor: pointer;
+  font-size: 0.8rem;
 }
 
 .contenidoSuperior a:hover {

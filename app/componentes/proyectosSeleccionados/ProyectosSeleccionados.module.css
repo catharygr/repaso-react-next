@@ -37,4 +37,6 @@
   text-decoration: none;
   cursor: pointer;
   border-radius: 5px;
+  font-size: 1rem;
+  box-shadow: 0 5px 10px 0 #777;
 }
