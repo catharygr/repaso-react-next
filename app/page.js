@@ -2,6 +2,7 @@ import Carousel from "./componentes/carousel/Carousel";
 import { OtrosProyectos } from "./componentes/otrosProyectos/OtrosProyectos";
 import { Profesionalidad } from "./componentes/profesionalidad/Profesionalidad";
 import { ProyectosSeleccionados } from "./componentes/proyectosSeleccionados/ProyectosSeleccionados";
+import { SobreMi } from "./componentes/sobreMi/SobreMi";
 import Regadera from "../public/imagen/regadera.svg";
 import styles from "./page.module.css";
 import { carouselData } from "./utilidades/tarjetas.jsx";
@@ -19,6 +20,7 @@ export default function Home() {
       <OtrosProyectos />
       <Profesionalidad />
       <ProyectosSeleccionados contenido={carouselData} />
+      <SobreMi />
     </main>
   );
 }
