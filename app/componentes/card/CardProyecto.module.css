@@ -10,8 +10,6 @@
 }
 
 .card {
-  outline: 4px solid green;
-
   background-color: #f3fbfe;
   display: flex;
   flex-direction: column;
