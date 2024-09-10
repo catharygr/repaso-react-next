@@ -11,3 +11,8 @@
   gap: 3rem;
   padding-block: 5rem;
 }
+
+.h1 {
+  font-size: 3rem;
+  margin: 0;
+}
