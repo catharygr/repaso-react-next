@@ -2,7 +2,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   background-image: radial-gradient(
     49.05% 49.05% at 50.09% 50%,
     #d6eef4 19.5%,
@@ -21,11 +20,21 @@
 }
 
 .cardsContainer {
+  width: min(100% - 6vw, 65rem);
   display: flex;
-  align-items: stretch;
-  flex-direction: row;
   flex-wrap: wrap;
+  flex-direction: row;
   gap: 1rem;
+  outline: 10px solid red;
+}
+.cardsContainer > * {
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: min(100% - 6vw, 18rem);
+}
+.cardsContainer img {
+  width: 100%;
+  height: auto;
 }
 
 .boton {
