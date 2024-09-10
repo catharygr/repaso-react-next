@@ -9,6 +9,7 @@ export function SobreMi({ contenido }) {
       <div className={styles.divisor}>
         <h1 className={styles.h1}>¿Por qué a mi?</h1>
         <Image
+          className={styles.cebra}
           src={Cebra}
           alt="Imagen de una cebra"
           width={200}
