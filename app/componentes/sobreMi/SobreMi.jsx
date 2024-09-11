@@ -23,11 +23,6 @@ export function SobreMi({ contenido }) {
           />
         ))}
       </div>
-      <Image
-        className={styles.plantaDos}
-        src={PlantaDos}
-        alt="Imagen de una planta"
-      />
     </div>
   );
 }
