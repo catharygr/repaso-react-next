@@ -23,8 +23,9 @@
   border: none;
 }
 
-/* @media (min-width: 43rem) {
-  .icon svg {
-    width: 200px;
+@media (min-width: 43rem) {
+  .icon {
+    width: 40px;
+    height: 40px;
   }
-} */
+}

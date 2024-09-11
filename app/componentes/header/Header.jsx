@@ -17,7 +17,6 @@ export default function Header() {
           href="/"
         >
           <Home
-            // size={30}
             className={styles.icon}
             color="tomato"
           />
@@ -34,7 +33,7 @@ export default function Header() {
             <Menu
               aria-hidden="true"
               focusable="false"
-              size={30}
+              className={styles.icon}
               color="tomato"
               strokeWidth={4}
             />
