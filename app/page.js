@@ -3,6 +3,7 @@ import { OtrosProyectos } from "./componentes/otrosProyectos/OtrosProyectos";
 import { Profesionalidad } from "./componentes/profesionalidad/Profesionalidad";
 import { ProyectosSeleccionados } from "./componentes/proyectosSeleccionados/ProyectosSeleccionados";
 import { SobreMi } from "./componentes/sobreMi/SobreMi";
+import { UbicacionMapa } from "./componentes/miUbicacion/UbicacionMapa";
 import Regadera from "../public/imagen/regadera.svg";
 import styles from "./page.module.css";
 import { carouselData } from "./utilidades/tarjetas.jsx";
@@ -22,6 +23,7 @@ export default function Home() {
       <Profesionalidad />
       <ProyectosSeleccionados contenido={carouselData} />
       <SobreMi contenido={contenidoData} />
+      <UbicacionMapa />
     </main>
   );
 }
