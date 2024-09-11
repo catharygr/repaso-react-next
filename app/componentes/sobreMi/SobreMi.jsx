@@ -1,6 +1,7 @@
 import styles from "./SobreMi.module.css";
 import Image from "next/image";
 import Cebra from "../../../public/imagen/cebra.svg";
+import PlantaDos from "../../../public/imagen/planta-2.svg";
 import { CardContenido } from "./CardContenido";
 
 export function SobreMi({ contenido }) {
@@ -22,6 +23,11 @@ export function SobreMi({ contenido }) {
           />
         ))}
       </div>
+      <Image
+        className={styles.plantaDos}
+        src={PlantaDos}
+        alt="Imagen de una planta"
+      />
     </div>
   );
 }

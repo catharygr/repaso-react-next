@@ -25,6 +25,14 @@
   transform: translate(-70%, -110%);
 }
 
+.cardsContenido {
+  width: min(100% - 6vw, 65rem);
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 1rem;
+}
+
 @media (min-width: 43rem) {
   .h1 {
     font-size: 3rem;
