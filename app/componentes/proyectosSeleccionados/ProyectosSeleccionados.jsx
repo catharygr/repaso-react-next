@@ -1,7 +1,7 @@
 import styles from "./ProyectosSeleccionados.module.css";
 import CardProyecto from "../card";
 
-export function ProyectosSeleccionados({ contenido }) {
+export default function ProyectosSeleccionados({ contenido }) {
   return (
     <section className={styles.proyectoWrapper}>
       <h1 className={styles.h1}>Proyectos Seleccionados</h1>

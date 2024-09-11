@@ -2,7 +2,7 @@ import Image from "next/image";
 import PlantaUno from "../../../public/imagen/planta-1.svg";
 import styles from "./Profesionalidad.module.css";
 
-export function Profesionalidad() {
+export default function Profesionalidad() {
   return (
     <div className={styles.containerExterior}>
       <div className={styles.container}>
