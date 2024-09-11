@@ -3,7 +3,7 @@ import Image from "next/image";
 import Mapa from "../../../public/imagen/mapa.svg";
 export default function MiMapa() {
   return (
-    <section className={styles.container}>
+    <div className={styles.container}>
       <div className={styles.contenido}>
         <h1>EL mapa</h1>
         <p>Mi ubicación</p>
@@ -13,9 +13,9 @@ export default function MiMapa() {
         <button>Abrir en Apple maps</button>
         <button>Abrir en Google maps</button>
       </div>
-      <div>
+      <div className={styles.imgMapa}>
         <Image src={Mapa} />
       </div>
-    </section>
+    </div>
   );
 }

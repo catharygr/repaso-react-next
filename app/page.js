@@ -23,7 +23,7 @@ export default function Home() {
       <Profesionalidad />
       <ProyectosSeleccionados contenido={carouselData} />
       <SobreMi contenido={contenidoData} />
-      <MiMapa />
+      {/* <MiMapa /> */}
     </main>
   );
 }

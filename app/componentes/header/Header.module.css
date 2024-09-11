@@ -22,3 +22,9 @@
   background-color: #282c34;
   border: none;
 }
+
+@media (min-width: 43rem) {
+  .icon {
+    font-size: 30px;
+  }
+}
