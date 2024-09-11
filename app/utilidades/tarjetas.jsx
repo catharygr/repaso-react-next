@@ -82,7 +82,7 @@ export const contenidoData = [
   {
     titulo: "Experiencia",
     descripcion:
-      "Desarrolladora Web Front-End junior con conocimientos de React, Nextjs, React Router, JavaScript, CSS, HTML, Firebase y Accesibilidad web. A lo largo de mi trayectoria personal y profesional, he demostrado una firme determinación para alcanzar mis objetivos, como el de cambiar de profesión de economía a desarrollo web. Aprendo con rapidez y estoy comprometida a seguir evolucionando en este campo, buscando oportunidades como desarrolladora Front-End en una empresa que comparta mis valores y donde pueda continuar aprendiendo y aportando.",
+      "Desarrolladora Web Front-End junior con conocimientos de React, Nextjs, React Router, JavaScript, CSS, HTML, Firebase y Accesibilidad web. A lo largo de mi trayectoria personal y profesional, he demostrado una firme determinación para alcanzar mis objetivos, como el de cambiar de profesión de economía a desarrollo web. ",
   },
   {
     titulo: "Educación",

@@ -33,6 +33,12 @@
   gap: 1rem;
 }
 
+.cardsContenido > * {
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: min(100% - 6vw, 18rem);
+}
+
 @media (min-width: 43rem) {
   .h1 {
     font-size: 3rem;
