@@ -1,9 +1,9 @@
-import Carousel from "./componentes/carousel/Carousel";
-import { OtrosProyectos } from "./componentes/otrosProyectos/OtrosProyectos";
-import { Profesionalidad } from "./componentes/profesionalidad/Profesionalidad";
-import { ProyectosSeleccionados } from "./componentes/proyectosSeleccionados/ProyectosSeleccionados";
-import { SobreMi } from "./componentes/sobreMi/SobreMi";
-import { MiMapa } from "./componentes/miLocalizacion/MiMapa";
+import Carousel from "./componentes/carousel";
+import OtrosProyectos from "./componentes/otrosProyectos";
+import Profesionalidad from "./componentes/profesionalidad";
+import ProyectosSeleccionados from "./componentes/proyectosSeleccionados";
+import SobreMi from "./componentes/sobreMi";
+import MiMapa from "./componentes/miLocalizacion";
 import Regadera from "../public/imagen/regadera.svg";
 import styles from "./page.module.css";
 import { carouselData } from "./utilidades/tarjetas.jsx";

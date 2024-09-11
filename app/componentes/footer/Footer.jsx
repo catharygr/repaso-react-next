@@ -1,3 +1,4 @@
+import Link from "next/link";
 import styles from "./Footer.module.css";
 
 export default function Footer() {
@@ -7,7 +8,8 @@ export default function Footer() {
     <footer>
       <div className={styles.containerFooter}>
         <p className={styles.footer}>
-          Desarrollado en España <br /> ©{year}
+          Desarrollado en España por{" "}
+          <Link href="https://bubulazi.com">Bubulazi</Link> <br /> ©{year}
         </p>
       </div>
     </footer>

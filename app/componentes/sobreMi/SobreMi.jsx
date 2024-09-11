@@ -4,7 +4,7 @@ import Cebra from "../../../public/imagen/cebra.svg";
 import PlantaDos from "../../../public/imagen/planta-2.svg";
 import { CardContenido } from "./CardContenido";
 
-export function SobreMi({ contenido }) {
+export default function SobreMi({ contenido }) {
   return (
     <div className={styles.container}>
       <div className={styles.divisor}>

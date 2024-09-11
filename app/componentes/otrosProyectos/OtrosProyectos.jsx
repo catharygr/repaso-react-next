@@ -3,7 +3,7 @@ import Image from "next/image";
 import ChicaDos from "../../../public/imagen/chica-2.svg";
 import styles from "./OtrosProyectos.module.css";
 
-export function OtrosProyectos() {
+export default function OtrosProyectos() {
   return (
     <div className={styles.containerExterior}>
       <aside className={styles.container}>
