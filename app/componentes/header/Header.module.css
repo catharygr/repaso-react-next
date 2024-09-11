@@ -23,8 +23,8 @@
   border: none;
 }
 
-@media (min-width: 43rem) {
-  .icon {
-    font-size: 30px;
+/* @media (min-width: 43rem) {
+  .icon svg {
+    width: 200px;
   }
-}
+} */

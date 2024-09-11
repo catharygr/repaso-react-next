@@ -81,7 +81,6 @@ function CarouselItem({ tarjetaActual, data, setTarjetaActual }) {
       {data.map((item) => (
         <li
           key={item.id}
-          className={styles.contenidoLi}
           onClick={() => setTarjetaActual(item.id)}
         >
           <ChevronsUp
