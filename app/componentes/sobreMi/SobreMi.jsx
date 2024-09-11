@@ -12,8 +12,6 @@ export function SobreMi({ contenido }) {
           className={styles.cebra}
           src={Cebra}
           alt="Imagen de una cebra"
-          width={200}
-          height={200}
         />
       </div>
       <div className={styles.cardsContenido}>
