@@ -1,3 +1,14 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.h1 {
+  font-size: 2rem;
+  text-transform: uppercase;
+  text-align: center;
+}
+
 .imgMapa {
   max-width: 100%;
 }
