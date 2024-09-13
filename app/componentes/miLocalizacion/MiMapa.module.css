@@ -17,6 +17,9 @@
 
 .btnTelef {
   border: none;
+  border-bottom: 1px solid;
+  background: none;
+  font-size: 1rem;
 }
 
 @media (min-width: 43rem) {
