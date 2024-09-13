@@ -6,8 +6,14 @@ export default function MiMapa() {
     <div className={styles.container}>
       <div className={styles.contenido}>
         <h1 className={styles.h1}>EL mapa</h1>
-        <p className="">Mi ubicación: Las Palmas de Gran Canaria.</p>
-        <p>Teléfono: 666 666 666</p>
+        <p>
+          {" "}
+          <strong> Mi ubicación:</strong> Las Palmas de Gran Canaria.
+        </p>
+        <p>
+          <strong>Teléfono:</strong>{" "}
+          <button className={styles.btnTelef}>Tel: 666 666 666</button>
+        </p>
 
         <button>Abrir en Apple maps</button>
         <button>Abrir en Google maps</button>

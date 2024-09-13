@@ -15,6 +15,10 @@
   max-width: 100%;
 }
 
+.btnTelef {
+  border: none;
+}
+
 @media (min-width: 43rem) {
   .container {
     flex-direction: row;
