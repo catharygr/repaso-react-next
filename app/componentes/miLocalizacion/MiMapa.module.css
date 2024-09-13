@@ -7,8 +7,16 @@
   font-size: 2rem;
   text-transform: uppercase;
   text-align: center;
+  font-weight: 900;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 }
 
 .imgMapa {
   max-width: 100%;
+}
+
+@media (min-width: 43rem) {
+  .container {
+    flex-direction: row;
+  }
 }
