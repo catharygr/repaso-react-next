@@ -14,9 +14,10 @@ export default function MiMapa() {
           <strong>Teléfono:</strong>{" "}
           <button className={styles.btnTelef}>Tel: 666 666 666</button>
         </p>
-
-        <button>Abrir en Apple maps</button>
-        <button>Abrir en Google maps</button>
+        <div className={styles.containerBtn}>
+          <button className={styles.btnMapa}>Abrir en Apple maps</button>
+          <button className={styles.btnMapa}>Abrir en Google maps</button>
+        </div>
       </div>
       <div className={styles.imgMapa}>
         <Image src={Mapa} />
