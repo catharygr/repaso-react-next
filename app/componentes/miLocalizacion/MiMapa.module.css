@@ -47,5 +47,15 @@
 @media (min-width: 43rem) {
   .container {
     flex-direction: row;
+    gap: 4rem;
+  }
+  .h1 {
+    font-size: 3rem;
+    text-align: start;
+  }
+  .containerBtn {
+    align-items: flex-start;
+  }
+  .btnMapa {
   }
 }
