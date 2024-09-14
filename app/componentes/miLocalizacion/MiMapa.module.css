@@ -25,12 +25,15 @@
 .containerBtn {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   gap: 1rem;
   margin-bottom: 1rem;
 }
 
 .btnMapa {
   color: white;
+  width: 30%;
   background-color: #ea5b80;
   border: none;
   padding: 0.5rem 0.8rem;
@@ -38,7 +41,6 @@
   text-decoration: none;
   cursor: pointer;
   border-radius: 5px;
-  font-size: 1rem;
   box-shadow: 0 5px 10px 0 #777;
 }
 
