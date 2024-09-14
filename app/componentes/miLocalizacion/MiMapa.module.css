@@ -57,5 +57,6 @@
     align-items: flex-start;
   }
   .btnMapa {
+    width: 50%;
   }
 }
