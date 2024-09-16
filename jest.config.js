@@ -3,9 +3,8 @@
  * https://jestjs.io/docs/configuration
  */
 
-import   Config  from "jest";
-
-const config {
+import { config } from "next/dist/build/templates/pages";
+const config = {
   // All imported modules in your tests should be mocked automatically
   // automock: false,
 
