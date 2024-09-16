@@ -2,7 +2,7 @@
 import styles from "./Header.module.css";
 import { Home, Menu } from "react-feather";
 import Link from "next/link";
-import VisualHidden from "@/app/utilidades/VisualHidden";
+import VisualHidden from "";
 import { AnimatePresence } from "framer-motion";
 import useToggle from "@/app/utilidades/useToggle";
 import NavMenu from "@/app/componentes/menu/NavMenu";

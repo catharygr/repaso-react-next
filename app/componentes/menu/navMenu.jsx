@@ -36,7 +36,10 @@ export default function NavMenu({ setMenuLink }) {
   return (
     <ReactFocusLock>
       <RemoveScroll>
-        <div className={styles.navContainer}>
+        <div
+          data-testid="menu-orange"
+          className={styles.navContainer}
+        >
           <motion.div
             className={styles.navFondo}
             onClick={setMenuLink}
