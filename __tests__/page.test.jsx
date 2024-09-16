@@ -2,6 +2,7 @@ import "@testing-library/jest-dom";
 import { render, screen } from "@testing-library/react";
 
 import Carousel from "../app/componentes/carousel/Carousel";
+// import Formulario from "../app/practicas/formulario";
 
 test(" renders Cualquier pregunta aquí p", () => {
   render(<Carousel />);
