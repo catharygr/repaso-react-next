@@ -89,6 +89,7 @@ export default function NavMenu({ setMenuLink }) {
               className={styles.cerrarBtn}
             >
               <Cerrar
+                data-testid="cerrar-btn"
                 aria-hidden="true"
                 focusable="false"
                 className={styles.cerrarIcon}

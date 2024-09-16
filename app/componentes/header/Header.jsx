@@ -2,7 +2,7 @@
 import styles from "./Header.module.css";
 import { Home, Menu } from "react-feather";
 import Link from "next/link";
-import VisualHidden from "";
+import VisualHidden from "../../utilidades/VisualHidden";
 import { AnimatePresence } from "framer-motion";
 import useToggle from "@/app/utilidades/useToggle";
 import NavMenu from "@/app/componentes/menu/NavMenu";
@@ -26,6 +26,7 @@ export default function Header() {
           aria-label="Menu principal"
         >
           <button
+            data-testid="menu-btn"
             aria-expanded={menuLink}
             className={styles.btnMenu}
             onClick={setMenuLink}
