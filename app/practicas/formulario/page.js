@@ -26,6 +26,7 @@ export default function Formulario() {
         className={styles.input}
         type="text"
         data-testid="element-to-focus"
+        tabIndex="-1"
         id="nombre"
         name="nombre"
         value={form.nombre}
