@@ -1,14 +1,10 @@
 import "@testing-library/jest-dom";
 import { render, screen } from "@testing-library/react";
-import Page from "../app/componentes/Page";
 
-describe("Page", () => {
-  it("renders a heading", () => {
-    render(<Page />);
+import Carousel from "../app/componentes/carousel/Carousel";
 
-    const heading = screen.getByRole("heading", { level: 1 });
-
-    expect(heading).toBeInTheDocument();
-    expect(screen.getByTestId("button")).toBeDisabled();
-  });
+test(" renders Cualquier pregunta aquí p", () => {
+  render(<Carousel />);
+  const linkElement = screen.getByText(/Cualquier pregunta aquí/i);
+  expect(linkElement).toBeInTheDocument();
 });
