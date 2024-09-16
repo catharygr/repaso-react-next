@@ -1,10 +1,19 @@
 .container {
+  width: 100%;
+}
+
+.contenido {
+  width: min(100% - 6vw, 65rem);
+  margin-inline: auto;
+  margin-block: 5rem;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  width: 100%;
-  gap: 3rem;
-  padding-block: 5rem;
+}
+
+.columnIzq {
+  flex-grow: 2;
+  flex-shrink: 1;
+  flex-basis: 40%;
 }
 
 .h1 {
@@ -16,7 +25,11 @@
 }
 
 .imgMapa {
-  max-width: 100%;
+  width: 100%;
+  flex-grow: 3;
+  flex-shrink: 1;
+  flex-basis: 60%;
+  object-fit: cover;
 }
 
 .btnTelef {
@@ -33,6 +46,7 @@
   align-items: center;
   gap: 1rem;
   margin-bottom: 1rem;
+  width: 100%;
 }
 
 .btnMapa {
@@ -49,18 +63,20 @@
 }
 
 @media (min-width: 43rem) {
-  .container {
+  .contenido {
     flex-direction: row;
-    gap: 4rem;
+    gap: 2rem;
   }
+
   .h1 {
     font-size: 3rem;
-    text-align: start;
   }
+
   .containerBtn {
     align-items: flex-start;
   }
-  .btnMapa {
-    width: 50%;
-  }
+
+  /* .btnMapa {
+    width: 100%;
+  } */
 }
