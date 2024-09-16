@@ -62,7 +62,7 @@
   box-shadow: 0 5px 10px 0 #777;
 }
 
-@media (min-width: 43rem) {
+@media (min-width: 56rem) {
   .contenido {
     flex-direction: row;
     gap: 2rem;
@@ -70,13 +70,14 @@
 
   .h1 {
     font-size: 3rem;
+    text-align: left;
   }
 
   .containerBtn {
     align-items: flex-start;
   }
 
-  /* .btnMapa {
+  .btnMapa {
     width: 100%;
-  } */
+  }
 }
