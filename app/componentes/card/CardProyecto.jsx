@@ -2,7 +2,7 @@ import Image from "next/image";
 import styles from "./CardProyecto.module.css";
 
 export default function CardProyecto({ contenido }) {
-  const { titulo, descripcion, img } = contenido;
+  const { titulo, descripcion, img, url } = contenido;
 
   return (
     <div className={styles.container}>
