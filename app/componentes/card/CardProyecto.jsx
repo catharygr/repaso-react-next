@@ -9,6 +9,7 @@ export default function CardProyecto({ contenido }) {
     <Link
       href={url}
       className={styles.container}
+      target="_blank"
     >
       <div className={styles.card}>
         <Image

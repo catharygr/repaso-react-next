@@ -1,4 +1,4 @@
-import conocImg from "./imagenes/pac-man-tarjeta.png";
+import conocImg from "./imagenes/bubulazi-tarjeta.jpg";
 import portaImg from "./imagenes/chat-tarjeta.png";
 import ecoImg from "./imagenes/mi-tienda.png";
 import formImg from "./imagenes/recordatorio-tarjeta.jpeg";
@@ -12,17 +12,17 @@ export const carouselData = [
     subTitulo: "Herramientas",
     descripcion:
       "¡Hola! Iniciada en el mundo de la programación como junior, con muchas ganas de llevar a cabo todo lo aprendido en diferentes bootcamps, como en las plataformas interactivas: Qualentum, Josh W Comeau's, Practical Accessibility con Sara Soueidan, Platzi, Scrimba, FreeCodeCamp.",
-    url: "https://www.google.com",
+    url: "https://www.bubulazi.com",
     imageUrl: "/imagen/jirafa.svg",
     img: conocImg,
   },
   {
     id: 2,
-    titulo: "Portafolio",
+    titulo: "ChatGTP - Chat App",
     subTitulo: "Desarrollo Web",
     descripcion:
       "Desarrollado y diseñado por mi, utilizando React.js, Next.js, Vanilla CSS, frame-motion, y próximamente next-mdx-remote. El objetivo principal de este proyecto es mostrar mis habilidades de desarrollo web y diseño de interfaces de usuario.",
-    url: "https://www.google.com",
+    url: "https://listillo-openai.netlify.app/",
     imageUrl: "/imagen/chica-1.svg",
     img: portaImg,
   },
@@ -31,8 +31,8 @@ export const carouselData = [
     titulo: "E-commerce",
     subTitulo: "Desarrollo Web",
     descripcion:
-      "Desarrollada por mí, inspirada y orientada por el profesor 'Alejandro Castro' y todo lo aprendido en el bootcamp de Qualentum. Utilizando tecnologías como React, React Router y Redux.",
-    url: "https://qualentum-ecommerce-catary.netlify.app",
+      "Desarrollado con el framework Open Cells de BBVA. Entre sus funcionalidades destacan el diseño resposive, búsqueda integrada, carrito de compra, soporte para temas de color y traducción del contenido de castellano a inglés.",
+    url: "https://opencells-ecommerce-lit-caty.netlify.app/",
     imageUrl: "/imagen/chica-1.svg",
     img: ecoImg,
   },
