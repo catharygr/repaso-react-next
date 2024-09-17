@@ -7,11 +7,11 @@ export default function MiMapa() {
       <div className={styles.contenido}>
         <div className={styles.columnIzq}>
           <h1 className={styles.h1}>EL mapa</h1>
-          <p>
+          <p className={styles.p}>
             {" "}
             <strong> Mi ubicación:</strong> Las Palmas de Gran Canaria.
           </p>
-          <p>
+          <p className={styles.p}>
             <strong>Teléfono:</strong>{" "}
             <button className={styles.btnTelef}>Tel: 666 666 666</button>
           </p>
