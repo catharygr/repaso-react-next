@@ -1,16 +1,9 @@
-import Image from "next/image";
-import PlantaTres from "../../../public/imagen/planta-3.svg";
 import styles from "./portafolio.module.css";
 
 export default function Portafolio() {
   return (
-    <section>
-      <div>
-        <Image
-          className={styles.plantaTres}
-          src={PlantaTres}
-          alt="Planta 3"
-        />
+    <section className={styles.container}>
+      <div className={styles.img}>
         <h1>Portafolio personal</h1>
         <p>
           Mi Proyecto Portafolio es como mi tarjeta de presentación digital, un
