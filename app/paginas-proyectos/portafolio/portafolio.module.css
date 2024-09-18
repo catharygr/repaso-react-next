@@ -1,13 +1,16 @@
 .container {
   background-image: url("/imagen/planta-3.svg");
-  /* background-image: linear-gradient(
-    84.09deg,
-    #d5e7f1 47.31%,
-    rgba(213, 231, 241, 0) 98.07%
-  ); */
   background-size: cover;
   background-repeat: no-repeat;
-  /* background-position: right; */
+  /* background: rgb(213, 231, 241); */
+  background: linear-gradient(
+    90deg,
+    rgba(213, 231, 241, 1) 0%,
+    rgba(213, 231, 241, 1) 11%,
+    rgba(213, 231, 241, 0.4962359943977591) 21%,
+    rgba(213, 231, 241, 0) 33%,
+    rgba(213, 231, 241, 0) 100%
+  );
 }
 
 .contenido {
@@ -18,18 +21,13 @@
 }
 
 .h1 {
-  display: flex;
-  justify-content: center;
   font-weight: bold;
-  margin: 1rem 1rem 2rem 1rem;
   font-size: 3rem;
   text-transform: uppercase;
 }
 
 .p {
-  display: flex;
-  justify-content: center;
-  margin: 1rem 1rem 2rem 1rem;
+  margin-left: 5rem;
 }
 
 .infoStrong {
