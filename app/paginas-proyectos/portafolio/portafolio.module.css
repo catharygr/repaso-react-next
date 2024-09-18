@@ -2,7 +2,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-
   background-image: url("/imagen/planta-3.svg");
 }
 
@@ -12,5 +11,4 @@
     #d5e7f1 47.31%,
     rgba(213, 231, 241, 0) 98.07%
   );
-  width: 100%;
 }
