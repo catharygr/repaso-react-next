@@ -3,6 +3,10 @@
   flex-direction: column;
   align-items: center;
   background-image: url("/imagen/planta-3.svg");
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
 }
 
 .img {
@@ -11,10 +15,30 @@
     #d5e7f1 47.31%,
     rgba(213, 231, 241, 0) 98.07%
   );
+  width: 100%;
 }
 .h1 {
-  font-weight: bold;
-  margin: 3rem 2rem 4rem 2rem;
-  font-size: 4rem;
   text-align: center;
+  font-weight: bold;
+  margin: 1rem 1rem 2rem 1rem;
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+
+.p {
+  text-align: center;
+  margin: 0 1rem 2rem 1rem;
+}
+
+.infoStrong {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+@media (min-width: 43rem) {
+  .h1 {
+    font-size: 6rem;
+    margin: 3rem 10rem 4rem 2rem;
+  }
 }
