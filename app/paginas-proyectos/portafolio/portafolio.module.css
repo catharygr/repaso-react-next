@@ -1,16 +1,15 @@
 .container {
-  background-image: url("/imagen/planta-3.svg");
-  background-size: cover;
+  background-image: linear-gradient(
+      90deg,
+      rgba(213, 231, 241, 1) 0%,
+      rgba(213, 231, 241, 1) 11%,
+      rgba(213, 231, 241, 0.4962359943977591) 21%,
+      rgba(213, 231, 241, 0) 33%,
+      rgba(213, 231, 241, 0) 100%
+    ),
+    url("/imagen/planta-3.svg");
+  background-size: contain;
   background-repeat: no-repeat;
-  /* background: rgb(213, 231, 241); */
-  background: linear-gradient(
-    90deg,
-    rgba(213, 231, 241, 1) 0%,
-    rgba(213, 231, 241, 1) 11%,
-    rgba(213, 231, 241, 0.4962359943977591) 21%,
-    rgba(213, 231, 241, 0) 33%,
-    rgba(213, 231, 241, 0) 100%
-  );
 }
 
 .contenido {
@@ -24,6 +23,7 @@
   font-weight: bold;
   font-size: 3rem;
   text-transform: uppercase;
+  margin-bottom: none;
 }
 
 .p {
@@ -40,6 +40,9 @@
 @media (min-width: 43rem) {
   .h1 {
     font-size: 6rem;
-    margin: 4rem 5rem;
+    margin-bottom: 1rem;
+  }
+  .infoStrong {
+    margin-bottom: 1rem;
   }
 }
