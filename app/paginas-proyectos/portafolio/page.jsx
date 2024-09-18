@@ -4,7 +4,7 @@ export default function Portafolio() {
   return (
     <section className={styles.container}>
       <div className={styles.img}>
-        <h1>Portafolio personal</h1>
+        <h1 className="">Portafolio personal</h1>
         <p>
           Mi Proyecto Portafolio es como mi tarjeta de presentación digital, un
           rincón donde puedo mostrar al mundo mis creaciones y mi viaje en el
