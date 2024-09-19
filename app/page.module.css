@@ -6,6 +6,7 @@
   padding-block: 10rem;
   background-repeat: no-repeat;
   background-position: top right 10%;
+  min-height: 100%;
 }
 
 .h1 {
