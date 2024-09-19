@@ -81,3 +81,9 @@
   height: 16px;
   stroke-width: 3px;
 }
+
+@media (min-width: 43rem) {
+  .cerrarBtn {
+    font-size: 1.2rem;
+  }
+}
