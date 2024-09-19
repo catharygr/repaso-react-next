@@ -23,18 +23,16 @@
   font-weight: bold;
   font-size: 3rem;
   text-transform: uppercase;
-  margin-bottom: none;
+  margin-bottom: 0;
 }
 
 .p {
-  margin-left: 5rem;
 }
 
 .infoStrong {
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
-  gap: 0rem;
+  align-items: flex-start;
 }
 
 @media (min-width: 43rem) {
@@ -42,7 +40,11 @@
     font-size: 6rem;
     margin-bottom: 1rem;
   }
+  .p {
+    margin-left: 5rem;
+    font-size: 1.2rem;
+  }
   .infoStrong {
-    margin-bottom: 1rem;
+    margin-top: 0;
   }
 }

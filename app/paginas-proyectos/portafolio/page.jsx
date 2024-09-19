@@ -25,10 +25,8 @@ export default function Portafolio() {
         </p>
         <div className={styles.infoStrong}>
           <p>
-            <strong>Publicación: 24/1/2024</strong>
-          </p>
-          <p>
-            <strong>Actualización: {today}</strong>
+            <strong>Publicación:</strong>&nbsp;24/1/2024{" "}
+            <strong>Actualización:</strong>&nbsp;{today}
           </p>
         </div>
       </div>
