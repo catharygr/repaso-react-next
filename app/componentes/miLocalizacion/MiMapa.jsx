@@ -20,6 +20,11 @@ export default function MiMapa() {
             <button className={styles.btnMapa}>Abrir en Google maps</button>
           </div>
         </div>
+
+        <Image
+          className={styles.imgMapa}
+          src={Mapa}
+        />
       </div>
     </div>
   );
