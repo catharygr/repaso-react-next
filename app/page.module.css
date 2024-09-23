@@ -4,19 +4,25 @@
   flex-direction: column;
   justify-content: center;
   padding-block: 10rem;
-  background-repeat: no-repeat;
-  background-position: top right 10%;
   min-height: 100%;
 }
 
 .containerCarousel {
+  position: relative;
   max-width: min(90%, 50rem);
+}
+
+.regadera {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -1;
 }
 
 .h1 {
   text-align: center;
   font-size: 3rem;
-  z-index: 1;
+  /* z-index: 1; */
 }
 
 @media (max-width: 43rem) {

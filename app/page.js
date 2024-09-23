@@ -12,11 +12,12 @@ import Regadera from "../public/imagen/regadera.svg";
 
 export default function Home() {
   return (
-    <main
-      className={styles.main}
-    >
+    <main className={styles.main}>
       <div className={styles.containerCarousel}>
-        <Image className={} src={Regadera} />
+        <Image
+          className={styles.regadera}
+          src={Regadera}
+        />
         <h1 className={styles.h1}>Prácticas de React con Nextjs</h1>
         <Carousel />
       </div>
