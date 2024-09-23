@@ -44,7 +44,6 @@
     font-size: 1.2rem;
   }
   .infoStrong {
-    align-items: flex-end;
     border: 1px solid red;
   }
 }
