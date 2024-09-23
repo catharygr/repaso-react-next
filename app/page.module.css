@@ -9,6 +9,10 @@
   min-height: 100%;
 }
 
+.containerCarousel {
+  max-width: min(90%, 50rem);
+}
+
 .h1 {
   text-align: center;
   font-size: 3rem;

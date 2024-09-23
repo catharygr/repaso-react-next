@@ -8,6 +8,7 @@ import Regadera from "../public/imagen/regadera.svg";
 import styles from "./page.module.css";
 import { carouselData } from "./utilidades/tarjetas.jsx";
 import { contenidoData } from "./utilidades/tarjetas.jsx";
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -17,8 +18,10 @@ export default function Home() {
       }}
       className={styles.main}
     >
-      <h1 className={styles.h1}>Prácticas de React con Nextjs</h1>
-      <Carousel />
+      <div className={styles.containerCarousel}>
+        <h1 className={styles.h1}>Prácticas de React con Nextjs</h1>
+        <Carousel />
+      </div>
       <OtrosProyectos />
       <Profesionalidad />
       <ProyectosSeleccionados contenido={carouselData} />
