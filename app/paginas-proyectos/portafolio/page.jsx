@@ -27,12 +27,14 @@ export default function Portafolio() {
         </p>
         <div className={styles.infoStrong}>
           <p>
-            <strong>Publicación:</strong>&nbsp;24/1/2024{" "}
+            <strong>Autor:</strong>&nbsp;Catary García Rivas •{" "}
+            <strong>Categoría:</strong>&nbsp;Servicios •{" "}
+            <strong>Publicación:</strong>&nbsp;24/1/2024 •{" "}
             <strong>Actualización:</strong>&nbsp;{today}
           </p>
         </div>
       </div>
-      <div className={styles.containerInferior}>
+      {/* <div className={styles.containerInferior}>
         <div className={styles.contendioIzquierdo}>
           <Image src={imgPortafolio} />
           <h2>Titulo</h2>
@@ -98,7 +100,7 @@ export default function Portafolio() {
             del proyecto.
           </p>
         </div>
-      </div>
+      </div> */}
     </section>
   );
 }

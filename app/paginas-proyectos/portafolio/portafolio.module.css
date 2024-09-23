@@ -28,12 +28,6 @@
   letter-spacing: -1px;
 }
 
-.infoStrong {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-}
-
 @media (min-width: 43rem) {
   .h1 {
     font-size: 6rem;
@@ -44,6 +38,7 @@
     font-size: 1.2rem;
   }
   .infoStrong {
+    text-align: right;
     border: 1px solid red;
   }
 }
