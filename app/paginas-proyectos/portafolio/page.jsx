@@ -1,4 +1,6 @@
 import styles from "./portafolio.module.css";
+import Image from "next/image";
+import imgPortafolio from "../../../public/imagen/portafolio.jpg";
 
 export default function Portafolio() {
   const today = new Date().toLocaleDateString("es-ES", {
@@ -28,6 +30,31 @@ export default function Portafolio() {
             <strong>Publicación:</strong>&nbsp;24/1/2024{" "}
             <strong>Actualización:</strong>&nbsp;{today}
           </p>
+        </div>
+      </div>
+      <div>
+        <div>
+          <Image src={imgPortafolio} />
+          <h2>Titulo</h2>
+          <p>
+            Herramientas: Next.js CSS & HTML Javascript ES6 Figma Git & GitHub
+            Vercel
+          </p>
+          <h2>Propósito del proyecto</h2>
+          <p>
+            Este espacio representa una plataforma donde puedo exhibir mis
+            habilidades y conocimientos en programación, así como expresar mis
+            intereses a través de artículos y escritos.
+          </p>
+          <h2>Lecciones aprendidas</h2>
+          <p>
+            Estas experiencias me han enseñado la importancia de la
+            perseverancia y la preparación para superar los desafíos técnicos.
+          </p>
+        </div>
+        <div></div>
+        <div>
+          <h3></h3>
         </div>
       </div>
     </section>
