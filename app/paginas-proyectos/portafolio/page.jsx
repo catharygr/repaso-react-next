@@ -32,8 +32,8 @@ export default function Portafolio() {
           </p>
         </div>
       </div>
-      <div>
-        <div>
+      <div className={styles.containerInferior}>
+        <div className={styles.contendioIzquierdo}>
           <Image src={imgPortafolio} />
           <h2>Titulo</h2>
           <p>
@@ -52,9 +52,51 @@ export default function Portafolio() {
             perseverancia y la preparación para superar los desafíos técnicos.
           </p>
         </div>
-        <div></div>
-        <div>
-          <h3></h3>
+        <div className={styles.colorMedio}></div>
+        <div className={styles.contenidoDerecho}>
+          <h3>Mi papel en el proyecto</h3>
+          <p>
+            Con lo aprendido en el Bootcamp de Qualentum y con 'Joy of React' de
+            Joshua Comeau, he podido incorporar algunas ideas clave en la
+            estructura y funcionalidad del sitio.
+          </p>
+          <h3>Web stack y su explicación</h3>
+          <p>
+            Visual Studio Code: Utilizado como el principal entorno de
+            desarrollo para escribir y organizar el código de la aplicación.
+          </p>
+          <p>
+            Framework Nextjs: Empleado como el marco de trabajo principal para
+            el desarrollo de la aplicación web, proporcionando características
+            como el enrutamiento simplificado y el renderizado del lado del
+            servidor (SSR).
+          </p>
+          <p>Figma: diseño de UI y UX.</p>
+          <p>
+            React: Componentes reutilizables, props. Uso de renderizado
+            condicional. Control de formularios con estado a través de value y
+            onChange. useEffect para uso secundario como el tema de los colores.
+            El hook useState para el manejo de estado.
+          </p>
+          <p>
+            CSS Modules: Utilizados para el encapsulamiento de estilos CSS
+            dentro de componentes individuales, facilitando el mantenimiento y
+            la reutilización del código
+          </p>
+          <p>
+            Next-mdx-remote: Pendiente de implementar para el blog como la
+            siguiente versión, la idea es que lea los archivos markdown desde el
+            mismo servidor.
+          </p>
+          <p>
+            Vercel: Integrado con GitHub para la implementación continua de la
+            aplicación, permitiendo desplegar cambios de manera rápida y
+            sencilla.
+          </p>
+          <p>
+            Git y GitHub: Control de versiones y colaboración en el desarrollo
+            del proyecto.
+          </p>
         </div>
       </div>
     </section>
