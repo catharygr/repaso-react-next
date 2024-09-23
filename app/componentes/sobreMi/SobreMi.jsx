@@ -1,7 +1,6 @@
 import styles from "./SobreMi.module.css";
 import Image from "next/image";
 import Cebra from "../../../public/imagen/cebra.svg";
-import PlantaDos from "../../../public/imagen/planta-2.svg";
 import { CardContenido } from "./CardContenido";
 
 export default function SobreMi({ contenido }) {
@@ -16,9 +15,9 @@ export default function SobreMi({ contenido }) {
         />
       </div>
       <div className={styles.cardsContenido}>
-        {contenido.slice(0, 6).map((proyecto) => (
+        {contenido.slice(0, 6).map((proyecto, index) => (
           <CardContenido
-            key={proyecto.id}
+            key={proyecto.id || index}
             contenido={proyecto}
           />
         ))}
