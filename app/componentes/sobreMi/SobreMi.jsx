@@ -15,9 +15,9 @@ export default function SobreMi({ contenido }) {
         />
       </div>
       <div className={styles.cardsContenido}>
-        {contenido.slice(0, 6).map((proyecto, index) => (
+        {contenido.slice(0, 6).map((proyecto) => (
           <CardContenido
-            key={proyecto.id || index}
+            key={proyecto.id}
             contenido={proyecto}
           />
         ))}
