@@ -28,6 +28,25 @@
   letter-spacing: -1px;
 }
 
+.containerInferior {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+}
+
+.contendioIzquierdo {
+  grid-column: ;
+}
+
+.img {
+  width: 100%;
+  height: auto;
+}
+
+.colorMedio {
+  border: 20px solid #ffd5e0;
+}
+
 @media (min-width: 43rem) {
   .h1 {
     font-size: 6rem;

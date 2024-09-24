@@ -34,9 +34,12 @@ export default function Portafolio() {
           </p>
         </div>
       </div>
-      {/* <div className={styles.containerInferior}>
+      <div className={styles.containerInferior}>
         <div className={styles.contendioIzquierdo}>
-          <Image src={imgPortafolio} />
+          <Image
+            className={styles.img}
+            src={imgPortafolio}
+          />
           <h2>Titulo</h2>
           <p>
             Herramientas: Next.js CSS & HTML Javascript ES6 Figma Git & GitHub
@@ -100,7 +103,7 @@ export default function Portafolio() {
             del proyecto.
           </p>
         </div>
-      </div> */}
+      </div>
     </section>
   );
 }
