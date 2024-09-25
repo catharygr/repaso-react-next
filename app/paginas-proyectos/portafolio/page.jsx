@@ -40,7 +40,9 @@ export default function Portafolio() {
             className={styles.img}
             src={imgPortafolio}
           />
+
           <h2>Portafolio</h2>
+
           <p>
             Herramientas: Next.js CSS & HTML Javascript ES6 Figma Git & GitHub
             Vercel
