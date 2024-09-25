@@ -10,7 +10,7 @@ export default function Portafolio() {
   });
 
   return (
-    <section className={styles.container}>
+    <main className={styles.container}>
       <div className={styles.contenido}>
         <h1 className={styles.h1}>Portafolio personal</h1>
         <p className={styles.p}>
@@ -35,10 +35,11 @@ export default function Portafolio() {
         </div>
       </div>
       <div className={styles.containerInferior}>
-        <div className={styles.contendioIzquierdo}>
+        <aside className={styles.contendioIzquierdo}>
           <Image
             className={styles.img}
             src={imgPortafolio}
+            alt="Imagen del Portafolio"
           />
 
           <h2>Portafolio</h2>
@@ -58,9 +59,9 @@ export default function Portafolio() {
             Estas experiencias me han enseñado la importancia de la
             perseverancia y la preparación para superar los desafíos técnicos.
           </p>
-        </div>
+        </aside>
         <div className={styles.colorMedio}></div>
-        <div className={styles.contenidoDerecho}>
+        <article className={styles.contenidoDerecho}>
           <h3>Mi papel en el proyecto</h3>
           <p>
             Con lo aprendido en el Bootcamp de Qualentum y con 'Joy of React' de
@@ -104,8 +105,8 @@ export default function Portafolio() {
             Git y GitHub: Control de versiones y colaboración en el desarrollo
             del proyecto.
           </p>
-        </div>
+        </article>
       </div>
-    </section>
+    </main>
   );
 }
