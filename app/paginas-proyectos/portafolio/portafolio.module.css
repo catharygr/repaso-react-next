@@ -52,7 +52,7 @@
 
 .colorMedio {
   grid-column: 1/ 2;
-  border: 20px solid #ffd5e0;
+  border: 10px solid #ffd5e0;
 }
 
 .contenidoDerecho {
@@ -75,7 +75,7 @@
   .containerInferior {
     grid-template-columns: 1fr 1fr;
     padding: 5rem;
-    gap: 4rem;
+    gap: 2rem;
   }
 
   .img {
