@@ -10,7 +10,7 @@ export const metadata = {
 
 const monaSanzFont = localFont({
   src: "./assets/Mona-Sans.woff2",
-  display: "swap",
+  display: "fallback",
 });
 
 export default function RootLayout({ children }) {
