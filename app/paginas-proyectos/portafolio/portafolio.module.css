@@ -13,10 +13,10 @@
 }
 
 .contenido {
+  width: min(100% - 6vw, 65rem);
   display: flex;
   flex-direction: column;
   margin: 0 auto;
-  width: min(100% - 6vw, 65rem);
 }
 
 .h1 {
@@ -29,11 +29,12 @@
 }
 
 .containerInferior {
+  width: min(100% - 6vw, 65rem);
   display: grid;
   grid-template-rows: 1fr;
   grid-template-columns: 1fr;
   gap: 1rem;
-  margin: 1rem;
+  margin: 1rem auto;
 }
 
 .contendioIzquierdo {
@@ -74,7 +75,7 @@
   .containerInferior {
     grid-template-columns: 1fr 1fr;
     padding: 5rem;
-    gap: 2rem;
+    gap: 4rem;
   }
 
   .img {
