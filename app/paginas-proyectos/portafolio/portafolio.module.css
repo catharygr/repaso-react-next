@@ -16,7 +16,6 @@
   display: flex;
   flex-direction: column;
   margin: 0 auto;
-  height: auto;
 }
 
 .h1 {
@@ -47,7 +46,6 @@
   grid-template-rows: 1fr;
   grid-template-columns: 1fr;
   gap: 1rem;
-  margin: 1rem auto;
 }
 
 .contendioIzquierdo {
@@ -85,11 +83,15 @@
     text-align: right;
   }
 
+  .infoStrong p {
+    font-size: 1.2rem;
+  }
+
   .containerInferior {
     grid-template-columns: 1fr 1fr;
     padding: 5rem;
     gap: 2rem;
-    margin: 1rem auto;
+    margin: 0 auto;
   }
 
   .img {

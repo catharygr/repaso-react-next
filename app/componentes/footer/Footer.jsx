@@ -7,7 +7,7 @@ export default function Footer() {
   return (
     <footer>
       <div className={styles.containerFooter}>
-        <p className={styles.footer}>
+        <p className={styles.p}>
           Desarrollado en España por{" "}
           <Link href="https://bubulazi.com">Bubulazi</Link> <br /> ©{year}
         </p>
