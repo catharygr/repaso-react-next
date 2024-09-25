@@ -29,6 +29,18 @@
   color: #ea5b80;
 }
 
+.h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.h3 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
 .containerInferior {
   width: min(100% - 6vw, 65rem);
   display: grid;
@@ -97,5 +109,9 @@
   .contenidoDerecho {
     grid-column: 3/ 4;
     grid-row: 1/ 2;
+  }
+
+  .contenidoDerecho p {
+    font-size: 1.2rem;
   }
 }

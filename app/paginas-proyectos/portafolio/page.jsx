@@ -36,13 +36,13 @@ export default function Portafolio() {
       </div>
       <div className={styles.containerInferior}>
         <article className={styles.contenidoDerecho}>
-          <h3 className={styles.h3}>Mi papel en el proyecto</h3>
+          <h2 className={styles.h2}>Mi papel en el proyecto</h2>
           <p>
             Con lo aprendido en el Bootcamp de Qualentum y con 'Joy of React' de
             Joshua Comeau, he podido incorporar algunas ideas clave en la
             estructura y funcionalidad del sitio.
           </p>
-          <h3>Web stack y su explicación</h3>
+          <h2 className={styles.h2}>Web stack y su explicación</h2>
           <p>
             Visual Studio Code: Utilizado como el principal entorno de
             desarrollo para escribir y organizar el código de la aplicación.
@@ -88,19 +88,19 @@ export default function Portafolio() {
             alt="Imagen del Portafolio"
           />
 
-          <h2>Portafolio</h2>
+          <h3 className={styles.h3}>Portafolio</h3>
 
           <p>
             Herramientas: Next.js CSS & HTML Javascript ES6 Figma Git & GitHub
             Vercel
           </p>
-          <h2>Propósito del proyecto</h2>
+          <h3 className={styles.h3}>Propósito del proyecto</h3>
           <p>
             Este espacio representa una plataforma donde puedo exhibir mis
             habilidades y conocimientos en programación, así como expresar mis
             intereses a través de artículos y escritos.
           </p>
-          <h2>Lecciones aprendidas</h2>
+          <h3 className={styles.h3}>Lecciones aprendidas</h3>
           <p>
             Estas experiencias me han enseñado la importancia de la
             perseverancia y la preparación para superar los desafíos técnicos.
