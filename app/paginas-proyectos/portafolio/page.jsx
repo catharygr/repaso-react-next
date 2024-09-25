@@ -36,7 +36,7 @@ export default function Portafolio() {
       </div>
       <div className={styles.containerInferior}>
         <article className={styles.contenidoDerecho}>
-          <h3>Mi papel en el proyecto</h3>
+          <h3 className={styles.h3}>Mi papel en el proyecto</h3>
           <p>
             Con lo aprendido en el Bootcamp de Qualentum y con 'Joy of React' de
             Joshua Comeau, he podido incorporar algunas ideas clave en la
