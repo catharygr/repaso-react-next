@@ -35,32 +35,6 @@ export default function Portafolio() {
         </div>
       </div>
       <div className={styles.containerInferior}>
-        <aside className={styles.contendioIzquierdo}>
-          <Image
-            className={styles.img}
-            src={imgPortafolio}
-            alt="Imagen del Portafolio"
-          />
-
-          <h2>Portafolio</h2>
-
-          <p>
-            Herramientas: Next.js CSS & HTML Javascript ES6 Figma Git & GitHub
-            Vercel
-          </p>
-          <h2>Propósito del proyecto</h2>
-          <p>
-            Este espacio representa una plataforma donde puedo exhibir mis
-            habilidades y conocimientos en programación, así como expresar mis
-            intereses a través de artículos y escritos.
-          </p>
-          <h2>Lecciones aprendidas</h2>
-          <p>
-            Estas experiencias me han enseñado la importancia de la
-            perseverancia y la preparación para superar los desafíos técnicos.
-          </p>
-        </aside>
-        <div className={styles.colorMedio}></div>
         <article className={styles.contenidoDerecho}>
           <h3>Mi papel en el proyecto</h3>
           <p>
@@ -106,6 +80,32 @@ export default function Portafolio() {
             del proyecto.
           </p>
         </article>
+        <div className={styles.colorMedio}></div>
+        <aside className={styles.contendioIzquierdo}>
+          <Image
+            className={styles.img}
+            src={imgPortafolio}
+            alt="Imagen del Portafolio"
+          />
+
+          <h2>Portafolio</h2>
+
+          <p>
+            Herramientas: Next.js CSS & HTML Javascript ES6 Figma Git & GitHub
+            Vercel
+          </p>
+          <h2>Propósito del proyecto</h2>
+          <p>
+            Este espacio representa una plataforma donde puedo exhibir mis
+            habilidades y conocimientos en programación, así como expresar mis
+            intereses a través de artículos y escritos.
+          </p>
+          <h2>Lecciones aprendidas</h2>
+          <p>
+            Estas experiencias me han enseñado la importancia de la
+            perseverancia y la preparación para superar los desafíos técnicos.
+          </p>
+        </aside>
       </div>
     </main>
   );
