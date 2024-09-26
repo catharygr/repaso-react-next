@@ -49,7 +49,7 @@
 }
 
 .contendioIzquierdo {
-  grid-column: 1/ 3;
+  grid-column: 1/ 1;
 }
 
 .img {
@@ -88,14 +88,9 @@
   }
 
   .containerInferior {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 25% 20px 1fr;
     padding: 5rem;
-    gap: 2rem;
     margin: 0 auto;
-  }
-
-  .img {
-    width: 200px;
   }
 
   .contendioIzquierdo {
@@ -111,6 +106,13 @@
   .contenidoDerecho {
     grid-column: 3/ 4;
     grid-row: 1/ 2;
+
+    & :first-child {
+      margin-top: 0;
+    }
+    & :last-child {
+      margin-bottom: 0;
+    }
   }
 
   .contenidoDerecho p {
