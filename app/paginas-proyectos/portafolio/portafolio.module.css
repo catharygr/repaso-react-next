@@ -114,4 +114,8 @@
       margin-bottom: 0;
     }
   }
+
+  .contenidoDerecho p {
+    font-size: 1.2rem;
+  }
 }
