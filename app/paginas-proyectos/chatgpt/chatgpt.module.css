@@ -6,8 +6,7 @@
       rgba(213, 231, 241, 0.4962359943977591) 21%,
       rgba(213, 231, 241, 0) 100%
     ),
-    url("/imagen/chatgpt.svg");
-  /* background-image: url("/imagen/chatgpt.jpg"); */
+    url("/imagen/chatgpt.jpg");
   background-size: contain, 100%;
   background-repeat: no-repeat;
 }
@@ -26,19 +25,20 @@
   margin-bottom: 0;
   line-height: 1;
   letter-spacing: -1px;
-  color: #ea5b80;
 }
 
 .h2 {
   font-size: 1.5rem;
   font-weight: bold;
   margin-bottom: 1rem;
+  color: white;
 }
 
 .h3 {
   font-size: 1.2rem;
   font-weight: bold;
   margin-bottom: 1rem;
+  color: white;
 }
 
 .containerInferior {
