@@ -1,8 +1,8 @@
-import styles from "./portafolio.module.css";
+import styles from "./chatgpt.module.css";
 import Image from "next/image";
 import imgPortafolio from "../../../public/imagen/portafolio.jpg";
 
-export default function Portafolio() {
+export default function ChatGPT() {
   const today = new Date().toLocaleDateString("es-ES", {
     day: "numeric",
     month: "numeric",
