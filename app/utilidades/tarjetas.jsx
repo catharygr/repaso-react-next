@@ -1,4 +1,4 @@
-import conocImg from "./imagenes/bubulazi-tarjeta.jpg";
+import imgPortafolio from "./imagenes/portafolio.jpg";
 import portaImg from "./imagenes/chat-tarjeta.png";
 import ecoImg from "./imagenes/mi-tienda.png";
 import formImg from "./imagenes/recordatorio-tarjeta.jpeg";

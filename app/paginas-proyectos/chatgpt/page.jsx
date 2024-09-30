@@ -1,6 +1,6 @@
 import styles from "./chatgpt.module.css";
 import Image from "next/image";
-import imgPortafolio from "../../utilidades/imagenes/portafolio.jpg";
+import portaImg from "../../utilidades/imagenes/chat-tarjeta.jpg";
 
 export default function ChatGPT() {
   const today = new Date().toLocaleDateString("es-ES", {
@@ -84,8 +84,8 @@ export default function ChatGPT() {
         <aside className={styles.contendioIzquierdo}>
           <Image
             className={styles.img}
-            src={imgPortafolio}
-            alt="Imagen del Portafolio"
+            src={portaImg}
+            alt="Imagen del Chat"
           />
 
           <h3 className={styles.h3}>Portafolio</h3>
