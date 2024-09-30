@@ -6,7 +6,7 @@
       rgba(213, 231, 241, 0.4962359943977591) 21%,
       rgba(213, 231, 241, 0) 100%
     ),
-    url("/imagen/chatgpt.svg");
+    url("/imagen/chatgpt.png");
   background-size: contain, 100%;
   background-repeat: no-repeat;
 }
