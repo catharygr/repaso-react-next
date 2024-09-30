@@ -31,20 +31,16 @@ export default function ChatGPT() {
         <article className={styles.contenidoDerecho}>
           <h2 className={styles.h2}>Mi papel en el proyecto</h2>
           <p>
-            Con lo aprendido en el Bootcamp de Qualentum y con 'Joy of React' de
-            Joshua Comeau, he podido incorporar algunas ideas clave en la
-            estructura y funcionalidad del sitio.
+            Durante el Curso de Inteligencia Artificial en la Plataforma
+            Scrimba, adquirí habilidades en el desarrollo de aplicaciones web
+            interactivas con funcionalidades avanzadas. Aprendí a implementar
+            chatbots inteligentes, búsqueda de películas y procesamiento de
+            imágenes utilizando Firebase Database Realtime y autenticación.
           </p>
           <h2 className={styles.h2}>Web stack y su explicación</h2>
           <p>
             Visual Studio Code: Utilizado como el principal entorno de
             desarrollo para escribir y organizar el código de la aplicación.
-          </p>
-          <p>
-            Framework Nextjs: Empleado como el marco de trabajo principal para
-            el desarrollo de la aplicación web, proporcionando características
-            como el enrutamiento simplificado y el renderizado del lado del
-            servidor (SSR).
           </p>
           <p>Figma: diseño de UI y UX.</p>
           <p>
@@ -58,13 +54,9 @@ export default function ChatGPT() {
             dentro de componentes individuales, facilitando el mantenimiento y
             la reutilización del código
           </p>
+
           <p>
-            Next-mdx-remote: Pendiente de implementar para el blog como la
-            siguiente versión, la idea es que lea los archivos markdown desde el
-            mismo servidor.
-          </p>
-          <p>
-            Vercel: Integrado con GitHub para la implementación continua de la
+            Netlify: Integrado con GitHub para la implementación continua de la
             aplicación, permitiendo desplegar cambios de manera rápida y
             sencilla.
           </p>
@@ -81,22 +73,21 @@ export default function ChatGPT() {
             alt="Imagen del Chat"
           />
 
-          <h3 className={styles.h3}>Portafolio</h3>
+          <h3 className={styles.h3}>ChatGPT</h3>
 
           <p>
-            Herramientas: Next.js CSS & HTML Javascript ES6 Figma Git & GitHub
-            Vercel
+            Herramientas: CSS & HTML Javascript ES6 Figma Git & GitHub Netlify
           </p>
           <h3 className={styles.h3}>Propósito del proyecto</h3>
           <p>
-            Este espacio representa una plataforma donde puedo exhibir mis
-            habilidades y conocimientos en programación, así como expresar mis
-            intereses a través de artículos y escritos.
+            Mi enfoque se centra en la creación de aplicaciones innovadoras y
+            experienciales, utilizando tecnologías como React para construir
+            interfaces intuitivas y atractivas.
           </p>
           <h3 className={styles.h3}>Lecciones aprendidas</h3>
           <p>
-            Estas experiencias me han enseñado la importancia de la
-            perseverancia y la preparación para superar los desafíos técnicos.
+            Aprendí a gestionar claves de API y proteger la seguridad de los
+            datos al utilizar Netlify para guardar la OPE key
           </p>
         </aside>
       </div>
