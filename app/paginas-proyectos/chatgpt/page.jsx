@@ -1,6 +1,6 @@
 import styles from "./chatgpt.module.css";
 import Image from "next/image";
-import portaImg from "../../utilidades/imagenes/chat-tarjeta.jpg";
+import portaImg from "../../utilidades/imagenes/chat-tarjeta.png";
 
 export default function ChatGPT() {
   const today = new Date().toLocaleDateString("es-ES", {

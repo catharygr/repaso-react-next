@@ -22,7 +22,7 @@ export const carouselData = [
     subTitulo: "Desarrollo Web",
     descripcion:
       "Desarrollado y diseñado por mi, utilizando React.js, Next.js, Vanilla CSS, frame-motion, y próximamente next-mdx-remote. El objetivo principal de este proyecto es mostrar mis habilidades de desarrollo web y diseño de interfaces de usuario.",
-    url: "/paginas-proyectos/chat",
+    url: "/paginas-proyectos/chatgpt",
     imageUrl: "/imagen/chica-1.svg",
     img: portaImg,
   },
