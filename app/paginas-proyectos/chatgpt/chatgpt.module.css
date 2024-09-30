@@ -9,7 +9,6 @@
     url("/imagen/chatgpt.jpg");
   background-size: contain, 100%;
   background-repeat: no-repeat;
-  min-height: 100vh;
 }
 
 .contenido {
@@ -28,6 +27,7 @@
   letter-spacing: -1px;
   background-color: white;
   opacity: 0.7;
+  text-align: center;
 }
 
 .h2 {
@@ -87,6 +87,7 @@
     margin-bottom: 1rem;
   }
   .p {
+    margin-left: 5rem;
     font-size: 1.2rem;
   }
   .infoStrong {
@@ -100,7 +101,7 @@
   .containerInferior {
     grid-template-columns: 25% 20px 1fr;
     margin: 0 auto;
-    padding-top: 7rem;
+    padding-top: 10rem;
   }
 
   .contendioIzquierdo {
