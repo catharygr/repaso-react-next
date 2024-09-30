@@ -12,7 +12,7 @@ export default function ChatGPT() {
   return (
     <main className={styles.container}>
       <div className={styles.contenido}>
-        <h1 className={styles.h1}>Portafolio personal</h1>
+        <h1 className={styles.h1}>ChatGPT - App</h1>
         <p className={styles.p}>
           Mi Proyecto Portafolio es como mi tarjeta de presentación digital, un
           rincón donde puedo mostrar al mundo mis creaciones y mi viaje en el
@@ -29,7 +29,7 @@ export default function ChatGPT() {
           <p>
             <strong>Autor:</strong>&nbsp;Catary García Rivas •{" "}
             <strong>Categoría:</strong>&nbsp;Servicios •{" "}
-            <strong>Publicación:</strong>&nbsp;24/1/2024 •{" "}
+            <strong>Publicación:</strong>&nbsp;03/4/2024 •{" "}
             <strong>Actualización:</strong>&nbsp;{today}
           </p>
         </div>
