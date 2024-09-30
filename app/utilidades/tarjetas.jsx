@@ -18,11 +18,11 @@ export const carouselData = [
   },
   {
     id: 2,
-    titulo: "ChatGTP - Chat App",
+    titulo: "ChatGPT - Chat App",
     subTitulo: "Desarrollo Web",
     descripcion:
       "Desarrollado y diseñado por mi, utilizando React.js, Next.js, Vanilla CSS, frame-motion, y próximamente next-mdx-remote. El objetivo principal de este proyecto es mostrar mis habilidades de desarrollo web y diseño de interfaces de usuario.",
-    url: "/proyectos/chat",
+    url: "/paginas-proyectos/chat",
     imageUrl: "/imagen/chica-1.svg",
     img: portaImg,
   },
