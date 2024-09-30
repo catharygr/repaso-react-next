@@ -9,9 +9,4 @@ export const hamburguer_link = [
     text: "Contador",
     href: "/practicas/contador",
   },
-  {
-    slug: "z-index",
-    text: "Z-index",
-    href: "/practicas/z-index",
-  },
 ];
