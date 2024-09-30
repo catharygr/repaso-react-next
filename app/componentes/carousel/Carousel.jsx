@@ -33,7 +33,6 @@ export default function Carousel() {
         <p>{descripcion}</p>
         <Link
           href="#"
-          target="_blank"
           rel="noopener noreferrer"
         >
           Más información
