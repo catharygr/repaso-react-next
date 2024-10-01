@@ -1,4 +1,5 @@
 import styles from "./CardProyectoSmall.module.css";
+
 import Link from "next/link";
 
 export default function CardProyectoSmall({ contenido }) {
