@@ -32,7 +32,7 @@ export const carouselData = [
     subTitulo: "Desarrollo Web",
     descripcion:
       "Desarrollado con el framework Open Cells de BBVA. Entre sus funcionalidades destacan el diseño resposive, búsqueda integrada, carrito de compra, soporte para temas de color y traducción del contenido de castellano a inglés.",
-    url: "/proyectos/mi-tienda",
+    url: "/paginas-proyectos/mi-tienda",
     imageUrl: "/imagen/chica-1.svg",
     img: ecoImg,
   },

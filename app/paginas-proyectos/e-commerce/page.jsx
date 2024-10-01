@@ -1,8 +1,8 @@
-import styles from "./chatgpt.module.css";
+import styles from "./e-commerce.module.css";
 import Image from "next/image";
-import portaImg from "../../utilidades/imagenes/chat-tarjeta.png";
+import portaImg from "../../utilidades/imagenes/mi-tienda.png";
 
-export default function ChatGPT() {
+export default function Ecommerce() {
   const today = new Date().toLocaleDateString("es-ES", {
     day: "numeric",
     month: "numeric",
@@ -12,17 +12,18 @@ export default function ChatGPT() {
   return (
     <main className={styles.container}>
       <div className={styles.contenido}>
-        <h1 className={styles.h1}>ChatGPT - App</h1>
+        <h1 className={styles.h1}>E-commerce: Mi Tienda</h1>
         <p className={styles.p}>
-          Conexión con la API de OpenAI para crear un chatbot. Firebase RealTime
-          Database para Back-end y Auth. Netlify env variable para ocultar API
-          key. Netlify función para conectar con OpeAI y obtener las respuestas.
+          Desarrollado con el framework Open Cells de BBVA. Entre sus
+          funcionalidades destacan el diseño resposive, búsqueda integrada,
+          carrito de compra, soporte para temas de color y traducción del
+          contenido de castellano a inglés.
         </p>
         <div className={styles.infoStrong}>
           <p>
             <strong>Autor:</strong>&nbsp;Catary García Rivas •{" "}
             <strong>Categoría:</strong>&nbsp;Servicios •{" "}
-            <strong>Publicación:</strong>&nbsp;03/4/2024 •{" "}
+            <strong>Publicación:</strong>&nbsp;07/6/2024 •{" "}
             <strong>Actualización:</strong>&nbsp;{today}
           </p>
         </div>
