@@ -1,7 +1,15 @@
+"use client";
+import { useState } from "react";
 import styles from "./ProyectosSeleccionados.module.css";
 import CardProyecto from "../card";
+import CardProyectoSmall from "../card/CardProyectoSmall";
 
 export default function ProyectosSeleccionados({ contenido }) {
+  const [isAllProyectos, setIsAllProyectos] = useState(false);
+
+  const handleClick = () => {
+    setIsAllProyectos(!isAllProyectos);
+  };
   return (
     <section className={styles.proyectoWrapper}>
       <h1 className={styles.h1}>Proyectos Seleccionados</h1>
@@ -13,14 +21,20 @@ export default function ProyectosSeleccionados({ contenido }) {
             contenido={proyecto}
           />
         ))}
-        {contenido.slice(0, 3).map((proyecto) => (
-          <CardProyecto
-            key={proyecto.id}
-            contenido={proyecto}
-          />
-        ))}
+        {isAllProyectos &&
+          contenido.slice(3, 6).map((proyecto) => (
+            <CardProyectoSmall
+              key={proyecto.id}
+              contenido={proyecto}
+            />
+          ))}
       </div>
-      <button className={styles.boton}>Todos los proyectos </button>
+      <button
+        onClick={handleClick}
+        className={styles.boton}
+      >
+        {isAllProyectos ? "Ver menos proyectos" : "Todos los proyectos"}
+      </button>
     </section>
   );
 }
