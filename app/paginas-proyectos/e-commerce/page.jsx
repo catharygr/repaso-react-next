@@ -14,10 +14,16 @@ export default function Ecommerce() {
       <div className={styles.contenido}>
         <h1 className={styles.h1}>E-commerce</h1>
         <p className={styles.p}>
-          Desarrollado con el framework Open Cells de BBVA. Entre sus
-          funcionalidades destacan el diseño resposive, búsqueda integrada,
-          carrito de compra, soporte para temas de color y traducción del
-          contenido de castellano a inglés.
+          ¡Bienvenido a E-commerce: Mi tienda! Este proyecto, lo he desarrollado
+          con el framework Open Cells de BBVA, utilizando la librería LitElement
+          y Material Design para crear una experiencia de usuario fluida y
+          atractiva, tanto en ordenadores como en dispositivos móviles. Entre
+          las principales características se incluyen una búsqueda integrada, un
+          menú tipo hamburguesa para móviles, gestión de favoritos, un carrito
+          de compras, soporte para temas de color personalizados y la opción de
+          traducir el contenido del español al inglés. Como backend, he
+          utilizado Firebase para datos y autenticación, y he desplegado la
+          aplicación en Netlify para su acceso en vivo.
         </p>
         <div className={styles.infoStrong}>
           <p>
@@ -32,38 +38,40 @@ export default function Ecommerce() {
         <article className={styles.contenidoDerecho}>
           <h2 className={styles.h2}>Mi papel en el proyecto</h2>
           <p>
-            Durante el Curso de Inteligencia Artificial en la Plataforma
-            Scrimba, adquirí habilidades en el desarrollo de aplicaciones web
-            interactivas con funcionalidades avanzadas. Aprendí a implementar
-            chatbots inteligentes, búsqueda de películas y procesamiento de
-            imágenes utilizando Firebase Database Realtime y autenticación.
+            Investigar y aprender sobre la tecnologías como Open Cells,
+            LitElement y Web Components en general. Diseñar y desarrollar una
+            aplicación utilizando Material Design y CSS personalizado.
+            Documentar el proceso de aprendizaje y desarrollo. Resolver
+            problemas y depurar errores durante el desarrollo.
           </p>
           <h2 className={styles.h2}>Web stack y su explicación</h2>
           <p>
-            Visual Studio Code: Utilizado como el principal entorno de
-            desarrollo para escribir y organizar el código de la aplicación.
-          </p>
-          <p>Figma: diseño de UI y UX.</p>
-          <p>
-            React: Componentes reutilizables, props. Uso de renderizado
-            condicional. Control de formularios con estado a través de value y
-            onChange. useEffect para uso secundario como el tema de los colores.
-            El hook useState para el manejo de estado.
+            Open Cells: Es un framework de desarrollo de aplicaciones web de
+            código abierto desarrollado por BBVA. Utiliza canales de
+            comunicación basados en la librería RxJS, y LitElement para las
+            páginas web. Tiene su propio router y i18n para la
+            internacionalización.
           </p>
           <p>
-            CSS Modules: Utilizados para el encapsulamiento de estilos CSS
-            dentro de componentes individuales, facilitando el mantenimiento y
-            la reutilización del código
+            LitElement: Es una librería de desarrollo de aplicaciones web basada
+            en Web Components. Permite crear componentes web reutilizables y
+            personalizables con un enfoque en la simplicidad y el rendimiento.
+          </p>
+          <p>
+            Material Design: Es un sistema de diseño desarrollado por Google que
+            se centra en la creación de interfaces de usuario. Proporciona una
+            serie de directrices y componentes para facilitar el diseño y
+            desarrollo de aplicaciones web y móviles.
+          </p>
+          <p>
+            JSON Server & Firebase: Se ha utilizado como servidor durante
+            desarrollo. Luego he pasado los datos y la autenticación a Firebase
+            y he publicado la app en Netlify.
           </p>
 
           <p>
-            Netlify: Integrado con GitHub para la implementación continua de la
-            aplicación, permitiendo desplegar cambios de manera rápida y
-            sencilla.
-          </p>
-          <p>
-            Git y GitHub: Control de versiones y colaboración en el desarrollo
-            del proyecto.
+            Git & GitHub: Commits, Branches, Merge, Restore, Push. También
+            conexión con Netlify para despliegue continuo.
           </p>
         </article>
         <div className={styles.colorMedio}></div>
@@ -74,21 +82,24 @@ export default function Ecommerce() {
             alt="Imagen de la página web de E-commerce"
           />
 
-          <h3 className={styles.h3}>ChatGPT</h3>
+          <h3 className={styles.h3}>E-commerce</h3>
 
           <p>
-            Herramientas: CSS & HTML Javascript ES6 Figma Git & GitHub Netlify
+            Herramientas: Open Cells LitElement Material Design CSS & HTML
+            Javascript ES6 Firebase Git & GitHub Netlify.
           </p>
           <h3 className={styles.h3}>Propósito del proyecto</h3>
           <p>
-            Mi enfoque se centra en la creación de aplicaciones innovadoras y
-            experienciales, utilizando tecnologías como React para construir
-            interfaces intuitivas y atractivas.
+            He intentado desarrollar una buena experiencia de usuario mediante
+            una interfaz intuitiva y responsiva, que se adapte tanto a
+            dispositivos de escritorio como móviles. He incluido la navegación,
+            búsqueda de productos y gestión de los mismos para el usuario admin.
           </p>
           <h3 className={styles.h3}>Lecciones aprendidas</h3>
           <p>
-            Aprendí a gestionar claves de API y proteger la seguridad de los
-            datos al utilizar Netlify para guardar la OPE key
+            Durante el desarrollo de este proyecto, he aprendido mucho sobre el
+            framework Open Cells, así como sobre el desarrollo de aplicaciones
+            web con las librerías LitElement y Material Design.
           </p>
         </aside>
       </div>
