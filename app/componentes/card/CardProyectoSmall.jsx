@@ -6,28 +6,24 @@ export default function CardProyectoSmall({ contenido }) {
   const { titulo, descripcion, url } = contenido;
 
   return (
-    <AnimatePresence>
-      <motion.div
-        animate={{ x: "-100%" }}
-        transition={{
-          type: "spring",
-          stiffness: 300,
-          damping: 25,
-          duration: 0.5,
-        }}
-        exit={{ x: "0%" }}
-        className={styles.cardSmall}
-      >
-        <Link
-          href={url}
-          className={styles.container}
+    <Link
+      href={url}
+      className={styles.container}
+    >
+      <AnimatePresence>
+        <motion.div
+          className={styles.cardSmall}
+          initial={{ opacity: 0, y: -50 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 1 }}
+          // exit={{ opacity: 0, y: -50 }}
         >
           <div className={styles.cardContainer}>
             <h2 className={styles.h2}>{titulo}</h2>
             <p>{descripcion}</p>
           </div>
-        </Link>
-      </motion.div>
-    </AnimatePresence>
+        </motion.div>
+      </AnimatePresence>
+    </Link>
   );
 }

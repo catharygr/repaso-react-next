@@ -42,7 +42,7 @@ export const carouselData = [
     subTitulo: "Desarrollo Web",
     descripcion:
       "Página web con diseño resposive desarrodada con React, Hooks más usados, firebase Auth, Storage y RealTime Database como Back-end",
-    url: "/proyectos/formularios",
+    url: "/paginas-proyectos/formularios",
     imageUrl: "/imagen/chica-1.svg",
     img: formImg,
   },
@@ -52,7 +52,7 @@ export const carouselData = [
     subTitulo: "Desarrollo Web",
     descripcion:
       "Mi primer proyecto desarrollado con JavaScript, práctica React-18, React-Router 6, Firebase Auth, irestore como Back-end y los Hook más usados.",
-    url: "/proyectos/sarajevo-tours",
+    url: "/paginas-proyectos/sarajevo-tours",
     imageUrl: "/imagen/chica-1.svg",
     img: saraImg,
   },
@@ -62,7 +62,7 @@ export const carouselData = [
     subTitulo: "Desarrollo Web",
     descripcion:
       "La página web de una clínica dental (cliente comercial) desarrollada con CSS, HTML y un poco de JS. La web original estaba en Squarespace y la he transferido a Netlify respectando el diseño original.",
-    url: "/proyectos/blancodent",
+    url: "/paginas-proyectos/blancodent",
     imageUrl: "/imagen/chica-1.svg",
     img: blancImg,
   },
