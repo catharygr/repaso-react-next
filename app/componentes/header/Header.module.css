@@ -1,6 +1,8 @@
 .header {
-  background-color: #282c34;
-  border-bottom: 1px solid tomato;
+  /* background-color: #282c34;
+  border-bottom: 1px solid tomato; */
+  background: #8dabb3;
+
   position: sticky;
   top: 0;
   z-index: 10000;
