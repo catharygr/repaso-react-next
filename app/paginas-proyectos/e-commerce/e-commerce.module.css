@@ -1,0 +1,122 @@
+.container {
+  background-image: linear-gradient(
+      90deg,
+      rgba(213, 231, 241, 1) 0%,
+      rgba(213, 231, 241, 1) 11%,
+      rgba(213, 231, 241, 0.4962359943977591) 21%,
+      rgba(213, 231, 241, 0) 100%
+    ),
+    url("/imagen/planta-3.svg");
+  background-size: contain, 100%;
+  background-repeat: no-repeat;
+}
+
+.contenido {
+  width: min(100% - 6vw, 65rem);
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.h1 {
+  font-weight: bold;
+  font-size: 3rem;
+  text-transform: uppercase;
+  margin-bottom: 0;
+  line-height: 1;
+  letter-spacing: -1px;
+  color: #ea5b80;
+}
+
+.h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.h3 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.containerInferior {
+  width: min(100% - 6vw, 65rem);
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.contendioIzquierdo {
+  grid-column: 1/ 1;
+}
+
+.img {
+  width: 100%;
+  height: auto;
+  border: 4px solid white;
+  border-radius: 5px;
+  aspect-ratio: 2/1;
+  object-fit: cover;
+}
+
+.colorMedio {
+  grid-column: 1/ 2;
+  border: 10px solid #ffd5e0;
+}
+
+.contenidoDerecho {
+  grid-column: 1/1;
+}
+
+@media (min-width: 43rem) {
+  .h1 {
+    font-size: 6rem;
+    margin-bottom: 1rem;
+  }
+  .p {
+    margin-left: 5rem;
+    font-size: 1.2rem;
+  }
+  .infoStrong {
+    text-align: right;
+  }
+
+  .infoStrong p {
+    font-size: 1.2rem;
+  }
+
+  .containerInferior {
+    grid-template-columns: 25% 20px 1fr;
+    padding: 5rem;
+    margin: 0 auto;
+  }
+
+  .contendioIzquierdo {
+    grid-column: 1/ 2;
+    grid-row: 1/ 2;
+  }
+
+  .colorMedio {
+    grid-column: 2/ 3;
+    grid-row: 1/ 2;
+  }
+
+  .contenidoDerecho {
+    grid-column: 3/ 4;
+    grid-row: 1/ 2;
+
+    & :first-child {
+      margin-top: 0;
+    }
+    & :last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  .contenidoDerecho p {
+    font-size: 1.2rem;
+  }
+}
