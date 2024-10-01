@@ -13,14 +13,11 @@ export default function ChatGPT() {
     <main className={styles.container}>
       <div className={styles.contenido}>
         <h1 className={styles.h1}>ChatGPT - App</h1>
-        <div className={styles.p}>
-          <p>
-            Conexión con la API de OpenAI para crear un chatbot. Firebase
-            RealTime Database para Back-end y Auth. Netlify env variable para
-            ocultar API key. Netlify función para conectar con OpeAI y obtener
-            las respuestas.
-          </p>
-        </div>
+        <p className={styles.p}>
+          Conexión con la API de OpenAI para crear un chatbot. Firebase RealTime
+          Database para Back-end y Auth. Netlify env variable para ocultar API
+          key. Netlify función para conectar con OpeAI y obtener las respuestas.
+        </p>
         <div className={styles.infoStrong}>
           <p>
             <strong>Autor:</strong>&nbsp;Catary García Rivas •{" "}
