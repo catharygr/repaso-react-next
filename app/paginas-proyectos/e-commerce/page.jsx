@@ -1,6 +1,6 @@
 import styles from "./e-commerce.module.css";
 import Image from "next/image";
-import portaImg from "../../utilidades/imagenes/mi-tienda.png";
+import ecoImg from "../../utilidades/imagenes/mi-tienda.png";
 
 export default function Ecommerce() {
   const today = new Date().toLocaleDateString("es-ES", {
@@ -70,8 +70,8 @@ export default function Ecommerce() {
         <aside className={styles.contendioIzquierdo}>
           <Image
             className={styles.img}
-            src={portaImg}
-            alt="Imagen del Chat"
+            src={ecoImg}
+            alt="Imagen de la página web de E-commerce"
           />
 
           <h3 className={styles.h3}>ChatGPT</h3>
