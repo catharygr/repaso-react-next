@@ -25,7 +25,7 @@
   margin-bottom: 0;
   line-height: 1;
   letter-spacing: -1px;
-  text-align: center;
+  color: #ea5b80;
 }
 
 .h2 {
@@ -38,12 +38,6 @@
   font-size: 1.2rem;
   font-weight: bold;
   margin-bottom: 1rem;
-}
-
-.infoStrong,
-.p {
-  font-size: 1rem;
-  font-weight: bold;
 }
 
 .containerInferior {
@@ -96,8 +90,8 @@
 
   .containerInferior {
     grid-template-columns: 25% 20px 1fr;
+    padding: 5rem;
     margin: 0 auto;
-    padding-top: 10rem;
   }
 
   .contendioIzquierdo {
