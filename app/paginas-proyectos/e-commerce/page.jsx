@@ -12,7 +12,7 @@ export default function Ecommerce() {
   return (
     <main className={styles.container}>
       <div className={styles.contenido}>
-        <h1 className={styles.h1}>E-commerce: Mi Tienda</h1>
+        <h1 className={styles.h1}>E-commerce</h1>
         <p className={styles.p}>
           Desarrollado con el framework Open Cells de BBVA. Entre sus
           funcionalidades destacan el diseño resposive, búsqueda integrada,
