@@ -1,21 +1,28 @@
 import styles from "./CardProyectoSmall.module.css";
-
+import { motion, AnimatePresence } from "framer-motion";
 import Link from "next/link";
 
 export default function CardProyectoSmall({ contenido }) {
   const { titulo, descripcion, url } = contenido;
 
   return (
-    <Link
-      href={url}
-      className={styles.container}
-    >
-      <div className={styles.cardSmall}>
-        <div className={styles.cardContainer}>
-          <h2 className={styles.h2}>{titulo}</h2>
-          <p>{descripcion}</p>
-        </div>
-      </div>
-    </Link>
+    <AnimatePresence>
+      <motion.div
+        initial={{ opacity: 0, y: -50 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.5 }}
+        className={styles.cardSmall}
+      >
+        <Link
+          href={url}
+          className={styles.container}
+        >
+          <div className={styles.cardContainer}>
+            <h2 className={styles.h2}>{titulo}</h2>
+            <p>{descripcion}</p>
+          </div>
+        </Link>
+      </motion.div>
+    </AnimatePresence>
   );
 }

@@ -3,7 +3,6 @@ import { useState } from "react";
 import styles from "./ProyectosSeleccionados.module.css";
 import CardProyecto from "../card";
 import CardProyectoSmall from "../card/CardProyectoSmall";
-import { motion, AnimatePresence } from "framer-motion";
 
 export default function ProyectosSeleccionados({ contenido }) {
   const [isAllProyectos, setIsAllProyectos] = useState(false);
@@ -23,27 +22,15 @@ export default function ProyectosSeleccionados({ contenido }) {
           />
         ))}
       </div>
-      <AnimatePresence>
-        <motion.div
-          animate={{ x: "-100%" }}
-          transition={{
-            type: "spring",
-            stiffness: 300,
-            damping: 25,
-            duration: 0.5,
-          }}
-          exit={{ x: "0%" }}
-          className={styles.cardsContainer}
-        >
-          {isAllProyectos &&
-            contenido.slice(3, 6).map((proyecto) => (
-              <CardProyectoSmall
-                key={proyecto.id}
-                contenido={proyecto}
-              />
-            ))}
-        </motion.div>
-      </AnimatePresence>
+      <div className={styles.cardsContainer}>
+        {isAllProyectos &&
+          contenido.slice(3, 6).map((proyecto) => (
+            <CardProyectoSmall
+              key={proyecto.id}
+              contenido={proyecto}
+            />
+          ))}
+      </div>
       <button
         onClick={handleClick}
         className={styles.boton}
