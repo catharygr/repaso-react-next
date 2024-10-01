@@ -13,6 +13,12 @@ export default function ProyectosSeleccionados({ contenido }) {
             contenido={proyecto}
           />
         ))}
+        {contenido.slice(0, 3).map((proyecto) => (
+          <CardProyecto
+            key={proyecto.id}
+            contenido={proyecto}
+          />
+        ))}
       </div>
       <button className={styles.boton}>Todos los proyectos </button>
     </section>
