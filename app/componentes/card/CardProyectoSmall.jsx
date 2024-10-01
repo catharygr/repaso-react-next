@@ -8,9 +8,14 @@ export default function CardProyectoSmall({ contenido }) {
   return (
     <AnimatePresence>
       <motion.div
-        initial={{ opacity: 0, y: -50 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.5 }}
+        animate={{ x: "-100%" }}
+        transition={{
+          type: "spring",
+          stiffness: 300,
+          damping: 25,
+          duration: 0.5,
+        }}
+        exit={{ x: "0%" }}
         className={styles.cardSmall}
       >
         <Link
