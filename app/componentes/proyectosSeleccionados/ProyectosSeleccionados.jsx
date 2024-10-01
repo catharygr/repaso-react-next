@@ -33,13 +33,14 @@ export default function ProyectosSeleccionados({ contenido }) {
               />
             ))}
         </AnimatePresence>
-        <button
-          onClick={handleClick}
-          className={styles.boton}
-        >
-          Todos los proyectos
-        </button>
       </div>
+
+      <button
+        onClick={handleClick}
+        className={styles.boton}
+      >
+        Todos los proyectos
+      </button>
     </section>
   );
 }
