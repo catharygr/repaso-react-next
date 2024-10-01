@@ -1,5 +1,5 @@
 import styles from "./CardProyectoSmall.module.css";
-import { motion, AnimatePresence } from "framer-motion";
+import { motion } from "framer-motion";
 import Link from "next/link";
 
 export default function CardProyectoSmall({ contenido }) {
