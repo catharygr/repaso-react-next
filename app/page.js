@@ -17,6 +17,7 @@ export default function Home() {
         <Image
           className={styles.regadera}
           src={Regadera}
+          alt="Regadera de jardín"
         />
         <h1 className={styles.h1}>Prácticas de React con Nextjs</h1>
         <Carousel />

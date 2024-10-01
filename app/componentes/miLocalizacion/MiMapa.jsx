@@ -24,6 +24,7 @@ export default function MiMapa() {
         <Image
           className={styles.imgMapa}
           src={Mapa}
+          alt="Mapa de la isla de Gran Canaria"
         />
       </div>
     </div>

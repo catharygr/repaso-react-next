@@ -20,6 +20,8 @@
 
 .cebra {
   position: absolute;
+  height: auto;
+  width: auto;
   max-width: 180px;
   max-height: 130px;
   transform: translate(-70%, -110%);
