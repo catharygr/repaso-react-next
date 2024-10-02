@@ -80,20 +80,18 @@ export default function Blancodent() {
 
           <h3 className={styles.h3}>Clínica Dental Blancodent</h3>
 
-          <p>
-            Herramientas: CSS & HTML Javascript ES6 React React Router Firebase
-            Git & GitHub Netlifly.
-          </p>
+          <p>Herramientas: CSS & HTML Javascript ES6 Git & GitHub Netlifly.</p>
           <h3 className={styles.h3}>Propósito del proyecto</h3>
           <p>
-            Preparado en Figma para que todo fuera más fluido por mi compañero
-            que tiene experiencia en esta app y beneficiándonos del trabajo en
-            equipo.
+            En el proceso únicamente se ha añadido un nuevo segmento hero con
+            varias ofertas, la cual ayudará con la reorganización de la web e
+            implementación de un CMS.
           </p>
           <h3 className={styles.h3}>Lecciones aprendidas</h3>
           <p>
-            Trabajar en equipo ha sido una gran enseñanza, es de mucha ventaja
-            porque se reparte el trabajo y todo fluye de una manera organizada.
+            Revisar frecuentemente, si estamos avanzando en la dirección
+            correcta que necesitan nuestros clientes o si requiere que nos
+            adaptemos a ellos.
           </p>
         </aside>
       </div>
