@@ -81,14 +81,16 @@ export default function Formularios() {
           </p>
           <h3 className={styles.h3}>Propósito del proyecto</h3>
           <p>
-            Este espacio representa una plataforma donde puedo exhibir mis
-            habilidades y conocimientos en programación, así como expresar mis
-            intereses a través de artículos y escritos.
+            Los datos del formulario se almacenan en Firebase Realtime Database
+            en tiempo real, facilitando el acceso y la gestión de la
+            información.
           </p>
           <h3 className={styles.h3}>Lecciones aprendidas</h3>
           <p>
-            Estas experiencias me han enseñado la importancia de la
-            perseverancia y la preparación para superar los desafíos técnicos.
+            Mi contribución incluyó la implementación de componentes de React,
+            la configuración de Firebase, la realización de pruebas y la
+            solución de desafíos técnicos bajo la guía del desarrollador
+            principal.
           </p>
         </aside>
       </div>
