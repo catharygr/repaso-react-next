@@ -101,6 +101,19 @@
   border-radius: 50%;
 }
 
+.link {
+  justify-self: flex-end;
+  text-decoration: none;
+  background-color: #ea5b80;
+  box-shadow: 0 5px 10px 0 #777;
+  color: white;
+  padding: 0.5rem 0.8rem;
+  border-radius: 10px;
+  align-self: center;
+  cursor: pointer;
+  font-size: 0.8rem;
+}
+
 @media (max-width: 43rem) {
   .containerCarousel {
     grid-template-columns: 1fr;

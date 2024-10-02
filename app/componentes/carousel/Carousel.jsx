@@ -32,7 +32,7 @@ export default function Carousel() {
         <h3>{subTitulo}</h3>
         <p>{descripcion}</p>
         <Link
-          href="#"
+          href="/paginas-proyectos/portafolio"
           rel="noopener noreferrer"
         >
           Más información
@@ -63,7 +63,12 @@ export default function Carousel() {
         alt="Imagenes ilustrativas"
         priority
       />
-      <p className={styles.p}>Cualquier pregunta aquí</p>
+      <Link
+        href="#"
+        className={styles.link}
+      >
+        Contactar
+      </Link>
       <div className={styles.contenidoIconos}>
         <CarouselItem
           tarjetaActual={tarjetaActual}
