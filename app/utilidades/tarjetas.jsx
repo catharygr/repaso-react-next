@@ -18,7 +18,7 @@ export const carouselData = [
   },
   {
     id: 2,
-    titulo: "ChatGPT - App",
+    titulo: "ChatGPT",
     subTitulo: "Desarrollo Web",
     descripcion:
       "Desarrollado y diseñado por mi, utilizando React.js, Next.js, Vanilla CSS, frame-motion, y próximamente next-mdx-remote. El objetivo principal de este proyecto es mostrar mis habilidades de desarrollo web y diseño de interfaces de usuario.",
@@ -48,7 +48,7 @@ export const carouselData = [
   },
   {
     id: 5,
-    titulo: "Sarajevo Tours",
+    titulo: "SarajevoTours",
     subTitulo: "Desarrollo Web",
     descripcion:
       "Mi primer proyecto desarrollado con JavaScript, práctica React-18, React-Router 6, Firebase Auth, irestore como Back-end y los Hook más usados.",
