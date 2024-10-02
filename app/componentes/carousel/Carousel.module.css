@@ -36,17 +36,12 @@
   }
 }
 .contenidoSuperior a {
-  background-color: #ea5b80;
-  color: white;
-  padding: 0.5rem 0.8rem;
-  border-radius: 10px;
-  box-shadow: 0 5px 10px 0 #777;
-  text-decoration: none;
+  color: #ea5b80;
   cursor: pointer;
 }
 
 .contenidoSuperior a:hover {
-  background-color: #ff7b9c;
+  color: #ff7b9c;
 }
 
 .contenidoBotonesControl {
@@ -106,9 +101,17 @@
   grid-row: 3 / 4;
   justify-self: center;
   margin-block: 1rem;
-  font-size: 1.2rem;
-  font-weight: bold;
-  color: #ea5b80;
+  background-color: #ea5b80;
+  color: white;
+  padding: 0.5rem 0.8rem;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px 0 #777;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.link:hover {
+  background-color: #ff7b9c;
 }
 
 @media (max-width: 43rem) {
@@ -154,10 +157,6 @@
   .contenidoUl {
     grid-template-columns: repeat(3, 1fr);
     margin-top: 2rem;
-  }
-
-  .contenidoSuperior a {
-    font-size: 0.8rem;
   }
   .link {
     text-align: center;
