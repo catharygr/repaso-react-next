@@ -70,7 +70,7 @@ export default function Formularios() {
           <Image
             className={styles.img}
             src={formImg}
-            alt="Imagen del Portafolio"
+            alt="Imagen de la página web"
           />
 
           <h3 className={styles.h3}>Formularios</h3>
