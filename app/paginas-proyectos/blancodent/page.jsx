@@ -1,6 +1,6 @@
 import styles from "./blancodent.module.css";
 import Image from "next/image";
-import blancImg from "../../utilidades/imagenes/sarajevo-tours-tarjeta.png";
+import blancImg from "../../utilidades/imagenes/blancodent-tarjeta.jpg";
 
 export default function Blancodent() {
   const today = new Date().toLocaleDateString("es-ES", {
@@ -12,19 +12,20 @@ export default function Blancodent() {
   return (
     <main className={styles.container}>
       <div className={styles.contenido}>
-        <h1 className={styles.h1}>Sarajevo Tours</h1>
+        <h1 className={styles.h1}>Clínica Dental Blancodent</h1>
         <p className={styles.p}>
-          Proyecto Sarajevo Tours, página web muy devertida de una imaginaria
-          aplicación sobre una tienda online de venta de guias a turistas. He
-          aprendido mucho como primer proyecto utilizando react, react router,
-          firebase auth, firestore database como backend, componentes
-          controlados y carro de compra.
+          La web de la Clínica Dental Blancodent estaba publicada en squarespace
+          con una de sus plantilla y el diseño bien modificada. El deseo del
+          cliente era de mover la web a otra plataforma y en el proceso hacer
+          cambios en la organización del contenido, implementar un blog con un
+          nuevo CMS y finalmente introducir una tienda online para poder ofrecer
+          a los clientes descuentos y venta de servicios online.
         </p>
         <div className={styles.infoStrong}>
           <p>
             <strong>Autor:</strong>&nbsp;Catary García Rivas •{" "}
             <strong>Categoría:</strong>&nbsp;Servicios •{" "}
-            <strong>Publicación:</strong>&nbsp;26/8/2024 •{" "}
+            <strong>Publicación:</strong>&nbsp;06/9/2024 •{" "}
             <strong>Actualización:</strong>&nbsp;{today}
           </p>
         </div>
