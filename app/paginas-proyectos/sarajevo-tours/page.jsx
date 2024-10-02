@@ -14,22 +14,17 @@ export default function sarajevoTours() {
       <div className={styles.contenido}>
         <h1 className={styles.h1}>Sarajevo Tours</h1>
         <p className={styles.p}>
-          Mi Proyecto Portafolio es como mi tarjeta de presentación digital, un
-          rincón donde puedo mostrar al mundo mis creaciones y mi viaje en el
-          universo de la programación. Antes de esta página web, habia
-          desarrollado otra con HTML, CSS y JavaScript. Al terminar las
-          enseñanzas de este último bootcamp, he decidido construir una nueva
-          plataforma utilizando React y Next.js. Aquí muestro con orgullo cada
-          proyecto que he creado a lo largo de tres años de constante
-          aprendizaje. Aunque no se recomienda incluir el propio portafolio como
-          un proyecto, ¿Por qué no desafiar un poco las normas y mostrar lo que
-          he logrado?
+          Proyecto Sarajevo Tours, página web muy devertida de una imaginaria
+          aplicación sobre una tienda online de venta de guias a turistas. He
+          aprendido mucho como primer proyecto utilizando react, react router,
+          firebase auth, firestore database como backend, componentes
+          controlados y carro de compra.
         </p>
         <div className={styles.infoStrong}>
           <p>
             <strong>Autor:</strong>&nbsp;Catary García Rivas •{" "}
             <strong>Categoría:</strong>&nbsp;Servicios •{" "}
-            <strong>Publicación:</strong>&nbsp;24/1/2024 •{" "}
+            <strong>Publicación:</strong>&nbsp;26/8/2024 •{" "}
             <strong>Actualización:</strong>&nbsp;{today}
           </p>
         </div>
@@ -38,46 +33,46 @@ export default function sarajevoTours() {
         <article className={styles.contenidoDerecho}>
           <h2 className={styles.h2}>Mi papel en el proyecto</h2>
           <p>
-            Con lo aprendido en el Bootcamp de Qualentum y con 'Joy of React' de
-            Joshua Comeau, he podido incorporar algunas ideas clave en la
-            estructura y funcionalidad del sitio.
+            He sido de mucha ayuda y estoy contenta con el trabajo que he hecho
+            y con los errores que he cometido como principiante. Una buena
+            experincia en este mundo de la codificación.
           </p>
           <h2 className={styles.h2}>Web stack y su explicación</h2>
           <p>
-            Visual Studio Code: Utilizado como el principal entorno de
-            desarrollo para escribir y organizar el código de la aplicación.
+            A base del diseño que he recibido, he decidido usar las siguientes
+            herramientas para los componentes que contienen layout:
           </p>
           <p>
-            Framework Nextjs: Empleado como el marco de trabajo principal para
-            el desarrollo de la aplicación web, proporcionando características
-            como el enrutamiento simplificado y el renderizado del lado del
-            servidor (SSR).
-          </p>
-          <p>Figma: diseño de UI y UX.</p>
-          <p>
-            React: Componentes reutilizables, props. Uso de renderizado
-            condicional. Control de formularios con estado a través de value y
-            onChange. useEffect para uso secundario como el tema de los colores.
-            El hook useState para el manejo de estado.
+            CSS: He ustilizado display grid y flex, para algunos componentes, he
+            usado container-query que permite aplicar estilos a un elemento en
+            función del tamaño del contenedor del elemento. Las fuentes
+            variables la hemos usados para declaraciones de propiedades
+            personalizadas de titulos y párrafos.
           </p>
           <p>
-            CSS Modules: Utilizados para el encapsulamiento de estilos CSS
-            dentro de componentes individuales, facilitando el mantenimiento y
-            la reutilización del código.
+            React: Componentes, props, formularios con estado, useEffect,
+            useStates, createContext, useRef, createContext. Con el uso de los
+            componentes separamos el interfaz de usuario, reutilizándolos
+            pasandoles props. El formulario como un componente controlado. Usos
+            de los hook ms usados en react para una mejor renderización de la
+            web.
           </p>
           <p>
-            Next-mdx-remote: Pendiente de implementar para el blog como la
-            siguiente versión, la idea es que lea los archivos markdown desde el
-            mismo servidor.
+            React router: Usando rutas nidadas, rutas relativas, Outles, Link,
+            NavLink, parámetros de búsquedas, useLocation, redering condicional,
+            useNavigate.
           </p>
           <p>
-            Vercel: Integrado con GitHub para la implementación continua de la
-            aplicación, permitiendo desplegar cambios de manera rápida y
-            sencilla.
+            Firebase Iniciación de la app, colección, getFirestore, getDocs.
+            Autentificar, onAuthStateChanged, signInWithEmailAndPassword etc...
           </p>
           <p>
-            Git y GitHub: Control de versiones y colaboración en el desarrollo
-            del proyecto.
+            Git y GitHub: Uso continuo de git con varias ramas main/desarrollo y
+            con pull request via GitHub.
+          </p>
+          <p>
+            Netlify: Envio de formulario, redirección por el pushstate en react,
+            GitHub desplegado.
           </p>
         </article>
         <div className={styles.colorMedio}></div>
@@ -88,22 +83,22 @@ export default function sarajevoTours() {
             alt="Imagen de la página web"
           />
 
-          <h3 className={styles.h3}>Portafolio</h3>
+          <h3 className={styles.h3}>Sarajevo Tours</h3>
 
           <p>
-            Herramientas: Next.js CSS & HTML Javascript ES6 Figma Git & GitHub
-            Vercel.
+            Herramientas: CSS & HTML Javascript ES6 React React Router Firebase
+            Git & GitHub Netlifly.
           </p>
           <h3 className={styles.h3}>Propósito del proyecto</h3>
           <p>
-            Este espacio representa una plataforma donde puedo exhibir mis
-            habilidades y conocimientos en programación, así como expresar mis
-            intereses a través de artículos y escritos.
+            Preparado en Figma para que todo fuera más fluido por mi compañero
+            que tiene experiencia en esta app y beneficiándonos del trabajo en
+            equipo.
           </p>
           <h3 className={styles.h3}>Lecciones aprendidas</h3>
           <p>
-            Estas experiencias me han enseñado la importancia de la
-            perseverancia y la preparación para superar los desafíos técnicos.
+            Trabajar en equipo ha sido una gran enseñanza, es de mucha ventaja
+            porque se reparte el trabajo y todo fluye de una manera organizada.
           </p>
         </aside>
       </div>
