@@ -34,47 +34,41 @@ export default function Blancodent() {
         <article className={styles.contenidoDerecho}>
           <h2 className={styles.h2}>Mi papel en el proyecto</h2>
           <p>
-            He sido de mucha ayuda y estoy contenta con el trabajo que he hecho
-            y con los errores que he cometido como principiante. Una buena
-            experincia en este mundo de la codificación.
+            Mi papel en este proyecto ha sido encargarme de analizar el diseño
+            actual y transferirlo al nuevo código utilizando las últimas
+            tecnologías de CSS.
           </p>
           <h2 className={styles.h2}>Web stack y su explicación</h2>
           <p>
-            A base del diseño que he recibido, he decidido usar las siguientes
-            herramientas para los componentes que contienen layout:
+            Teniendo el diseño existente en la primera fase nos hemos enfocado
+            en lo siguiente:
           </p>
           <p>
-            CSS: He ustilizado display grid y flex, para algunos componentes, he
-            usado container-query que permite aplicar estilos a un elemento en
-            función del tamaño del contenedor del elemento. Las fuentes
-            variables la hemos usados para declaraciones de propiedades
-            personalizadas de titulos y párrafos.
+            HTML: El uso de las etiquetas semánticas como section, main,
+            article, nav... con la intención de hacer la página accesible desde
+            las primeras líneas del nuevo código.
           </p>
           <p>
-            React: Componentes, props, formularios con estado, useEffect,
-            useStates, createContext, useRef, createContext. Con el uso de los
-            componentes separamos el interfaz de usuario, reutilizándolos
-            pasandoles props. El formulario como un componente controlado. Usos
-            de los hook ms usados en react para una mejor renderización de la
-            web.
+            CSS: utilización de Flexbox y Grid por defecto para organizar layout
+            y transferir el diseño. Uso intensivo de variables CSS (con valores
+            por defecto) y de las clases útiles. Nuevas seudo clases como por
+            ejemplo :where() y :clamp().
           </p>
           <p>
-            React router: Usando rutas nidadas, rutas relativas, Outles, Link,
-            NavLink, parámetros de búsquedas, useLocation, redering condicional,
-            useNavigate.
+            Uso de las propiedades modernas como backdrop-filter, margin-inline,
+            aspect-ratio…
           </p>
           <p>
-            Firebase Iniciación de la app, colección, getFirestore, getDocs.
-            Autentificar, onAuthStateChanged, signInWithEmailAndPassword etc...
+            JS: Implementación de la navegación tipo hamburger en pantallas
+            pequeñas vía aria-hidden: y aria-selected: atributos para que sea
+            accesible vía teclado. También implementación de un carrusel en la
+            sección de hero con promociones.
           </p>
           <p>
             Git y GitHub: Uso continuo de git con varias ramas main/desarrollo y
             con pull request via GitHub.
           </p>
-          <p>
-            Netlify: Envio de formulario, redirección por el pushstate en react,
-            GitHub desplegado.
-          </p>
+          <p>Netlify: Conexión y deploy vía GitHub.</p>
         </article>
         <div className={styles.colorMedio}></div>
         <aside className={styles.contendioIzquierdo}>
@@ -84,7 +78,7 @@ export default function Blancodent() {
             alt="Imagen de la página web"
           />
 
-          <h3 className={styles.h3}>Sarajevo Tours</h3>
+          <h3 className={styles.h3}>Clínica Dental Blancodent</h3>
 
           <p>
             Herramientas: CSS & HTML Javascript ES6 React React Router Firebase
