@@ -49,6 +49,10 @@
   box-shadow: 0 5px 10px 0 #777;
 }
 
+.boton:hover {
+  background-color: #ff7b9c;
+}
+
 @media (min-width: 43rem) {
   .h1 {
     font-size: 3rem;
