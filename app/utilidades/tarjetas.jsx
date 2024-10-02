@@ -38,7 +38,7 @@ export const carouselData = [
   },
   {
     id: 4,
-    titulo: " Formularios",
+    titulo: "Formularios",
     subTitulo: "Desarrollo Web",
     descripcion:
       "Página web con diseño resposive desarrodada con React, Hooks más usados, firebase Auth, Storage y RealTime Database como Back-end",

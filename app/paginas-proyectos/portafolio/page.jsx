@@ -63,7 +63,7 @@ export default function Portafolio() {
           <p>
             CSS Modules: Utilizados para el encapsulamiento de estilos CSS
             dentro de componentes individuales, facilitando el mantenimiento y
-            la reutilización del código
+            la reutilización del código.
           </p>
           <p>
             Next-mdx-remote: Pendiente de implementar para el blog como la
@@ -92,7 +92,7 @@ export default function Portafolio() {
 
           <p>
             Herramientas: Next.js CSS & HTML Javascript ES6 Figma Git & GitHub
-            Vercel
+            Vercel.
           </p>
           <h3 className={styles.h3}>Propósito del proyecto</h3>
           <p>

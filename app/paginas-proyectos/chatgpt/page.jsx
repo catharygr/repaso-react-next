@@ -52,7 +52,7 @@ export default function ChatGPT() {
           <p>
             CSS Modules: Utilizados para el encapsulamiento de estilos CSS
             dentro de componentes individuales, facilitando el mantenimiento y
-            la reutilización del código
+            la reutilización del código.
           </p>
 
           <p>
@@ -76,7 +76,7 @@ export default function ChatGPT() {
           <h3 className={styles.h3}>ChatGPT</h3>
 
           <p>
-            Herramientas: CSS & HTML Javascript ES6 Figma Git & GitHub Netlify
+            Herramientas: CSS & HTML Javascript ES6 Figma Git & GitHub Netlify.
           </p>
           <h3 className={styles.h3}>Propósito del proyecto</h3>
           <p>
@@ -87,7 +87,7 @@ export default function ChatGPT() {
           <h3 className={styles.h3}>Lecciones aprendidas</h3>
           <p>
             Aprendí a gestionar claves de API y proteger la seguridad de los
-            datos al utilizar Netlify para guardar la OPE key
+            datos al utilizar Netlify para guardar la OPE key.
           </p>
         </aside>
       </div>
