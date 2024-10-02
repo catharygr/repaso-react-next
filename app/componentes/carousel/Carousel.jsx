@@ -61,6 +61,7 @@ export default function Carousel() {
         width={200}
         height={200}
         alt="Imagenes ilustrativas"
+        priority
       />
       <p className={styles.p}>Cualquier pregunta aquí</p>
       <div className={styles.contenidoIconos}>
@@ -74,7 +75,7 @@ export default function Carousel() {
   );
 }
 
-function CarouselItem({ tarjetaActual, data, setTarjetaActual }) {
+function CarouselItem({ data, setTarjetaActual }) {
   return (
     <ul className={styles.contenidoUl}>
       {data.map((item) => (
