@@ -56,7 +56,7 @@ export default function Blancodent() {
           </p>
           <p>
             Uso de las propiedades modernas como backdrop-filter, margin-inline,
-            aspect-ratio…
+            aspect-ratio...
           </p>
           <p>
             JS: Implementación de la navegación tipo hamburger en pantallas
