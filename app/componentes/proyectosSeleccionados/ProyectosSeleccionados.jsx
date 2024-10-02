@@ -3,7 +3,7 @@ import { useState } from "react";
 import styles from "./ProyectosSeleccionados.module.css";
 import CardProyecto from "../card";
 import CardProyectoSmall from "../card/CardProyectoSmall";
-import { AnimatePresence } from "framer-motion";
+import { AnimatePresence, motion } from "framer-motion";
 
 export default function ProyectosSeleccionados({ contenido }) {
   const [isAllProyectos, setIsAllProyectos] = useState(false);
@@ -34,13 +34,20 @@ export default function ProyectosSeleccionados({ contenido }) {
             ))}
         </AnimatePresence>
       </div>
-
-      <button
-        onClick={handleClick}
-        className={styles.boton}
-      >
-        Todos los proyectos
-      </button>
+      <AnimatePresence>
+        <motion.div
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 1 }}
+        >
+          <button
+            onClick={handleClick}
+            className={styles.boton}
+            key="boton"
+          >
+            Todos los proyectos
+          </button>
+        </motion.div>
+      </AnimatePresence>
     </section>
   );
 }
