@@ -10,7 +10,7 @@ export default function Carousel() {
   const [tarjetaActual, setTarjetaActual] = useState(1);
 
   const filtrado = carouselData.filter((card) => card.id === tarjetaActual);
-  const { id, titulo, subTitulo, descripcion, url, imageUrl } = filtrado[0];
+  const { titulo, subTitulo, descripcion, imageUrl } = filtrado[0];
 
   const handlePrimerBtn = () => {
     tarjetaActual === 1
