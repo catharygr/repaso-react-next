@@ -102,16 +102,18 @@
 }
 
 .link {
-  justify-self: flex-end;
+  grid-column: 1 / -1;
+  grid-row: 3 / 4;
+  justify-self: center;
   text-decoration: none;
   background-color: #ea5b80;
   box-shadow: 0 5px 10px 0 #777;
   color: white;
   padding: 0.5rem 0.8rem;
   border-radius: 10px;
-  align-self: center;
   cursor: pointer;
   font-size: 0.8rem;
+  margin-block: 2rem;
 }
 
 @media (max-width: 43rem) {
