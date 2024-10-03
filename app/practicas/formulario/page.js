@@ -40,6 +40,7 @@ export default function Formulario() {
         name="email"
         value={form.email}
         onChange={(e) => setForm({ ...form, email: e.target.value })}
+        required={true}
       />
       <label htmlFor="mensaje">Mensaje:</label>
       <textarea
@@ -48,6 +49,7 @@ export default function Formulario() {
         name="mensaje"
         value={form.mensaje}
         onChange={(e) => setForm({ ...form, mensaje: e.target.value })}
+        required={true}
       ></textarea>
       <button
         className={styles.btnFormulario}
