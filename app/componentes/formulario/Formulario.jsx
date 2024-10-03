@@ -19,6 +19,7 @@ export default function Formulario() {
       email: form.email,
       mensaje: form.mensaje,
     };
+  }
 
   return (
     <section
