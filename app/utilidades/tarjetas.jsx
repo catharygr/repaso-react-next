@@ -102,7 +102,27 @@ export const contenidoData = [
   {
     id: 6,
     titulo: "Contacto",
-    descripcion:
-      "Si deseas contactar conmigo, puedes hacerlo a través de mi correo electrónico: trabajo@bubulazi.com o a través de mis redes sociales: LinkedIn, Twitter.",
+    descripcion: (
+      <>
+        Si deseas contactar conmigo, puedes hacerlo a través del formulario:{" "}
+        <a href="/#web-form">Contacta</a> o a través de mis redes sociales:{" "}
+        <a
+          href="https://www.linkedin.com/in/tu-perfil"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          LinkedIn
+        </a>
+        ,{" "}
+        <a
+          href="https://twitter.com/tu-perfil"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Twitter
+        </a>
+        .
+      </>
+    ),
   },
 ];

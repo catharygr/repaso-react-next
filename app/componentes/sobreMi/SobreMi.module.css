@@ -41,6 +41,10 @@
   flex-basis: min(100% - 6vw, 18rem);
 }
 
+.cardsContenido a {
+  color: black;
+}
+
 @media (min-width: 43rem) {
   .h1 {
     font-size: 3rem;
