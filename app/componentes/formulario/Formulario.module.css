@@ -22,7 +22,7 @@
 
 .formulario h2 {
   font-size: 2rem;
-  font-weight: 700;
+  font-weight: 900;
   font-stretch: normal;
   text-align: center;
 }
@@ -30,6 +30,7 @@
 .misEnlaces {
   text-align: center;
   font-weight: 900;
+  color: #ea5b80;
 }
 
 .misEnlaces a {
@@ -45,7 +46,6 @@
     #fff0f0 0%,
     #ffd5e0 100%
   );
-  color: hsl(var(--clr-fondo));
   padding: 2rem;
   border-radius: 10px;
   box-shadow: 0 5px 10px 0 #777;
@@ -57,4 +57,27 @@
   color: black;
   padding: 0.4rem;
   border-radius: 0.3rem;
+}
+
+.input::placeholder {
+  font-size: 0.8rem;
+  opacity: 0.5;
+}
+
+.label {
+  font-size: 1rem;
+  font-weight: 900;
+  color: hsl(var(--clr-texto));
+}
+
+.btn {
+  background: #8dabb3;
+  padding: 0.4rem;
+  border-radius: 0.3rem;
+  font-size: 1rem;
+  font-weight: 900;
+  text-align: center;
+  box-shadow: 0 5px 10px 0 #777;
+  transition: scale 0.3s ease-in-out;
+  cursor: pointer;
 }
