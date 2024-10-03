@@ -9,6 +9,7 @@ import { carouselData } from "./utilidades/tarjetas.jsx";
 import { contenidoData } from "./utilidades/tarjetas.jsx";
 import Image from "next/image";
 import Regadera from "../public/imagen/regadera.svg";
+import Formulario from "./componentes/formulario/Formulario";
 
 export default function Home() {
   return (
@@ -27,6 +28,7 @@ export default function Home() {
       <ProyectosSeleccionados contenido={carouselData} />
       <SobreMi contenido={contenidoData} />
       <MiMapa />
+      <Formulario />
     </main>
   );
 }
