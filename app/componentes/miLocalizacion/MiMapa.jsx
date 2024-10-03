@@ -1,6 +1,6 @@
 import styles from "./MiMapa.module.css";
 import Image from "next/image";
-import Mapa from "../../../public/imagen/mapa.svg";
+import Mapa from "../../../public/imagen/mapa.jpeg";
 export default function MiMapa() {
   return (
     <div className={styles.container}>

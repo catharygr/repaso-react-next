@@ -30,11 +30,11 @@
 .misEnlaces {
   text-align: center;
   font-weight: 900;
-  color: #ea5b80;
+  color: black;
 }
 
 .misEnlaces a {
-  color: #ea5b80;
+  color: black;
   cursor: pointer;
 }
 
@@ -84,4 +84,28 @@
 
 .btn:hover {
   scale: 1.03;
+}
+
+@media (min-width: 43rem) {
+  .formulario {
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 3rem;
+  }
+  .formulario > * {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 50%;
+  }
+  .formulario h2 {
+    text-align: left;
+  }
+  .contenido {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .contenido > *:is(:last-child) {
+    margin-top: auto;
+  }
 }
