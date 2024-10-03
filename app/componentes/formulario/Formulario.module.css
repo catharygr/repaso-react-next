@@ -1,0 +1,13 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: radial-gradient(
+    49.05% 49.05% at 50.09% 50%,
+    #d6eef4 19.5%,
+    #9bb5bd 100%
+  );
+  width: 100%;
+  gap: 3rem;
+  padding-block: 5rem;
+}

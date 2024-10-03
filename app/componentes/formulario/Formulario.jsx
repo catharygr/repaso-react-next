@@ -22,10 +22,7 @@ export default function Formulario() {
   }
 
   return (
-    <section
-      className={styles.container}
-      id="contacto-form"
-    >
+    <section className={styles.container}>
       <div className={styles.formulario}>
         <motion.div
           initial={{ opacity: 0, x: -100 }}
