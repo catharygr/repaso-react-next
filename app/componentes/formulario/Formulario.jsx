@@ -9,20 +9,21 @@ export default function Formulario() {
     name: "",
     email: "",
     mensaje: "",
-    formMessage: "",
   });
 
   function handleSubmit(e) {
-    e.preventDefault();
-    const toSend = {
-      name: form.name,
-      email: form.email,
-      mensaje: form.mensaje,
-    };
+    const { name, value } = e.target;
+    setForm({
+      ...form,
+      [name]: value,
+    });
   }
 
   return (
-    <section className={styles.container}>
+    <section
+      id="web-form"
+      className={styles.container}
+    >
       <div className={styles.formulario}>
         <motion.div
           initial={{ opacity: 0, x: -100 }}
@@ -123,7 +124,6 @@ export default function Formulario() {
             onChange={(e) => setForm({ ...form, mensaje: e.target.value })}
             required={true}
           />
-          {/* <p className={styles.message}>{form.formMessage}</p> */}
           <button className={styles.btn}>Muchas gracias</button>
         </motion.form>
       </div>

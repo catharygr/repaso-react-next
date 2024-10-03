@@ -64,7 +64,7 @@ export default function Carousel() {
         priority
       />
       <Link
-        href="#"
+        href="/#web-form"
         className={styles.link}
       >
         Contactar
