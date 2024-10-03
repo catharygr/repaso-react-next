@@ -26,3 +26,35 @@
   font-stretch: normal;
   text-align: center;
 }
+
+.misEnlaces {
+  text-align: center;
+  font-weight: 900;
+}
+
+.misEnlaces a {
+  color: #ea5b80;
+  cursor: pointer;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  background-image: radial-gradient(
+    50% 50% at 50% 50%,
+    #fff0f0 0%,
+    #ffd5e0 100%
+  );
+  color: hsl(var(--clr-fondo));
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px 0 #777;
+}
+
+.input {
+  margin-bottom: 1rem;
+  background-color: white;
+  color: black;
+  padding: 0.4rem;
+  border-radius: 0.3rem;
+}
