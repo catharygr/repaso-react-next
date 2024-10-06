@@ -1,7 +1,17 @@
+"use client";
 import styles from "./MiMapa.module.css";
 import Image from "next/image";
 import Mapa from "../../../public/imagen/mapa.jpeg";
 export default function MiMapa() {
+  const handleClickApple = () => {
+    window.open("https://maps.apple.com/?ll=28.1248,-15.431", "_blank");
+  };
+  const handleClickGoogle = () => {
+    window.open(
+      "https://www.google.com/maps/place/Las+Palmas+de+Gran+Canaria",
+      "_blank"
+    );
+  };
   return (
     <div className={styles.container}>
       <div className={styles.contenido}>
@@ -16,8 +26,18 @@ export default function MiMapa() {
             <button className={styles.btnTelef}>Tel: 666 666 666</button>
           </p>
           <div className={styles.containerBtn}>
-            <button className={styles.btnMapa}>Abrir en Apple maps</button>
-            <button className={styles.btnMapa}>Abrir en Google maps</button>
+            <button
+              onClick={handleClickApple}
+              className={styles.btnMapa}
+            >
+              Abrir en Apple maps
+            </button>
+            <button
+              onClick={handleClickGoogle}
+              className={styles.btnMapa}
+            >
+              Abrir en Google maps
+            </button>
           </div>
         </div>
 
