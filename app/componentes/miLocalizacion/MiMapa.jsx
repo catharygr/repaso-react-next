@@ -1,7 +1,7 @@
-"use client";
 import styles from "./MiMapa.module.css";
 import Image from "next/image";
 import Mapa from "../../../public/imagen/mapa.jpeg";
+import Link from "next/link";
 export default function MiMapa() {
   const handleClickApple = () => {
     window.open("https://maps.apple.com/?ll=28.1248,-15.431", "_blank");
@@ -26,12 +26,12 @@ export default function MiMapa() {
             <button className={styles.btnTelef}>Tel: 666 666 666</button>
           </p>
           <div className={styles.containerBtn}>
-            <button
+            <Link
               onClick={handleClickApple}
               className={styles.btnMapa}
             >
               Abrir en Apple maps
-            </button>
+            </Link>
             <button
               onClick={handleClickGoogle}
               className={styles.btnMapa}
