@@ -3,12 +3,6 @@ import Image from "next/image";
 import Mapa from "../../../public/imagen/mapa.jpeg";
 import Link from "next/link";
 export default function MiMapa() {
-  const handleClickGoogle = () => {
-    window.open(
-      "https://www.google.com/maps/place/Las+Palmas+de+Gran+Canaria",
-      "_blank"
-    );
-  };
   return (
     <div className={styles.container}>
       <div className={styles.contenido}>
@@ -29,12 +23,7 @@ export default function MiMapa() {
             >
               Abrir en Apple maps
             </Link>
-            <button
-              onClick={handleClickGoogle}
-              className={styles.btnMapa}
-            >
-              Abrir en Google maps
-            </button>
+            <Link className={styles.btnMapa}>Abrir en Google maps</Link>
           </div>
         </div>
 
